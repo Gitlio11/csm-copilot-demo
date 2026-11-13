@@ -1,0 +1,62 @@
+account_id,account_name,industry,primary_metro,csm,annual_recurring_revenue_usd,contracted_power_kva,used_power_kva,interconnections_now,interconnections_6mo_ago,fabric_customer,renewal_date,last_csm_touch,invoices_past_due,csat_last_survey
+EQ-1001,Ironwood Bank,Cloud and SaaS,Chicago,Tom Becker,1523837,250,132.2,61,62,yes,2027-03-15,2026-10-26,0,3
+EQ-1002,Juniper Bank,Retail,New York,Elena Ruiz,1264243,150,71.9,170,153,yes,2028-02-03,2026-10-29,0,5
+EQ-1003,Orchid Media,Manufacturing,Dallas,Elena Ruiz,341699,40,38.9,90,92,no,2027-03-05,2026-11-06,0,3
+EQ-1004,Ironwood Retail,Retail,Toronto,Priya Shah,122749,20,14.2,164,150,yes,2027-12-06,2026-10-21,0,5
+EQ-1005,Orchid Networks,Retail,Toronto,Elena Ruiz,2026365,250,223.0,45,39,yes,,2026-10-29,1,5
+EQ-1006,Halcyon Networks,Telecom,Denver,Priya Shah,668714,100,47.8,180,190,yes,2027-07-13,2026-07-28,1,
+EQ-1007,Orchid Health,Retail,Toronto,Tom Becker,287475,40,37.7,149,132,no,2027-10-19,2026-10-30,0,5
+EQ-1008,Sable AI,Telecom,Ashburn,Marcus Lee,1129286,150,78.1,153,145,yes,2028-01-13,2026-11-05,0,5
+EQ-1009,Halcyon Retail,Media,Chicago,Priya Shah,1206127,150,58.7,101,87,yes,2028-03-24,2026-10-05,0,5
+EQ-1010,Ironwood Labs,Healthcare,Chicago,Priya Shah,861155,100,118.0,4,0,no,2027-08-27,2026-10-07,1,5
+EQ-1011,Lumen Ridge Systems,AI and ML,Dallas,Priya Shah,3514918,400,182.0,139,144,no,2027-10-28,2026-10-24,0,5
+EQ-1012,Silverline Health,AI and ML,Chicago,Marcus Lee,135903,20,8.9,140,123,no,2027-04-11,2026-10-12,2,2
+EQ-1013,Granite Retail,Cloud and SaaS,Ashburn,Marcus Lee,1548019,250,193.1,116,105,yes,2028-03-07,2026-10-02,1,5
+EQ-1014,Silverline Logistics,Cloud and SaaS,Dallas,Elena Ruiz,124251,20,7.9,165,169,yes,2027-07-23,2026-10-22,0,5
+EQ-1015,Meridian Media,Retail,Denver,Tom Becker,2105622,250,239.5,150,137,yes,2028-03-29,2026-11-02,0,4
+EQ-1016,Tidewater Retail,Financial Services,New York,Elena Ruiz,840177,100,65.4,17,1,yes,2027-03-11,2026-10-24,0,5
+EQ-1017,Meridian Networks,Cloud and SaaS,New York,Priya Shah,246070,40,25.0,75,66,yes,2027-08-13,2026-11-03,0,5
+EQ-1018,Cobalt Networks,Financial Services,New York,Elena Ruiz,877955,100,32.0,19,4,no,,2026-10-03,1,
+EQ-1019,Lumen Ridge Logistics,Telecom,Dallas,Priya Shah,465151,60,29.5,18,5,yes,2027-02-01,2026-11-05,1,4
+EQ-1020,Halcyon Health,Retail,Chicago,Priya Shah,1178721,150,59.1,64,57,no,2027-04-02,2026-10-02,1,3
+EQ-1021,Pioneer Labs,Manufacturing,Ashburn,Elena Ruiz,294866,40,31.4,84,82,yes,2027-08-29,2026-11-08,0,3
+EQ-1022,Crescent AI,Retail,Silicon Valley,Elena Ruiz,258929,40,27.2,37,31,no,2027-02-09,2026-10-06,0,3
+EQ-1023,Granite Health,Media,Silicon Valley,Marcus Lee,326113,40,20.9,31,-3,yes,2027-05-09,2026-10-23,1,4
+EQ-1024,Orchid Bank,Healthcare,Toronto,Elena Ruiz,129694,20,9.0,15,0,no,2027-11-07,2026-08-30,2,
+EQ-1025,Meridian Bank,Telecom,Chicago,Marcus Lee,145787,20,8.0,180,181,yes,2027-01-06,2026-10-20,0,4
+EQ-1026,Tidewater Logistics,Healthcare,Ashburn,Marcus Lee,2232154,250,128.0,30,24,yes,2028-01-21,2026-10-13,0,5
+EQ-1027,Pioneer Retail,Cloud and SaaS,New York,Priya Shah,3430311,400,314.2,67,64,yes,2027-05-13,2026-10-27,0,5
+EQ-1028,Granite Logistics,Media,Denver,Priya Shah,356026,40,14.6,53,46,no,2027-11-02,2026-10-17,1,4
+EQ-1029,Meridian Systems,Financial Services,Dallas,Tom Becker,140741,20,8.5,70,70,no,2027-08-29,2026-10-12,1,3
+EQ-1030,Cobalt Bank,Manufacturing,Dallas,Elena Ruiz,1180419,150,54.2,175,162,yes,2027-12-08,2026-08-08,1,3
+EQ-1031,Cobalt Systems,Manufacturing,Toronto,Tom Becker,803195,100,80.3,145,146,yes,2027-06-15,2026-10-03,0,n/a
+EQ-1032,Granite Labs,AI and ML,New York,Tom Becker,321075,40,25.2,152,138,no,2027-10-26,2026-10-29,0,5
+EQ-1033,Keystone Capital,Retail,Denver,Marcus Lee,386523,60,24.6,64,48,yes,2027-10-14,2026-10-24,0,3
+EQ-1034,Crescent Networks,AI and ML,New York,Marcus Lee,644271,100,92.6,151,150,yes,2027-12-29,2026-11-02,0,5
+EQ-1035,Halcyon AI,Healthcare,Denver,Tom Becker,800273,100,38.3,67,69,no,2028-03-12,2026-10-11,1,3
+EQ-1036,Cobalt AI,Retail,Denver,Elena Ruiz,829744,100,42.3,125,128,no,2027-08-23,2026-08-20,0,3
+EQ-1037,Redstone Health,Cloud and SaaS,Ashburn,Marcus Lee,1673446,250,133.9,73,68,yes,2027-10-24,2026-10-26,0,4
+EQ-1038,Vertex Retail,Manufacturing,New York,Priya Shah,882822,100,93.8,153,136,no,2026-12-21,2026-10-15,0,3
+EQ-1039,Meridian Capital,Financial Services,New York,Elena Ruiz,320264,40,26.7,73,65,no,2028-04-11,2026-10-29,0,5
+EQ-1040,Juniper AI,Cloud and SaaS,Toronto,Tom Becker,128141,20,18.8,155,142,no,2026-12-28,2026-10-28,0,5
+EQ-1041,Summit Systems,Media,Denver,Tom Becker,270272,40,25.8,90,71,yes,2027-12-24,2026-10-09,0,3
+EQ-1042,Bluepeak Systems,Retail,Ashburn,Priya Shah,314560,40,17.4,170,147,yes,2027-01-01,2026-10-23,1,1
+EQ-1043,Redstone Labs,Healthcare,Silicon Valley,Priya Shah,3094421,400,235.9,159,145,no,2027-03-28,2026-10-03,0,4
+EQ-1044,Vertex Health,Media,Denver,Priya Shah,1258302,150,119.8,164,162,yes,2027-03-15,2026-10-17,1,4
+EQ-1045,Tidewater Health,Cloud and SaaS,New York,Elena Ruiz,1186013,150,115.6,7,0,no,2028-04-15,2026-10-30,0,5
+EQ-1046,Keystone Labs,AI and ML,New York,Elena Ruiz,1045037,150,131.3,141,122,yes,2028-04-09,2026-11-03,0,4
+EQ-1047,Sable Networks,AI and ML,Denver,Elena Ruiz,981827,150,112.0,101,96,yes,2026-12-30,2026-10-17,0,5
+EQ-1048,Orchid Capital,Retail,Toronto,Tom Becker,1866433,250,91.7,136,123,yes,2027-02-26,2026-08-12,1,
+EQ-1049,Redstone Bank,Media,Toronto,Elena Ruiz,148395,20,10.8,107,90,no,2027-08-07,2026-10-12,1,5
+EQ-1050,Tidewater Networks,Telecom,Dallas,Marcus Lee,394477,60,33.0,63,65,no,2027-06-16,2026-10-22,1,3
+EQ-1051,Juniper Labs,Healthcare,Silicon Valley,Priya Shah,162481,20,17.8,79,77,yes,2027-12-05,2026-10-22,0,4
+EQ-1052,Meridian Labs,Cloud and SaaS,Denver,Priya Shah,1930548,250,240.9,167,148,no,2028-04-16,2026-10-09,0,5
+EQ-1053,Halcyon Bank,Manufacturing,New York,Priya Shah,463863,60,57.7,126,128,yes,2027-02-05,2026-10-30,0,3
+EQ-1054,Sable Health,AI and ML,New York,Elena Ruiz,1287074,150,57.3,162,151,no,2027-12-25,2026-09-30,2,1
+EQ-1055,Juniper Health,Healthcare,Ashburn,Marcus Lee,3062390,400,194.0,58,55,yes,2027-02-22,2026-11-08,0,4
+EQ-1056,Juniper Networks,AI and ML,Dallas,Marcus Lee,526303,60,22.3,77,60,yes,2027-09-16,2026-10-12,0,3
+EQ-1057,Sable Media,Media,Chicago,Elena Ruiz,439047,60,53.2,22,26,no,2027-05-19,2026-10-20,0,5
+EQ-1058,Keystone AI,Telecom,Chicago,Elena Ruiz,607759,100,63.5,157,161,yes,2028-02-16,2026-10-03,1,4
+EQ-1059,Bluepeak Media,Manufacturing,Toronto,Tom Becker,890716,100,68.7,117,114,no,2027-06-04,2026-10-17,0,5
+EQ-1060,Pioneer Health,Financial Services,New York,Priya Shah,2777420,400,129.4,130,123,no,2028-01-15,2026-10-25,1,1
+EQ-1013,Granite Retail,Cloud and SaaS,Ashburn,Marcus Lee,1548019,250,193.1,116,105,yes,2028-03-07,2026-10-02,1,5

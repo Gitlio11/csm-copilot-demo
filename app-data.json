@@ -1,0 +1,4174 @@
+{
+ "as_of_date": "2026-11-13",
+ "thresholds": {
+  "low_power_pct": 50,
+  "stale_touch_days": 45,
+  "renewal_soon_days": 180,
+  "csat_warn_max": 3
+ },
+ "summary": {
+  "high_risk_accounts": 9,
+  "high_risk_revenue": "$6.82M",
+  "renewing_within_90_days": 8,
+  "expansion_accounts": 2
+ },
+ "risk": [
+  {
+   "account_id": "EQ-1008",
+   "name": "Sable AI",
+   "industry": "Telecom",
+   "metro": "Ashburn",
+   "csm": "Marcus Lee",
+   "arr": 1129286.0,
+   "arr_display": "$1.13M",
+   "contracted_power_kva": 150.0,
+   "used_power_kva": 78.1,
+   "interconnections_now": 153.0,
+   "interconnections_6mo_ago": 145.0,
+   "fabric_customer": true,
+   "invoices_past_due": 0.0,
+   "csat": 5.0,
+   "renewal_date": "2028-01-13",
+   "last_csm_touch": "2026-11-05",
+   "open_cases": [
+    {
+     "case_id": "CS-5021",
+     "category": "Power",
+     "priority": "P2",
+     "status": "escalated",
+     "opened": "2026-10-29",
+     "closed": null,
+     "subject": "Breaker trip on cabinet"
+    },
+    {
+     "case_id": "CS-5022",
+     "category": "Cooling",
+     "priority": "P4",
+     "status": "open",
+     "opened": "2026-09-19",
+     "closed": null,
+     "subject": "High inlet temps in cage"
+    },
+    {
+     "case_id": "CS-5024",
+     "category": "Access and badging",
+     "priority": "P4",
+     "status": "escalated",
+     "opened": "2026-09-29",
+     "closed": null,
+     "subject": "New engineer badge request"
+    }
+   ],
+   "closed_case_count": 2,
+   "notes": [
+    {
+     "date": "2026-10-08",
+     "csm": "Marcus Lee",
+     "text": "Call with their CTO. Very unhappy with how long the last cross connect took. Said they are 'evaluating options in Dallas' before renewal. Wants a call with leadership."
+    }
+   ],
+   "contact": {
+    "contact_name": "Omar Silva",
+    "title": "Director of IT Operations",
+    "email": "omar.silva@example.com",
+    "phone": "+1 703 555 0107",
+    "status": ""
+   },
+   "score": 65,
+   "points_from_numbers": 10,
+   "points_from_notes": 55,
+   "multiplier": 1.0,
+   "tier": "high",
+   "reasons": [
+    {
+     "points": 10,
+     "text": "1 open P2 case, 1 escalated",
+     "source": "data",
+     "signal": "cases",
+     "meaning": "Urgent problems that are still open hurt trust before a renewal."
+    },
+    {
+     "points": 40,
+     "text": "CSM note: 'evaluating options'",
+     "source": "note",
+     "signal": "evaluating options",
+     "meaning": "They are comparing us with other providers."
+    },
+    {
+     "points": 15,
+     "text": "CSM note: 'unhappy'",
+     "source": "note",
+     "signal": "unhappy",
+     "meaning": "The customer said they are unhappy."
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Book the leadership call before renewal talks start.",
+   "days_to_renewal": 426,
+   "days_since_touch": 8,
+   "power_pct": 52,
+   "rank": 1
+  },
+  {
+   "account_id": "EQ-1012",
+   "name": "Silverline Health",
+   "industry": "AI and ML",
+   "metro": "Chicago",
+   "csm": "Marcus Lee",
+   "arr": 135903.0,
+   "arr_display": "$136K",
+   "contracted_power_kva": 20.0,
+   "used_power_kva": 8.9,
+   "interconnections_now": 140.0,
+   "interconnections_6mo_ago": 123.0,
+   "fabric_customer": false,
+   "invoices_past_due": 2.0,
+   "csat": 2.0,
+   "renewal_date": "2027-04-11",
+   "last_csm_touch": "2026-11-07",
+   "open_cases": [],
+   "closed_case_count": 0,
+   "notes": [
+    {
+     "date": "2026-11-07",
+     "csm": "Marcus Lee",
+     "text": "Billing dispute still open from August. Finance contact frustrated."
+    }
+   ],
+   "contact": {
+    "contact_name": "Ben Mensah",
+    "title": "Director of Cloud Platforms",
+    "email": "ben.mensah@example.com",
+    "phone": "+1 312 555 0111",
+    "status": ""
+   },
+   "score": 64,
+   "points_from_numbers": 36,
+   "points_from_notes": 15,
+   "multiplier": 1.25,
+   "tier": "high",
+   "reasons": [
+    {
+     "points": 5,
+     "text": "power use at 44% of contract",
+     "source": "data",
+     "signal": "low_power",
+     "meaning": "They pay for capacity they do not use. That often comes before downsizing."
+    },
+    {
+     "points": 16,
+     "text": "2 past due invoices",
+     "source": "data",
+     "signal": "past_due",
+     "meaning": "Late payment can mean budget cuts or a dispute."
+    },
+    {
+     "points": 15,
+     "text": "low CSAT: 2 of 5",
+     "source": "data",
+     "signal": "csat",
+     "meaning": "Their last satisfaction survey was not good."
+    },
+    {
+     "points": 15,
+     "text": "CSM note: 'frustrated', 'billing dispute'",
+     "source": "note",
+     "signal": "frustrated",
+     "meaning": "A contact there is frustrated with us. There is an open disagreement about a bill."
+    },
+    {
+     "points": 13,
+     "source": "renewal",
+     "signal": "renewal",
+     "meaning": "The renewal is close, so every issue matters more now.",
+     "text": "renewal in 149 days (score x1.25)"
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Bring in finance before the call.",
+   "days_to_renewal": 149,
+   "days_since_touch": 6,
+   "power_pct": 44,
+   "rank": 2
+  },
+  {
+   "account_id": "EQ-1036",
+   "name": "Cobalt AI",
+   "industry": "Retail",
+   "metro": "Denver",
+   "csm": "Elena Ruiz",
+   "arr": 829744.0,
+   "arr_display": "$830K",
+   "contracted_power_kva": 100.0,
+   "used_power_kva": 42.3,
+   "interconnections_now": 125.0,
+   "interconnections_6mo_ago": 128.0,
+   "fabric_customer": false,
+   "invoices_past_due": 0.0,
+   "csat": 3.0,
+   "renewal_date": "2027-08-23",
+   "last_csm_touch": "2026-10-07",
+   "open_cases": [],
+   "closed_case_count": 0,
+   "notes": [
+    {
+     "date": "2026-10-07",
+     "csm": "Elena Ruiz",
+     "text": "Moving some workloads to a hyperscaler. Asked about shrinking footprint."
+    }
+   ],
+   "contact": {
+    "contact_name": "Diego Walsh",
+    "title": "Director of Cloud Platforms",
+    "email": "diego.walsh@example.com",
+    "phone": "+1 303 555 0135",
+    "status": ""
+   },
+   "score": 54,
+   "points_from_numbers": 14,
+   "points_from_notes": 40,
+   "multiplier": 1.0,
+   "tier": "high",
+   "reasons": [
+    {
+     "points": 6,
+     "text": "power use at 42% of contract",
+     "source": "data",
+     "signal": "low_power",
+     "meaning": "They pay for capacity they do not use. That often comes before downsizing."
+    },
+    {
+     "points": 2,
+     "text": "interconnections down 2% in 6 months (128 to 125)",
+     "source": "data",
+     "signal": "interconnection_decline",
+     "meaning": "Fewer connections usually means traffic is moving somewhere else."
+    },
+    {
+     "points": 6,
+     "text": "middling CSAT: 3 of 5",
+     "source": "data",
+     "signal": "csat",
+     "meaning": "Their last satisfaction survey was not good."
+    },
+    {
+     "points": 40,
+     "text": "CSM note: 'moving some workloads', 'shrinking footprint'",
+     "source": "note",
+     "signal": "moving some workloads",
+     "meaning": "They are moving some work to another provider. They want less space or power from us."
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Ask what is moving and why, and bring a plan to keep it.",
+   "days_to_renewal": 283,
+   "days_since_touch": 37,
+   "power_pct": 42,
+   "rank": 3
+  },
+  {
+   "account_id": "EQ-1006",
+   "name": "Halcyon Networks",
+   "industry": "Telecom",
+   "metro": "Denver",
+   "csm": "Priya Shah",
+   "arr": 668714.0,
+   "arr_display": "$669K",
+   "contracted_power_kva": 100.0,
+   "used_power_kva": 47.8,
+   "interconnections_now": 180.0,
+   "interconnections_6mo_ago": 190.0,
+   "fabric_customer": true,
+   "invoices_past_due": 1.0,
+   "csat": null,
+   "renewal_date": "2027-07-13",
+   "last_csm_touch": "2026-10-29",
+   "open_cases": [
+    {
+     "case_id": "CS-5018",
+     "category": "Smart Hands",
+     "priority": "P3",
+     "status": "open",
+     "opened": "2026-09-11",
+     "closed": null,
+     "subject": "Need remote reboot of server"
+    },
+    {
+     "case_id": "CS-5019",
+     "category": "Cross connect order",
+     "priority": "P3",
+     "status": "open",
+     "opened": "2026-08-18",
+     "closed": null,
+     "subject": "Cross connect still not provisioned"
+    }
+   ],
+   "closed_case_count": 1,
+   "notes": [
+    {
+     "date": "2026-10-29",
+     "csm": "Priya Shah",
+     "text": "Quiet account. Champion left the company in September. New contact has not replied."
+    }
+   ],
+   "contact": {
+    "contact_name": "Felix Castillo",
+    "title": "Director of Cloud Platforms",
+    "email": "felix.castillo@example.com",
+    "phone": "+1 303 555 0105",
+    "status": "New contact since September. Has not replied."
+   },
+   "score": 54,
+   "points_from_numbers": 14,
+   "points_from_notes": 40,
+   "multiplier": 1.0,
+   "tier": "high",
+   "reasons": [
+    {
+     "points": 2,
+     "text": "power use at 48% of contract",
+     "source": "data",
+     "signal": "low_power",
+     "meaning": "They pay for capacity they do not use. That often comes before downsizing."
+    },
+    {
+     "points": 4,
+     "text": "interconnections down 5% in 6 months (190 to 180)",
+     "source": "data",
+     "signal": "interconnection_decline",
+     "meaning": "Fewer connections usually means traffic is moving somewhere else."
+    },
+    {
+     "points": 8,
+     "text": "1 past due invoice",
+     "source": "data",
+     "signal": "past_due",
+     "meaning": "Late payment can mean budget cuts or a dispute."
+    },
+    {
+     "points": 40,
+     "text": "CSM note: 'champion left'",
+     "source": "note",
+     "signal": "champion left",
+     "meaning": "Our main supporter at the customer is gone."
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Find and meet the new decision maker.",
+   "days_to_renewal": 242,
+   "days_since_touch": 15,
+   "power_pct": 48,
+   "rank": 4
+  },
+  {
+   "account_id": "EQ-1038",
+   "name": "Vertex Retail",
+   "industry": "Manufacturing",
+   "metro": "New York",
+   "csm": "Priya Shah",
+   "arr": 882822.0,
+   "arr_display": "$883K",
+   "contracted_power_kva": 100.0,
+   "used_power_kva": 93.8,
+   "interconnections_now": 153.0,
+   "interconnections_6mo_ago": 136.0,
+   "fabric_customer": false,
+   "invoices_past_due": 0.0,
+   "csat": 3.0,
+   "renewal_date": "2026-12-21",
+   "last_csm_touch": "2026-10-15",
+   "open_cases": [
+    {
+     "case_id": "CS-5089",
+     "category": "Power",
+     "priority": "P3",
+     "status": "escalated",
+     "opened": "2026-09-26",
+     "closed": null,
+     "subject": "Breaker trip on cabinet"
+    },
+    {
+     "case_id": "CS-5091",
+     "category": "Fabric connectivity",
+     "priority": "P1",
+     "status": "escalated",
+     "opened": "2026-10-22",
+     "closed": null,
+     "subject": "Fabric port flapping"
+    },
+    {
+     "case_id": "CS-5093",
+     "category": "Billing",
+     "priority": "P1",
+     "status": "open",
+     "opened": "2026-09-17",
+     "closed": null,
+     "subject": "Invoice does not match contract"
+    }
+   ],
+   "closed_case_count": 4,
+   "notes": [],
+   "contact": {
+    "contact_name": "Andre Duarte",
+    "title": "Director of IT Operations",
+    "email": "andre.duarte@example.com",
+    "phone": "+1 212 555 0137",
+    "status": ""
+   },
+   "score": 46,
+   "points_from_numbers": 31,
+   "points_from_notes": 0,
+   "multiplier": 1.5,
+   "tier": "high",
+   "reasons": [
+    {
+     "points": 25,
+     "text": "2 open P1 cases, 1 escalated",
+     "source": "data",
+     "signal": "cases",
+     "meaning": "Urgent problems that are still open hurt trust before a renewal."
+    },
+    {
+     "points": 6,
+     "text": "middling CSAT: 3 of 5",
+     "source": "data",
+     "signal": "csat",
+     "meaning": "Their last satisfaction survey was not good."
+    },
+    {
+     "points": 15,
+     "source": "renewal",
+     "signal": "renewal",
+     "meaning": "The renewal is close, so every issue matters more now.",
+     "text": "renewal in 38 days (score x1.5)"
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Get a status update from support on the open cases first.",
+   "days_to_renewal": 38,
+   "days_since_touch": 29,
+   "power_pct": 94,
+   "rank": 5
+  },
+  {
+   "account_id": "EQ-1050",
+   "name": "Tidewater Networks",
+   "industry": "Telecom",
+   "metro": "Dallas",
+   "csm": "Marcus Lee",
+   "arr": 394477.0,
+   "arr_display": "$394K",
+   "contracted_power_kva": 60.0,
+   "used_power_kva": 33.0,
+   "interconnections_now": 63.0,
+   "interconnections_6mo_ago": 65.0,
+   "fabric_customer": false,
+   "invoices_past_due": 1.0,
+   "csat": 3.0,
+   "renewal_date": "2027-06-16",
+   "last_csm_touch": "2026-10-22",
+   "open_cases": [
+    {
+     "case_id": "CS-5109",
+     "category": "Power",
+     "priority": "P4",
+     "status": "escalated",
+     "opened": "2026-11-05",
+     "closed": null,
+     "subject": "Breaker trip on cabinet"
+    },
+    {
+     "case_id": "CS-5111",
+     "category": "Billing",
+     "priority": "P1",
+     "status": "escalated",
+     "opened": "2026-08-21",
+     "closed": null,
+     "subject": "Invoice does not match contract"
+    },
+    {
+     "case_id": "CS-5112",
+     "category": "Access and badging",
+     "priority": "P2",
+     "status": "open",
+     "opened": "2026-09-20",
+     "closed": null,
+     "subject": "New engineer badge request"
+    },
+    {
+     "case_id": "CS-5113",
+     "category": "Access and badging",
+     "priority": "P1",
+     "status": "escalated",
+     "opened": "2026-08-23",
+     "closed": null,
+     "subject": "New engineer badge request"
+    },
+    {
+     "case_id": "CS-5114",
+     "category": "Fabric connectivity",
+     "priority": "P4",
+     "status": "open",
+     "opened": "2026-09-16",
+     "closed": null,
+     "subject": "Fabric port flapping"
+    },
+    {
+     "case_id": "CS-5115",
+     "category": "Cooling",
+     "priority": "P4",
+     "status": "escalated",
+     "opened": "2026-08-27",
+     "closed": null,
+     "subject": "High inlet temps in cage"
+    }
+   ],
+   "closed_case_count": 1,
+   "notes": [],
+   "contact": {
+    "contact_name": "Victor Reyes",
+    "title": "Director of IT Operations",
+    "email": "victor.reyes@example.com",
+    "phone": "+1 214 555 0149",
+    "status": ""
+   },
+   "score": 46,
+   "points_from_numbers": 46,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "high",
+   "reasons": [
+    {
+     "points": 2,
+     "text": "interconnections down 3% in 6 months (65 to 63)",
+     "source": "data",
+     "signal": "interconnection_decline",
+     "meaning": "Fewer connections usually means traffic is moving somewhere else."
+    },
+    {
+     "points": 30,
+     "text": "2 open P1 cases and 1 open P2 case, 2 escalated",
+     "source": "data",
+     "signal": "cases",
+     "meaning": "Urgent problems that are still open hurt trust before a renewal."
+    },
+    {
+     "points": 8,
+     "text": "1 past due invoice",
+     "source": "data",
+     "signal": "past_due",
+     "meaning": "Late payment can mean budget cuts or a dispute."
+    },
+    {
+     "points": 6,
+     "text": "middling CSAT: 3 of 5",
+     "source": "data",
+     "signal": "csat",
+     "meaning": "Their last satisfaction survey was not good."
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Get a status update from support on the open cases first.",
+   "days_to_renewal": 215,
+   "days_since_touch": 22,
+   "power_pct": 55,
+   "rank": 6
+  },
+  {
+   "account_id": "EQ-1042",
+   "name": "Bluepeak Systems",
+   "industry": "Retail",
+   "metro": "Ashburn",
+   "csm": "Priya Shah",
+   "arr": 314560.0,
+   "arr_display": "$315K",
+   "contracted_power_kva": 40.0,
+   "used_power_kva": 17.4,
+   "interconnections_now": 170.0,
+   "interconnections_6mo_ago": 147.0,
+   "fabric_customer": true,
+   "invoices_past_due": 1.0,
+   "csat": 1.0,
+   "renewal_date": "2027-01-01",
+   "last_csm_touch": "2026-10-23",
+   "open_cases": [],
+   "closed_case_count": 0,
+   "notes": [
+    {
+     "date": "2026-10-01",
+     "csm": "Priya Shah",
+     "text": "No issues. Short call."
+    }
+   ],
+   "contact": {
+    "contact_name": "Luis Fischer",
+    "title": "Director of Cloud Platforms",
+    "email": "luis.fischer@example.com",
+    "phone": "+1 703 555 0141",
+    "status": ""
+   },
+   "score": 44,
+   "points_from_numbers": 29,
+   "points_from_notes": 0,
+   "multiplier": 1.5,
+   "tier": "high",
+   "reasons": [
+    {
+     "points": 6,
+     "text": "power use at 43% of contract",
+     "source": "data",
+     "signal": "low_power",
+     "meaning": "They pay for capacity they do not use. That often comes before downsizing."
+    },
+    {
+     "points": 8,
+     "text": "1 past due invoice",
+     "source": "data",
+     "signal": "past_due",
+     "meaning": "Late payment can mean budget cuts or a dispute."
+    },
+    {
+     "points": 15,
+     "text": "low CSAT: 1 of 5",
+     "source": "data",
+     "signal": "csat",
+     "meaning": "Their last satisfaction survey was not good."
+    },
+    {
+     "points": 15,
+     "source": "renewal",
+     "signal": "renewal",
+     "meaning": "The renewal is close, so every issue matters more now.",
+     "text": "renewal in 49 days (score x1.5)"
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Ask what drove the low survey score.",
+   "days_to_renewal": 49,
+   "days_since_touch": 21,
+   "power_pct": 43,
+   "rank": 7
+  },
+  {
+   "account_id": "EQ-1054",
+   "name": "Sable Health",
+   "industry": "AI and ML",
+   "metro": "New York",
+   "csm": "Elena Ruiz",
+   "arr": 1287074.0,
+   "arr_display": "$1.29M",
+   "contracted_power_kva": 150.0,
+   "used_power_kva": 57.3,
+   "interconnections_now": 162.0,
+   "interconnections_6mo_ago": 151.0,
+   "fabric_customer": false,
+   "invoices_past_due": 2.0,
+   "csat": 1.0,
+   "renewal_date": "2027-12-25",
+   "last_csm_touch": "2026-10-17",
+   "open_cases": [],
+   "closed_case_count": 1,
+   "notes": [
+    {
+     "date": "2026-10-17",
+     "csm": "Elena Ruiz",
+     "text": "Great relationship. Referenced us to a partner."
+    }
+   ],
+   "contact": {
+    "contact_name": "Raj Haddad",
+    "title": "Director of Cloud Platforms",
+    "email": "raj.haddad@example.com",
+    "phone": "+1 212 555 0153",
+    "status": ""
+   },
+   "score": 41,
+   "points_from_numbers": 41,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "high",
+   "reasons": [
+    {
+     "points": 10,
+     "text": "power use at 38% of contract",
+     "source": "data",
+     "signal": "low_power",
+     "meaning": "They pay for capacity they do not use. That often comes before downsizing."
+    },
+    {
+     "points": 16,
+     "text": "2 past due invoices",
+     "source": "data",
+     "signal": "past_due",
+     "meaning": "Late payment can mean budget cuts or a dispute."
+    },
+    {
+     "points": 15,
+     "text": "low CSAT: 1 of 5",
+     "source": "data",
+     "signal": "csat",
+     "meaning": "Their last satisfaction survey was not good."
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Bring in finance before the call.",
+   "days_to_renewal": 407,
+   "days_since_touch": 27,
+   "power_pct": 38,
+   "rank": 8
+  },
+  {
+   "account_id": "EQ-1030",
+   "name": "Cobalt Bank",
+   "industry": "Manufacturing",
+   "metro": "Dallas",
+   "csm": "Elena Ruiz",
+   "arr": 1180419.0,
+   "arr_display": "$1.18M",
+   "contracted_power_kva": 150.0,
+   "used_power_kva": 54.2,
+   "interconnections_now": 175.0,
+   "interconnections_6mo_ago": 162.0,
+   "fabric_customer": true,
+   "invoices_past_due": 1.0,
+   "csat": 3.0,
+   "renewal_date": "2027-12-08",
+   "last_csm_touch": "2026-10-07",
+   "open_cases": [
+    {
+     "case_id": "CS-5073",
+     "category": "Cooling",
+     "priority": "P4",
+     "status": "open",
+     "opened": "2026-09-18",
+     "closed": null,
+     "subject": "High inlet temps in cage"
+    }
+   ],
+   "closed_case_count": 1,
+   "notes": [
+    {
+     "date": "2026-10-07",
+     "csm": "Elena Ruiz",
+     "text": "Escalated cooling issue last month. Resolved, but they asked for a root cause report we never sent."
+    }
+   ],
+   "contact": {
+    "contact_name": "Victor Reyes",
+    "title": "Director of Cloud Platforms",
+    "email": "victor.reyes@example.com",
+    "phone": "+1 214 555 0129",
+    "status": ""
+   },
+   "score": 40,
+   "points_from_numbers": 25,
+   "points_from_notes": 15,
+   "multiplier": 1.0,
+   "tier": "high",
+   "reasons": [
+    {
+     "points": 11,
+     "text": "power use at 36% of contract",
+     "source": "data",
+     "signal": "low_power",
+     "meaning": "They pay for capacity they do not use. That often comes before downsizing."
+    },
+    {
+     "points": 8,
+     "text": "1 past due invoice",
+     "source": "data",
+     "signal": "past_due",
+     "meaning": "Late payment can mean budget cuts or a dispute."
+    },
+    {
+     "points": 6,
+     "text": "middling CSAT: 3 of 5",
+     "source": "data",
+     "signal": "csat",
+     "meaning": "Their last satisfaction survey was not good."
+    },
+    {
+     "points": 15,
+     "text": "CSM note: 'never sent'",
+     "source": "note",
+     "signal": "never sent",
+     "meaning": "We promised something and did not deliver it."
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Send what we promised before the next call.",
+   "days_to_renewal": 390,
+   "days_since_touch": 37,
+   "power_pct": 36,
+   "rank": 9
+  },
+  {
+   "account_id": "EQ-1060",
+   "name": "Pioneer Health",
+   "industry": "Financial Services",
+   "metro": "New York",
+   "csm": "Priya Shah",
+   "arr": 2777420.0,
+   "arr_display": "$2.78M",
+   "contracted_power_kva": 400.0,
+   "used_power_kva": 129.4,
+   "interconnections_now": 130.0,
+   "interconnections_6mo_ago": 123.0,
+   "fabric_customer": false,
+   "invoices_past_due": 1.0,
+   "csat": 1.0,
+   "renewal_date": "2028-01-15",
+   "last_csm_touch": "2026-10-25",
+   "open_cases": [],
+   "closed_case_count": 0,
+   "notes": [],
+   "contact": {
+    "contact_name": "Kofi Ito",
+    "title": "Director of Cloud Platforms",
+    "email": "kofi.ito@example.com",
+    "phone": "+1 212 555 0159",
+    "status": ""
+   },
+   "score": 37,
+   "points_from_numbers": 37,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "medium",
+   "reasons": [
+    {
+     "points": 14,
+     "text": "power use at 32% of contract",
+     "source": "data",
+     "signal": "low_power",
+     "meaning": "They pay for capacity they do not use. That often comes before downsizing."
+    },
+    {
+     "points": 8,
+     "text": "1 past due invoice",
+     "source": "data",
+     "signal": "past_due",
+     "meaning": "Late payment can mean budget cuts or a dispute."
+    },
+    {
+     "points": 15,
+     "text": "low CSAT: 1 of 5",
+     "source": "data",
+     "signal": "csat",
+     "meaning": "Their last satisfaction survey was not good."
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Ask what drove the low survey score.",
+   "days_to_renewal": 428,
+   "days_since_touch": 19,
+   "power_pct": 32,
+   "rank": 10
+  },
+  {
+   "account_id": "EQ-1020",
+   "name": "Halcyon Health",
+   "industry": "Retail",
+   "metro": "Chicago",
+   "csm": "Priya Shah",
+   "arr": 1178721.0,
+   "arr_display": "$1.18M",
+   "contracted_power_kva": 150.0,
+   "used_power_kva": 59.1,
+   "interconnections_now": 64.0,
+   "interconnections_6mo_ago": 57.0,
+   "fabric_customer": false,
+   "invoices_past_due": 1.0,
+   "csat": 3.0,
+   "renewal_date": "2027-04-02",
+   "last_csm_touch": "2026-10-02",
+   "open_cases": [
+    {
+     "case_id": "CS-5044",
+     "category": "Power",
+     "priority": "P3",
+     "status": "escalated",
+     "opened": "2026-10-02",
+     "closed": null,
+     "subject": "Breaker trip on cabinet"
+    },
+    {
+     "case_id": "CS-5045",
+     "category": "Billing",
+     "priority": "P3",
+     "status": "open",
+     "opened": "2026-10-25",
+     "closed": null,
+     "subject": "Invoice does not match contract"
+    },
+    {
+     "case_id": "CS-5046",
+     "category": "Fabric connectivity",
+     "priority": "P2",
+     "status": "open",
+     "opened": "2026-09-18",
+     "closed": null,
+     "subject": "Fabric port flapping"
+    }
+   ],
+   "closed_case_count": 1,
+   "notes": [],
+   "contact": {
+    "contact_name": "Kofi Ito",
+    "title": "Director of IT Operations",
+    "email": "kofi.ito@example.com",
+    "phone": "+1 312 555 0119",
+    "status": ""
+   },
+   "score": 35,
+   "points_from_numbers": 28,
+   "points_from_notes": 0,
+   "multiplier": 1.25,
+   "tier": "medium",
+   "reasons": [
+    {
+     "points": 9,
+     "text": "power use at 39% of contract",
+     "source": "data",
+     "signal": "low_power",
+     "meaning": "They pay for capacity they do not use. That often comes before downsizing."
+    },
+    {
+     "points": 5,
+     "text": "1 open P2 case",
+     "source": "data",
+     "signal": "cases",
+     "meaning": "Urgent problems that are still open hurt trust before a renewal."
+    },
+    {
+     "points": 8,
+     "text": "1 past due invoice",
+     "source": "data",
+     "signal": "past_due",
+     "meaning": "Late payment can mean budget cuts or a dispute."
+    },
+    {
+     "points": 6,
+     "text": "middling CSAT: 3 of 5",
+     "source": "data",
+     "signal": "csat",
+     "meaning": "Their last satisfaction survey was not good."
+    },
+    {
+     "points": 7,
+     "source": "renewal",
+     "signal": "renewal",
+     "meaning": "The renewal is close, so every issue matters more now.",
+     "text": "renewal in 140 days (score x1.25)"
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Review their capacity plan with them.",
+   "days_to_renewal": 140,
+   "days_since_touch": 42,
+   "power_pct": 39,
+   "rank": 11
+  },
+  {
+   "account_id": "EQ-1014",
+   "name": "Silverline Logistics",
+   "industry": "Cloud and SaaS",
+   "metro": "Dallas",
+   "csm": "Elena Ruiz",
+   "arr": 124251.0,
+   "arr_display": "$124K",
+   "contracted_power_kva": 20.0,
+   "used_power_kva": 7.9,
+   "interconnections_now": 165.0,
+   "interconnections_6mo_ago": 169.0,
+   "fabric_customer": true,
+   "invoices_past_due": 0.0,
+   "csat": 5.0,
+   "renewal_date": "2027-07-23",
+   "last_csm_touch": "2026-10-22",
+   "open_cases": [
+    {
+     "case_id": "CS-5029",
+     "category": "Cross connect order",
+     "priority": "P2",
+     "status": "escalated",
+     "opened": "2026-09-24",
+     "closed": null,
+     "subject": "Cross connect still not provisioned"
+    },
+    {
+     "case_id": "CS-5030",
+     "category": "Cross connect order",
+     "priority": "P2",
+     "status": "escalated",
+     "opened": "2026-09-04",
+     "closed": null,
+     "subject": "Cross connect still not provisioned"
+    },
+    {
+     "case_id": "CS-5031",
+     "category": "Smart Hands",
+     "priority": "P2",
+     "status": "open",
+     "opened": "2026-10-19",
+     "closed": null,
+     "subject": "Need remote reboot of server"
+    },
+    {
+     "case_id": "CS-5032",
+     "category": "Fabric connectivity",
+     "priority": "P4",
+     "status": "open",
+     "opened": "2026-09-08",
+     "closed": null,
+     "subject": "Fabric port flapping"
+    }
+   ],
+   "closed_case_count": 2,
+   "notes": [],
+   "contact": {
+    "contact_name": "Raj Haddad",
+    "title": "Director of IT Operations",
+    "email": "raj.haddad@example.com",
+    "phone": "+1 214 555 0113",
+    "status": ""
+   },
+   "score": 35,
+   "points_from_numbers": 35,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "medium",
+   "reasons": [
+    {
+     "points": 8,
+     "text": "power use at 40% of contract",
+     "source": "data",
+     "signal": "low_power",
+     "meaning": "They pay for capacity they do not use. That often comes before downsizing."
+    },
+    {
+     "points": 2,
+     "text": "interconnections down 2% in 6 months (169 to 165)",
+     "source": "data",
+     "signal": "interconnection_decline",
+     "meaning": "Fewer connections usually means traffic is moving somewhere else."
+    },
+    {
+     "points": 25,
+     "text": "3 open P2 cases, 2 escalated",
+     "source": "data",
+     "signal": "cases",
+     "meaning": "Urgent problems that are still open hurt trust before a renewal."
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Get a status update from support on the open cases first.",
+   "days_to_renewal": 252,
+   "days_since_touch": 22,
+   "power_pct": 40,
+   "rank": 12
+  },
+  {
+   "account_id": "EQ-1002",
+   "name": "Juniper Bank",
+   "industry": "Retail",
+   "metro": "New York",
+   "csm": "Elena Ruiz",
+   "arr": 1264243.0,
+   "arr_display": "$1.26M",
+   "contracted_power_kva": 150.0,
+   "used_power_kva": 71.9,
+   "interconnections_now": 170.0,
+   "interconnections_6mo_ago": 153.0,
+   "fabric_customer": true,
+   "invoices_past_due": 0.0,
+   "csat": 5.0,
+   "renewal_date": "2028-02-03",
+   "last_csm_touch": "2026-10-29",
+   "open_cases": [
+    {
+     "case_id": "CS-5004",
+     "category": "Uncategorized",
+     "priority": "P1",
+     "status": "escalated",
+     "opened": "2026-08-13",
+     "closed": null,
+     "subject": "High inlet temps in cage"
+    },
+    {
+     "case_id": "CS-5005",
+     "category": "Cross connect order",
+     "priority": "P3",
+     "status": "open",
+     "opened": "2026-08-22",
+     "closed": null,
+     "subject": "Cross connect still not provisioned"
+    },
+    {
+     "case_id": "CS-5006",
+     "category": "Smart Hands",
+     "priority": "P1",
+     "status": "open",
+     "opened": "2026-09-01",
+     "closed": null,
+     "subject": "Need remote reboot of server"
+    },
+    {
+     "case_id": "CS-5007",
+     "category": "Shipping and receiving",
+     "priority": "P1",
+     "status": "open",
+     "opened": "2026-10-13",
+     "closed": null,
+     "subject": "Inbound shipment not logged"
+    },
+    {
+     "case_id": "CS-5008",
+     "category": "Shipping and receiving",
+     "priority": "P3",
+     "status": "open",
+     "opened": "2026-08-20",
+     "closed": null,
+     "subject": "Inbound shipment not logged"
+    },
+    {
+     "case_id": "CS-5010",
+     "category": "Cross connect order",
+     "priority": "P4",
+     "status": "escalated",
+     "opened": "2026-10-10",
+     "closed": null,
+     "subject": "Cross connect still not provisioned"
+    }
+   ],
+   "closed_case_count": 1,
+   "notes": [],
+   "contact": {
+    "contact_name": "Luis Fischer",
+    "title": "Director of IT Operations",
+    "email": "luis.fischer@example.com",
+    "phone": "+1 212 555 0101",
+    "status": ""
+   },
+   "score": 32,
+   "points_from_numbers": 32,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "medium",
+   "reasons": [
+    {
+     "points": 2,
+     "text": "power use at 48% of contract",
+     "source": "data",
+     "signal": "low_power",
+     "meaning": "They pay for capacity they do not use. That often comes before downsizing."
+    },
+    {
+     "points": 30,
+     "text": "3 open P1 cases, 1 escalated",
+     "source": "data",
+     "signal": "cases",
+     "meaning": "Urgent problems that are still open hurt trust before a renewal."
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Get a status update from support on the open cases first.",
+   "days_to_renewal": 447,
+   "days_since_touch": 15,
+   "power_pct": 48,
+   "rank": 13
+  },
+  {
+   "account_id": "EQ-1026",
+   "name": "Tidewater Logistics",
+   "industry": "Healthcare",
+   "metro": "Ashburn",
+   "csm": "Marcus Lee",
+   "arr": 2232154.0,
+   "arr_display": "$2.23M",
+   "contracted_power_kva": 250.0,
+   "used_power_kva": 128.0,
+   "interconnections_now": 30.0,
+   "interconnections_6mo_ago": 24.0,
+   "fabric_customer": true,
+   "invoices_past_due": 0.0,
+   "csat": 5.0,
+   "renewal_date": "2028-01-21",
+   "last_csm_touch": "2026-10-13",
+   "open_cases": [
+    {
+     "case_id": "CS-5062",
+     "category": "Shipping and receiving",
+     "priority": "P2",
+     "status": "escalated",
+     "opened": "2026-10-14",
+     "closed": null,
+     "subject": "Inbound shipment not logged"
+    },
+    {
+     "case_id": "CS-5063",
+     "category": "Access and badging",
+     "priority": "P3",
+     "status": "open",
+     "opened": "2026-09-25",
+     "closed": null,
+     "subject": "New engineer badge request"
+    },
+    {
+     "case_id": "CS-5064",
+     "category": "Billing",
+     "priority": "P2",
+     "status": "escalated",
+     "opened": "2026-11-03",
+     "closed": null,
+     "subject": "Invoice does not match contract"
+    },
+    {
+     "case_id": "CS-5065",
+     "category": "Cooling",
+     "priority": "P2",
+     "status": "escalated",
+     "opened": "2026-10-26",
+     "closed": null,
+     "subject": "High inlet temps in cage"
+    },
+    {
+     "case_id": "CS-5066",
+     "category": "Power",
+     "priority": "P3",
+     "status": "open",
+     "opened": "2026-08-20",
+     "closed": null,
+     "subject": "Breaker trip on cabinet"
+    },
+    {
+     "case_id": "CS-5067",
+     "category": "Fabric connectivity",
+     "priority": "P1",
+     "status": "open",
+     "opened": "2026-10-10",
+     "closed": null,
+     "subject": "Fabric port flapping"
+    }
+   ],
+   "closed_case_count": 0,
+   "notes": [],
+   "contact": {
+    "contact_name": "Felix Castillo",
+    "title": "Director of IT Operations",
+    "email": "felix.castillo@example.com",
+    "phone": "+1 703 555 0125",
+    "status": ""
+   },
+   "score": 30,
+   "points_from_numbers": 30,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "medium",
+   "reasons": [
+    {
+     "points": 30,
+     "text": "1 open P1 case and 3 open P2 cases, 3 escalated",
+     "source": "data",
+     "signal": "cases",
+     "meaning": "Urgent problems that are still open hurt trust before a renewal."
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Get a status update from support on the open cases first.",
+   "days_to_renewal": 434,
+   "days_since_touch": 31,
+   "power_pct": 51,
+   "rank": 14
+  },
+  {
+   "account_id": "EQ-1035",
+   "name": "Halcyon AI",
+   "industry": "Healthcare",
+   "metro": "Denver",
+   "csm": "Tom Becker",
+   "arr": 800273.0,
+   "arr_display": "$800K",
+   "contracted_power_kva": 100.0,
+   "used_power_kva": 38.3,
+   "interconnections_now": 67.0,
+   "interconnections_6mo_ago": 69.0,
+   "fabric_customer": false,
+   "invoices_past_due": 1.0,
+   "csat": 3.0,
+   "renewal_date": "2028-03-12",
+   "last_csm_touch": "2026-10-11",
+   "open_cases": [],
+   "closed_case_count": 0,
+   "notes": [],
+   "contact": {
+    "contact_name": "Claire Quinn",
+    "title": "IT Procurement Lead",
+    "email": "claire.quinn@example.com",
+    "phone": "+1 303 555 0134",
+    "status": ""
+   },
+   "score": 26,
+   "points_from_numbers": 26,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "medium",
+   "reasons": [
+    {
+     "points": 10,
+     "text": "power use at 38% of contract",
+     "source": "data",
+     "signal": "low_power",
+     "meaning": "They pay for capacity they do not use. That often comes before downsizing."
+    },
+    {
+     "points": 2,
+     "text": "interconnections down 3% in 6 months (69 to 67)",
+     "source": "data",
+     "signal": "interconnection_decline",
+     "meaning": "Fewer connections usually means traffic is moving somewhere else."
+    },
+    {
+     "points": 8,
+     "text": "1 past due invoice",
+     "source": "data",
+     "signal": "past_due",
+     "meaning": "Late payment can mean budget cuts or a dispute."
+    },
+    {
+     "points": 6,
+     "text": "middling CSAT: 3 of 5",
+     "source": "data",
+     "signal": "csat",
+     "meaning": "Their last satisfaction survey was not good."
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Review their capacity plan with them.",
+   "days_to_renewal": 485,
+   "days_since_touch": 33,
+   "power_pct": 38,
+   "rank": 15
+  },
+  {
+   "account_id": "EQ-1048",
+   "name": "Orchid Capital",
+   "industry": "Retail",
+   "metro": "Toronto",
+   "csm": "Tom Becker",
+   "arr": 1866433.0,
+   "arr_display": "$1.87M",
+   "contracted_power_kva": 250.0,
+   "used_power_kva": 91.7,
+   "interconnections_now": 136.0,
+   "interconnections_6mo_ago": 123.0,
+   "fabric_customer": true,
+   "invoices_past_due": 1.0,
+   "csat": null,
+   "renewal_date": "2027-02-26",
+   "last_csm_touch": "2026-10-30",
+   "open_cases": [],
+   "closed_case_count": 2,
+   "notes": [
+    {
+     "date": "2026-10-30",
+     "csm": "Tom Becker",
+     "text": "Onboarding slow. First cross connects took 3 weeks. Customer asked why."
+    }
+   ],
+   "contact": {
+    "contact_name": "Omar Silva",
+    "title": "Director of Cloud Platforms",
+    "email": "omar.silva@example.com",
+    "phone": "+1 416 555 0147",
+    "status": ""
+   },
+   "score": 22,
+   "points_from_numbers": 18,
+   "points_from_notes": 0,
+   "multiplier": 1.25,
+   "tier": "medium",
+   "reasons": [
+    {
+     "points": 10,
+     "text": "power use at 37% of contract",
+     "source": "data",
+     "signal": "low_power",
+     "meaning": "They pay for capacity they do not use. That often comes before downsizing."
+    },
+    {
+     "points": 8,
+     "text": "1 past due invoice",
+     "source": "data",
+     "signal": "past_due",
+     "meaning": "Late payment can mean budget cuts or a dispute."
+    },
+    {
+     "points": 4,
+     "source": "renewal",
+     "signal": "renewal",
+     "meaning": "The renewal is close, so every issue matters more now.",
+     "text": "renewal in 105 days (score x1.25)"
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Review their capacity plan with them.",
+   "days_to_renewal": 105,
+   "days_since_touch": 14,
+   "power_pct": 37,
+   "rank": 16
+  },
+  {
+   "account_id": "EQ-1044",
+   "name": "Vertex Health",
+   "industry": "Media",
+   "metro": "Denver",
+   "csm": "Priya Shah",
+   "arr": 1258302.0,
+   "arr_display": "$1.26M",
+   "contracted_power_kva": 150.0,
+   "used_power_kva": 119.8,
+   "interconnections_now": 164.0,
+   "interconnections_6mo_ago": 162.0,
+   "fabric_customer": true,
+   "invoices_past_due": 1.0,
+   "csat": 4.0,
+   "renewal_date": "2027-03-15",
+   "last_csm_touch": "2026-10-17",
+   "open_cases": [
+    {
+     "case_id": "CS-5099",
+     "category": "Power",
+     "priority": "P1",
+     "status": "open",
+     "opened": "2026-10-22",
+     "closed": null,
+     "subject": "Breaker trip on cabinet"
+    },
+    {
+     "case_id": "CS-5100",
+     "category": "Smart Hands",
+     "priority": "P4",
+     "status": "escalated",
+     "opened": "2026-10-07",
+     "closed": null,
+     "subject": "Need remote reboot of server"
+    },
+    {
+     "case_id": "CS-5101",
+     "category": "Smart Hands",
+     "priority": "P3",
+     "status": "escalated",
+     "opened": "2026-08-25",
+     "closed": null,
+     "subject": "Need remote reboot of server"
+    },
+    {
+     "case_id": "CS-5102",
+     "category": "Access and badging",
+     "priority": "P4",
+     "status": "open",
+     "opened": "2026-10-14",
+     "closed": null,
+     "subject": "New engineer badge request"
+    }
+   ],
+   "closed_case_count": 2,
+   "notes": [],
+   "contact": {
+    "contact_name": "Jonah Nguyen",
+    "title": "Director of IT Operations",
+    "email": "jonah.nguyen@example.com",
+    "phone": "+1 303 555 0143",
+    "status": ""
+   },
+   "score": 22,
+   "points_from_numbers": 18,
+   "points_from_notes": 0,
+   "multiplier": 1.25,
+   "tier": "medium",
+   "reasons": [
+    {
+     "points": 10,
+     "text": "1 open P1 case",
+     "source": "data",
+     "signal": "cases",
+     "meaning": "Urgent problems that are still open hurt trust before a renewal."
+    },
+    {
+     "points": 8,
+     "text": "1 past due invoice",
+     "source": "data",
+     "signal": "past_due",
+     "meaning": "Late payment can mean budget cuts or a dispute."
+    },
+    {
+     "points": 4,
+     "source": "renewal",
+     "signal": "renewal",
+     "meaning": "The renewal is close, so every issue matters more now.",
+     "text": "renewal in 122 days (score x1.25)"
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Get a status update from support on the open cases first.",
+   "days_to_renewal": 122,
+   "days_since_touch": 27,
+   "power_pct": 80,
+   "rank": 17
+  },
+  {
+   "account_id": "EQ-1018",
+   "name": "Cobalt Networks",
+   "industry": "Financial Services",
+   "metro": "New York",
+   "csm": "Elena Ruiz",
+   "arr": 877955.0,
+   "arr_display": "$878K",
+   "contracted_power_kva": 100.0,
+   "used_power_kva": 32.0,
+   "interconnections_now": 19.0,
+   "interconnections_6mo_ago": 4.0,
+   "fabric_customer": false,
+   "invoices_past_due": 1.0,
+   "csat": null,
+   "renewal_date": null,
+   "last_csm_touch": "2026-10-12",
+   "open_cases": [
+    {
+     "case_id": "CS-5043",
+     "category": "Cross connect order",
+     "priority": "P4",
+     "status": "open",
+     "opened": "2026-08-18",
+     "closed": null,
+     "subject": "Cross connect still not provisioned"
+    }
+   ],
+   "closed_case_count": 2,
+   "notes": [
+    {
+     "date": "2026-10-12",
+     "csm": "Elena Ruiz",
+     "text": "Renewal paperwork in legal. Date not confirmed yet."
+    }
+   ],
+   "contact": {
+    "contact_name": "Andre Duarte",
+    "title": "Director of Cloud Platforms",
+    "email": "andre.duarte@example.com",
+    "phone": "+1 212 555 0117",
+    "status": ""
+   },
+   "score": 22,
+   "points_from_numbers": 22,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "medium",
+   "reasons": [
+    {
+     "points": 14,
+     "text": "power use at 32% of contract",
+     "source": "data",
+     "signal": "low_power",
+     "meaning": "They pay for capacity they do not use. That often comes before downsizing."
+    },
+    {
+     "points": 8,
+     "text": "1 past due invoice",
+     "source": "data",
+     "signal": "past_due",
+     "meaning": "Late payment can mean budget cuts or a dispute."
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Review their capacity plan with them.",
+   "days_to_renewal": null,
+   "days_since_touch": 32,
+   "power_pct": 32,
+   "rank": 18
+  },
+  {
+   "account_id": "EQ-1029",
+   "name": "Meridian Systems",
+   "industry": "Financial Services",
+   "metro": "Dallas",
+   "csm": "Tom Becker",
+   "arr": 140741.0,
+   "arr_display": "$141K",
+   "contracted_power_kva": 20.0,
+   "used_power_kva": 8.5,
+   "interconnections_now": 70.0,
+   "interconnections_6mo_ago": 70.0,
+   "fabric_customer": false,
+   "invoices_past_due": 1.0,
+   "csat": 3.0,
+   "renewal_date": "2027-08-29",
+   "last_csm_touch": "2026-10-12",
+   "open_cases": [],
+   "closed_case_count": 2,
+   "notes": [],
+   "contact": {
+    "contact_name": "Hana Adler",
+    "title": "IT Procurement Lead",
+    "email": "hana.adler@example.com",
+    "phone": "+1 214 555 0128",
+    "status": ""
+   },
+   "score": 20,
+   "points_from_numbers": 20,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "medium",
+   "reasons": [
+    {
+     "points": 6,
+     "text": "power use at 42% of contract",
+     "source": "data",
+     "signal": "low_power",
+     "meaning": "They pay for capacity they do not use. That often comes before downsizing."
+    },
+    {
+     "points": 8,
+     "text": "1 past due invoice",
+     "source": "data",
+     "signal": "past_due",
+     "meaning": "Late payment can mean budget cuts or a dispute."
+    },
+    {
+     "points": 6,
+     "text": "middling CSAT: 3 of 5",
+     "source": "data",
+     "signal": "csat",
+     "meaning": "Their last satisfaction survey was not good."
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Bring in finance before the call.",
+   "days_to_renewal": 289,
+   "days_since_touch": 32,
+   "power_pct": 42,
+   "rank": 19
+  },
+  {
+   "account_id": "EQ-1024",
+   "name": "Orchid Bank",
+   "industry": "Healthcare",
+   "metro": "Toronto",
+   "csm": "Elena Ruiz",
+   "arr": 129694.0,
+   "arr_display": "$130K",
+   "contracted_power_kva": 20.0,
+   "used_power_kva": 9.0,
+   "interconnections_now": 15.0,
+   "interconnections_6mo_ago": 0.0,
+   "fabric_customer": false,
+   "invoices_past_due": 2.0,
+   "csat": null,
+   "renewal_date": "2027-11-07",
+   "last_csm_touch": "2026-10-12",
+   "open_cases": [],
+   "closed_case_count": 3,
+   "notes": [
+    {
+     "date": "2026-10-12",
+     "csm": "Elena Ruiz",
+     "text": "Asked about Inference Exchange timing. Wants to test AI workloads near their data."
+    }
+   ],
+   "contact": {
+    "contact_name": "Jonah Nguyen",
+    "title": "Director of Cloud Platforms",
+    "email": "jonah.nguyen@example.com",
+    "phone": "+1 416 555 0123",
+    "status": ""
+   },
+   "score": 20,
+   "points_from_numbers": 20,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "medium",
+   "reasons": [
+    {
+     "points": 4,
+     "text": "power use at 45% of contract",
+     "source": "data",
+     "signal": "low_power",
+     "meaning": "They pay for capacity they do not use. That often comes before downsizing."
+    },
+    {
+     "points": 16,
+     "text": "2 past due invoices",
+     "source": "data",
+     "signal": "past_due",
+     "meaning": "Late payment can mean budget cuts or a dispute."
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Bring in finance before the call.",
+   "days_to_renewal": 359,
+   "days_since_touch": 32,
+   "power_pct": 45,
+   "rank": 20
+  },
+  {
+   "account_id": "EQ-1028",
+   "name": "Granite Logistics",
+   "industry": "Media",
+   "metro": "Denver",
+   "csm": "Priya Shah",
+   "arr": 356026.0,
+   "arr_display": "$356K",
+   "contracted_power_kva": 40.0,
+   "used_power_kva": 14.6,
+   "interconnections_now": 53.0,
+   "interconnections_6mo_ago": 46.0,
+   "fabric_customer": false,
+   "invoices_past_due": 1.0,
+   "csat": 4.0,
+   "renewal_date": "2027-11-02",
+   "last_csm_touch": "2026-10-17",
+   "open_cases": [],
+   "closed_case_count": 1,
+   "notes": [],
+   "contact": {
+    "contact_name": "Omar Silva",
+    "title": "CTO",
+    "email": "omar.silva@example.com",
+    "phone": "+1 303 555 0127",
+    "status": ""
+   },
+   "score": 19,
+   "points_from_numbers": 19,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "low",
+   "reasons": [
+    {
+     "points": 11,
+     "text": "power use at 36% of contract",
+     "source": "data",
+     "signal": "low_power",
+     "meaning": "They pay for capacity they do not use. That often comes before downsizing."
+    },
+    {
+     "points": 8,
+     "text": "1 past due invoice",
+     "source": "data",
+     "signal": "past_due",
+     "meaning": "Late payment can mean budget cuts or a dispute."
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Review their capacity plan with them.",
+   "days_to_renewal": 354,
+   "days_since_touch": 27,
+   "power_pct": 36,
+   "rank": 21
+  },
+  {
+   "account_id": "EQ-1056",
+   "name": "Juniper Networks",
+   "industry": "AI and ML",
+   "metro": "Dallas",
+   "csm": "Marcus Lee",
+   "arr": 526303.0,
+   "arr_display": "$526K",
+   "contracted_power_kva": 60.0,
+   "used_power_kva": 22.3,
+   "interconnections_now": 77.0,
+   "interconnections_6mo_ago": 60.0,
+   "fabric_customer": true,
+   "invoices_past_due": 0.0,
+   "csat": 3.0,
+   "renewal_date": "2027-09-16",
+   "last_csm_touch": "2026-10-12",
+   "open_cases": [
+    {
+     "case_id": "CS-5120",
+     "category": "Shipping and receiving",
+     "priority": "P4",
+     "status": "escalated",
+     "opened": "2026-08-22",
+     "closed": null,
+     "subject": "Inbound shipment not logged"
+    },
+    {
+     "case_id": "CS-5122",
+     "category": "Shipping and receiving",
+     "priority": "P4",
+     "status": "open",
+     "opened": "2026-09-15",
+     "closed": null,
+     "subject": "Inbound shipment not logged"
+    },
+    {
+     "case_id": "CS-5124",
+     "category": "Billing",
+     "priority": "P4",
+     "status": "open",
+     "opened": "2026-09-26",
+     "closed": null,
+     "subject": "Invoice does not match contract"
+    }
+   ],
+   "closed_case_count": 2,
+   "notes": [],
+   "contact": {
+    "contact_name": "Diego Walsh",
+    "title": "Director of IT Operations",
+    "email": "diego.walsh@example.com",
+    "phone": "+1 214 555 0155",
+    "status": ""
+   },
+   "score": 16,
+   "points_from_numbers": 16,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "low",
+   "reasons": [
+    {
+     "points": 10,
+     "text": "power use at 37% of contract",
+     "source": "data",
+     "signal": "low_power",
+     "meaning": "They pay for capacity they do not use. That often comes before downsizing."
+    },
+    {
+     "points": 6,
+     "text": "middling CSAT: 3 of 5",
+     "source": "data",
+     "signal": "csat",
+     "meaning": "Their last satisfaction survey was not good."
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Review their capacity plan with them.",
+   "days_to_renewal": 307,
+   "days_since_touch": 32,
+   "power_pct": 37,
+   "rank": 22
+  },
+  {
+   "account_id": "EQ-1001",
+   "name": "Ironwood Bank",
+   "industry": "Cloud and SaaS",
+   "metro": "Chicago",
+   "csm": "Tom Becker",
+   "arr": 1523837.0,
+   "arr_display": "$1.52M",
+   "contracted_power_kva": 250.0,
+   "used_power_kva": 132.2,
+   "interconnections_now": 61.0,
+   "interconnections_6mo_ago": 62.0,
+   "fabric_customer": true,
+   "invoices_past_due": 0.0,
+   "csat": 3.0,
+   "renewal_date": "2027-03-15",
+   "last_csm_touch": "2026-10-26",
+   "open_cases": [
+    {
+     "case_id": "CS-5002",
+     "category": "Shipping and receiving",
+     "priority": "P2",
+     "status": "open",
+     "opened": "2026-09-08",
+     "closed": null,
+     "subject": "Inbound shipment not logged"
+    }
+   ],
+   "closed_case_count": 2,
+   "notes": [],
+   "contact": {
+    "contact_name": "Dana Ortiz",
+    "title": "VP Infrastructure",
+    "email": "dana.ortiz@example.com",
+    "phone": "+1 312 555 0100",
+    "status": ""
+   },
+   "score": 15,
+   "points_from_numbers": 12,
+   "points_from_notes": 0,
+   "multiplier": 1.25,
+   "tier": "low",
+   "reasons": [
+    {
+     "points": 1,
+     "text": "interconnections down 2% in 6 months (62 to 61)",
+     "source": "data",
+     "signal": "interconnection_decline",
+     "meaning": "Fewer connections usually means traffic is moving somewhere else."
+    },
+    {
+     "points": 5,
+     "text": "1 open P2 case",
+     "source": "data",
+     "signal": "cases",
+     "meaning": "Urgent problems that are still open hurt trust before a renewal."
+    },
+    {
+     "points": 6,
+     "text": "middling CSAT: 3 of 5",
+     "source": "data",
+     "signal": "csat",
+     "meaning": "Their last satisfaction survey was not good."
+    },
+    {
+     "points": 3,
+     "source": "renewal",
+     "signal": "renewal",
+     "meaning": "The renewal is close, so every issue matters more now.",
+     "text": "renewal in 122 days (score x1.25)"
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Ask what drove the low survey score.",
+   "days_to_renewal": 122,
+   "days_since_touch": 18,
+   "power_pct": 53,
+   "rank": 23
+  },
+  {
+   "account_id": "EQ-1019",
+   "name": "Lumen Ridge Logistics",
+   "industry": "Telecom",
+   "metro": "Dallas",
+   "csm": "Priya Shah",
+   "arr": 465151.0,
+   "arr_display": "$465K",
+   "contracted_power_kva": 60.0,
+   "used_power_kva": 29.5,
+   "interconnections_now": 18.0,
+   "interconnections_6mo_ago": 5.0,
+   "fabric_customer": true,
+   "invoices_past_due": 1.0,
+   "csat": 4.0,
+   "renewal_date": "2027-02-01",
+   "last_csm_touch": "2026-11-05",
+   "open_cases": [],
+   "closed_case_count": 0,
+   "notes": [],
+   "contact": {
+    "contact_name": "Leah Okafor",
+    "title": "VP Infrastructure",
+    "email": "leah.okafor@example.com",
+    "phone": "+1 214 555 0118",
+    "status": ""
+   },
+   "score": 14,
+   "points_from_numbers": 9,
+   "points_from_notes": 0,
+   "multiplier": 1.5,
+   "tier": "low",
+   "reasons": [
+    {
+     "points": 1,
+     "text": "power use at 49% of contract",
+     "source": "data",
+     "signal": "low_power",
+     "meaning": "They pay for capacity they do not use. That often comes before downsizing."
+    },
+    {
+     "points": 8,
+     "text": "1 past due invoice",
+     "source": "data",
+     "signal": "past_due",
+     "meaning": "Late payment can mean budget cuts or a dispute."
+    },
+    {
+     "points": 5,
+     "source": "renewal",
+     "signal": "renewal",
+     "meaning": "The renewal is close, so every issue matters more now.",
+     "text": "renewal in 80 days (score x1.5)"
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Bring in finance before the call.",
+   "days_to_renewal": 80,
+   "days_since_touch": 8,
+   "power_pct": 49,
+   "rank": 24
+  },
+  {
+   "account_id": "EQ-1013",
+   "name": "Granite Retail",
+   "industry": "Cloud and SaaS",
+   "metro": "Ashburn",
+   "csm": "Marcus Lee",
+   "arr": 1548019.0,
+   "arr_display": "$1.55M",
+   "contracted_power_kva": 250.0,
+   "used_power_kva": 193.1,
+   "interconnections_now": 116.0,
+   "interconnections_6mo_ago": 105.0,
+   "fabric_customer": true,
+   "invoices_past_due": 1.0,
+   "csat": 5.0,
+   "renewal_date": "2028-03-07",
+   "last_csm_touch": "2026-10-02",
+   "open_cases": [
+    {
+     "case_id": "CS-5026",
+     "category": "Cooling",
+     "priority": "P3",
+     "status": "open",
+     "opened": "2026-10-29",
+     "closed": null,
+     "subject": "High inlet temps in cage"
+    },
+    {
+     "case_id": "CS-5027",
+     "category": "Billing",
+     "priority": "P2",
+     "status": "open",
+     "opened": "2026-10-20",
+     "closed": null,
+     "subject": "Invoice does not match contract"
+    }
+   ],
+   "closed_case_count": 1,
+   "notes": [],
+   "contact": {
+    "contact_name": "Sofia Kim",
+    "title": "VP Infrastructure",
+    "email": "sofia.kim@example.com",
+    "phone": "+1 703 555 0112",
+    "status": ""
+   },
+   "score": 13,
+   "points_from_numbers": 13,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "low",
+   "reasons": [
+    {
+     "points": 5,
+     "text": "1 open P2 case",
+     "source": "data",
+     "signal": "cases",
+     "meaning": "Urgent problems that are still open hurt trust before a renewal."
+    },
+    {
+     "points": 8,
+     "text": "1 past due invoice",
+     "source": "data",
+     "signal": "past_due",
+     "meaning": "Late payment can mean budget cuts or a dispute."
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Bring in finance before the call.",
+   "days_to_renewal": 480,
+   "days_since_touch": 42,
+   "power_pct": 77,
+   "rank": 25
+  },
+  {
+   "account_id": "EQ-1033",
+   "name": "Keystone Capital",
+   "industry": "Retail",
+   "metro": "Denver",
+   "csm": "Marcus Lee",
+   "arr": 386523.0,
+   "arr_display": "$387K",
+   "contracted_power_kva": 60.0,
+   "used_power_kva": 24.6,
+   "interconnections_now": 64.0,
+   "interconnections_6mo_ago": 48.0,
+   "fabric_customer": true,
+   "invoices_past_due": 0.0,
+   "csat": 3.0,
+   "renewal_date": "2027-10-14",
+   "last_csm_touch": "2026-10-24",
+   "open_cases": [
+    {
+     "case_id": "CS-5081",
+     "category": "Cooling",
+     "priority": "P4",
+     "status": "open",
+     "opened": "2026-10-29",
+     "closed": null,
+     "subject": "High inlet temps in cage"
+    },
+    {
+     "case_id": "CS-5082",
+     "category": "Fabric connectivity",
+     "priority": "P3",
+     "status": "open",
+     "opened": "2026-08-19",
+     "closed": null,
+     "subject": "Fabric port flapping"
+    }
+   ],
+   "closed_case_count": 1,
+   "notes": [],
+   "contact": {
+    "contact_name": "Sofia Kim",
+    "title": "Head of Data Center Strategy",
+    "email": "sofia.kim@example.com",
+    "phone": "+1 303 555 0132",
+    "status": ""
+   },
+   "score": 13,
+   "points_from_numbers": 13,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "low",
+   "reasons": [
+    {
+     "points": 7,
+     "text": "power use at 41% of contract",
+     "source": "data",
+     "signal": "low_power",
+     "meaning": "They pay for capacity they do not use. That often comes before downsizing."
+    },
+    {
+     "points": 6,
+     "text": "middling CSAT: 3 of 5",
+     "source": "data",
+     "signal": "csat",
+     "meaning": "Their last satisfaction survey was not good."
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Review their capacity plan with them.",
+   "days_to_renewal": 335,
+   "days_since_touch": 20,
+   "power_pct": 41,
+   "rank": 26
+  },
+  {
+   "account_id": "EQ-1049",
+   "name": "Redstone Bank",
+   "industry": "Media",
+   "metro": "Toronto",
+   "csm": "Elena Ruiz",
+   "arr": 148395.0,
+   "arr_display": "$148K",
+   "contracted_power_kva": 20.0,
+   "used_power_kva": 10.8,
+   "interconnections_now": 107.0,
+   "interconnections_6mo_ago": 90.0,
+   "fabric_customer": false,
+   "invoices_past_due": 1.0,
+   "csat": 5.0,
+   "renewal_date": "2027-08-07",
+   "last_csm_touch": "2026-10-12",
+   "open_cases": [
+    {
+     "case_id": "CS-5108",
+     "category": "Access and badging",
+     "priority": "P2",
+     "status": "open",
+     "opened": "2026-09-07",
+     "closed": null,
+     "subject": "New engineer badge request"
+    }
+   ],
+   "closed_case_count": 0,
+   "notes": [],
+   "contact": {
+    "contact_name": "Hana Adler",
+    "title": "VP Infrastructure",
+    "email": "hana.adler@example.com",
+    "phone": "+1 416 555 0148",
+    "status": ""
+   },
+   "score": 13,
+   "points_from_numbers": 13,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "low",
+   "reasons": [
+    {
+     "points": 5,
+     "text": "1 open P2 case",
+     "source": "data",
+     "signal": "cases",
+     "meaning": "Urgent problems that are still open hurt trust before a renewal."
+    },
+    {
+     "points": 8,
+     "text": "1 past due invoice",
+     "source": "data",
+     "signal": "past_due",
+     "meaning": "Late payment can mean budget cuts or a dispute."
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Bring in finance before the call.",
+   "days_to_renewal": 267,
+   "days_since_touch": 32,
+   "power_pct": 54,
+   "rank": 27
+  },
+  {
+   "account_id": "EQ-1057",
+   "name": "Sable Media",
+   "industry": "Media",
+   "metro": "Chicago",
+   "csm": "Elena Ruiz",
+   "arr": 439047.0,
+   "arr_display": "$439K",
+   "contracted_power_kva": 60.0,
+   "used_power_kva": 53.2,
+   "interconnections_now": 22.0,
+   "interconnections_6mo_ago": 26.0,
+   "fabric_customer": false,
+   "invoices_past_due": 0.0,
+   "csat": 5.0,
+   "renewal_date": "2027-05-19",
+   "last_csm_touch": "2026-10-20",
+   "open_cases": [
+    {
+     "case_id": "CS-5127",
+     "category": "Power",
+     "priority": "P3",
+     "status": "open",
+     "opened": "2026-08-28",
+     "closed": null,
+     "subject": "Breaker trip on cabinet"
+    }
+   ],
+   "closed_case_count": 2,
+   "notes": [],
+   "contact": {
+    "contact_name": "Mei Brennan",
+    "title": "Head of Data Center Strategy",
+    "email": "mei.brennan@example.com",
+    "phone": "+1 312 555 0156",
+    "status": ""
+   },
+   "score": 12,
+   "points_from_numbers": 12,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "low",
+   "reasons": [
+    {
+     "points": 12,
+     "text": "interconnections down 15% in 6 months (26 to 22)",
+     "source": "data",
+     "signal": "interconnection_decline",
+     "meaning": "Fewer connections usually means traffic is moving somewhere else."
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Ask where their traffic is moving.",
+   "days_to_renewal": 187,
+   "days_since_touch": 24,
+   "power_pct": 89,
+   "rank": 28
+  },
+  {
+   "account_id": "EQ-1025",
+   "name": "Meridian Bank",
+   "industry": "Telecom",
+   "metro": "Chicago",
+   "csm": "Marcus Lee",
+   "arr": 145787.0,
+   "arr_display": "$146K",
+   "contracted_power_kva": 20.0,
+   "used_power_kva": 8.0,
+   "interconnections_now": 180.0,
+   "interconnections_6mo_ago": 181.0,
+   "fabric_customer": true,
+   "invoices_past_due": 0.0,
+   "csat": 4.0,
+   "renewal_date": "2027-01-06",
+   "last_csm_touch": "2026-10-20",
+   "open_cases": [
+    {
+     "case_id": "CS-5059",
+     "category": "Smart Hands",
+     "priority": "P4",
+     "status": "open",
+     "opened": "2026-09-24",
+     "closed": null,
+     "subject": "Need remote reboot of server"
+    }
+   ],
+   "closed_case_count": 2,
+   "notes": [],
+   "contact": {
+    "contact_name": "Ines Larsen",
+    "title": "VP Infrastructure",
+    "email": "ines.larsen@example.com",
+    "phone": "+1 312 555 0124",
+    "status": ""
+   },
+   "score": 12,
+   "points_from_numbers": 8,
+   "points_from_notes": 0,
+   "multiplier": 1.5,
+   "tier": "low",
+   "reasons": [
+    {
+     "points": 8,
+     "text": "power use at 40% of contract",
+     "source": "data",
+     "signal": "low_power",
+     "meaning": "They pay for capacity they do not use. That often comes before downsizing."
+    },
+    {
+     "points": 4,
+     "source": "renewal",
+     "signal": "renewal",
+     "meaning": "The renewal is close, so every issue matters more now.",
+     "text": "renewal in 54 days (score x1.5)"
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Review their capacity plan with them.",
+   "days_to_renewal": 54,
+   "days_since_touch": 24,
+   "power_pct": 40,
+   "rank": 29
+  },
+  {
+   "account_id": "EQ-1011",
+   "name": "Lumen Ridge Systems",
+   "industry": "AI and ML",
+   "metro": "Dallas",
+   "csm": "Priya Shah",
+   "arr": 3514918.0,
+   "arr_display": "$3.51M",
+   "contracted_power_kva": 400.0,
+   "used_power_kva": 182.0,
+   "interconnections_now": 139.0,
+   "interconnections_6mo_ago": 144.0,
+   "fabric_customer": false,
+   "invoices_past_due": 0.0,
+   "csat": 5.0,
+   "renewal_date": "2027-10-28",
+   "last_csm_touch": "2026-10-24",
+   "open_cases": [
+    {
+     "case_id": "CS-5025",
+     "category": "Billing",
+     "priority": "P2",
+     "status": "open",
+     "opened": "2026-08-22",
+     "closed": null,
+     "subject": "Invoice does not match contract"
+    }
+   ],
+   "closed_case_count": 0,
+   "notes": [],
+   "contact": {
+    "contact_name": "Nadia Moreau",
+    "title": "IT Procurement Lead",
+    "email": "nadia.moreau@example.com",
+    "phone": "+1 214 555 0110",
+    "status": ""
+   },
+   "score": 11,
+   "points_from_numbers": 11,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "low",
+   "reasons": [
+    {
+     "points": 3,
+     "text": "power use at 46% of contract",
+     "source": "data",
+     "signal": "low_power",
+     "meaning": "They pay for capacity they do not use. That often comes before downsizing."
+    },
+    {
+     "points": 3,
+     "text": "interconnections down 3% in 6 months (144 to 139)",
+     "source": "data",
+     "signal": "interconnection_decline",
+     "meaning": "Fewer connections usually means traffic is moving somewhere else."
+    },
+    {
+     "points": 5,
+     "text": "1 open P2 case",
+     "source": "data",
+     "signal": "cases",
+     "meaning": "Urgent problems that are still open hurt trust before a renewal."
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Get a status update from support on the open cases first.",
+   "days_to_renewal": 349,
+   "days_since_touch": 20,
+   "power_pct": 46,
+   "rank": 30
+  },
+  {
+   "account_id": "EQ-1058",
+   "name": "Keystone AI",
+   "industry": "Telecom",
+   "metro": "Chicago",
+   "csm": "Elena Ruiz",
+   "arr": 607759.0,
+   "arr_display": "$608K",
+   "contracted_power_kva": 100.0,
+   "used_power_kva": 63.5,
+   "interconnections_now": 157.0,
+   "interconnections_6mo_ago": 161.0,
+   "fabric_customer": true,
+   "invoices_past_due": 1.0,
+   "csat": 4.0,
+   "renewal_date": "2028-02-16",
+   "last_csm_touch": "2026-10-03",
+   "open_cases": [
+    {
+     "case_id": "CS-5128",
+     "category": "Shipping and receiving",
+     "priority": "P4",
+     "status": "open",
+     "opened": "2026-09-30",
+     "closed": null,
+     "subject": "Inbound shipment not logged"
+    }
+   ],
+   "closed_case_count": 0,
+   "notes": [],
+   "contact": {
+    "contact_name": "Andre Duarte",
+    "title": "CTO",
+    "email": "andre.duarte@example.com",
+    "phone": "+1 312 555 0157",
+    "status": ""
+   },
+   "score": 10,
+   "points_from_numbers": 10,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "low",
+   "reasons": [
+    {
+     "points": 2,
+     "text": "interconnections down 2% in 6 months (161 to 157)",
+     "source": "data",
+     "signal": "interconnection_decline",
+     "meaning": "Fewer connections usually means traffic is moving somewhere else."
+    },
+    {
+     "points": 8,
+     "text": "1 past due invoice",
+     "source": "data",
+     "signal": "past_due",
+     "meaning": "Late payment can mean budget cuts or a dispute."
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Bring in finance before the call.",
+   "days_to_renewal": 460,
+   "days_since_touch": 41,
+   "power_pct": 64,
+   "rank": 31
+  },
+  {
+   "account_id": "EQ-1053",
+   "name": "Halcyon Bank",
+   "industry": "Manufacturing",
+   "metro": "New York",
+   "csm": "Priya Shah",
+   "arr": 463863.0,
+   "arr_display": "$464K",
+   "contracted_power_kva": 60.0,
+   "used_power_kva": 57.7,
+   "interconnections_now": 126.0,
+   "interconnections_6mo_ago": 128.0,
+   "fabric_customer": true,
+   "invoices_past_due": 0.0,
+   "csat": 3.0,
+   "renewal_date": "2027-02-05",
+   "last_csm_touch": "2026-10-30",
+   "open_cases": [],
+   "closed_case_count": 0,
+   "notes": [],
+   "contact": {
+    "contact_name": "Sofia Kim",
+    "title": "IT Procurement Lead",
+    "email": "sofia.kim@example.com",
+    "phone": "+1 212 555 0152",
+    "status": ""
+   },
+   "score": 10,
+   "points_from_numbers": 7,
+   "points_from_notes": 0,
+   "multiplier": 1.5,
+   "tier": "low",
+   "reasons": [
+    {
+     "points": 1,
+     "text": "interconnections down 2% in 6 months (128 to 126)",
+     "source": "data",
+     "signal": "interconnection_decline",
+     "meaning": "Fewer connections usually means traffic is moving somewhere else."
+    },
+    {
+     "points": 6,
+     "text": "middling CSAT: 3 of 5",
+     "source": "data",
+     "signal": "csat",
+     "meaning": "Their last satisfaction survey was not good."
+    },
+    {
+     "points": 3,
+     "source": "renewal",
+     "signal": "renewal",
+     "meaning": "The renewal is close, so every issue matters more now.",
+     "text": "renewal in 84 days (score x1.5)"
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Ask what drove the low survey score.",
+   "days_to_renewal": 84,
+   "days_since_touch": 14,
+   "power_pct": 96,
+   "rank": 32
+  },
+  {
+   "account_id": "EQ-1023",
+   "name": "Granite Health",
+   "industry": "Media",
+   "metro": "Silicon Valley",
+   "csm": "Marcus Lee",
+   "arr": 326113.0,
+   "arr_display": "$326K",
+   "contracted_power_kva": 40.0,
+   "used_power_kva": 20.9,
+   "interconnections_now": 31.0,
+   "interconnections_6mo_ago": null,
+   "fabric_customer": true,
+   "invoices_past_due": 1.0,
+   "csat": 4.0,
+   "renewal_date": "2027-05-09",
+   "last_csm_touch": "2026-10-23",
+   "open_cases": [
+    {
+     "case_id": "CS-5054",
+     "category": "Access and badging",
+     "priority": "P4",
+     "status": "open",
+     "opened": "2026-11-07",
+     "closed": null,
+     "subject": "New engineer badge request"
+    },
+    {
+     "case_id": "CS-5055",
+     "category": "Cooling",
+     "priority": "P4",
+     "status": "open",
+     "opened": "2026-10-13",
+     "closed": null,
+     "subject": "High inlet temps in cage"
+    }
+   ],
+   "closed_case_count": 1,
+   "notes": [],
+   "contact": {
+    "contact_name": "Ana Novak",
+    "title": "IT Procurement Lead",
+    "email": "ana.novak@example.com",
+    "phone": "+1 408 555 0122",
+    "status": ""
+   },
+   "score": 10,
+   "points_from_numbers": 8,
+   "points_from_notes": 0,
+   "multiplier": 1.25,
+   "tier": "low",
+   "reasons": [
+    {
+     "points": 8,
+     "text": "1 past due invoice",
+     "source": "data",
+     "signal": "past_due",
+     "meaning": "Late payment can mean budget cuts or a dispute."
+    },
+    {
+     "points": 2,
+     "source": "renewal",
+     "signal": "renewal",
+     "meaning": "The renewal is close, so every issue matters more now.",
+     "text": "renewal in 177 days (score x1.25)"
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Bring in finance before the call.",
+   "days_to_renewal": 177,
+   "days_since_touch": 21,
+   "power_pct": 52,
+   "rank": 33
+  },
+  {
+   "account_id": "EQ-1009",
+   "name": "Halcyon Retail",
+   "industry": "Media",
+   "metro": "Chicago",
+   "csm": "Priya Shah",
+   "arr": 1206127.0,
+   "arr_display": "$1.21M",
+   "contracted_power_kva": 150.0,
+   "used_power_kva": 58.7,
+   "interconnections_now": 101.0,
+   "interconnections_6mo_ago": 87.0,
+   "fabric_customer": true,
+   "invoices_past_due": 0.0,
+   "csat": 5.0,
+   "renewal_date": "2028-03-24",
+   "last_csm_touch": "2026-10-05",
+   "open_cases": [],
+   "closed_case_count": 0,
+   "notes": [],
+   "contact": {
+    "contact_name": "Hana Adler",
+    "title": "Head of Data Center Strategy",
+    "email": "hana.adler@example.com",
+    "phone": "+1 312 555 0108",
+    "status": ""
+   },
+   "score": 9,
+   "points_from_numbers": 9,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "low",
+   "reasons": [
+    {
+     "points": 9,
+     "text": "power use at 39% of contract",
+     "source": "data",
+     "signal": "low_power",
+     "meaning": "They pay for capacity they do not use. That often comes before downsizing."
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Review their capacity plan with them.",
+   "days_to_renewal": 497,
+   "days_since_touch": 39,
+   "power_pct": 39,
+   "rank": 34
+  },
+  {
+   "account_id": "EQ-1022",
+   "name": "Crescent AI",
+   "industry": "Retail",
+   "metro": "Silicon Valley",
+   "csm": "Elena Ruiz",
+   "arr": 258929.0,
+   "arr_display": "$259K",
+   "contracted_power_kva": 40.0,
+   "used_power_kva": 27.2,
+   "interconnections_now": 37.0,
+   "interconnections_6mo_ago": 31.0,
+   "fabric_customer": false,
+   "invoices_past_due": 0.0,
+   "csat": 3.0,
+   "renewal_date": "2027-02-09",
+   "last_csm_touch": "2026-10-06",
+   "open_cases": [
+    {
+     "case_id": "CS-5051",
+     "category": "Cooling",
+     "priority": "P3",
+     "status": "open",
+     "opened": "2026-10-08",
+     "closed": null,
+     "subject": "High inlet temps in cage"
+    },
+    {
+     "case_id": "CS-5052",
+     "category": "Billing",
+     "priority": "P4",
+     "status": "open",
+     "opened": "2026-09-24",
+     "closed": null,
+     "subject": "Invoice does not match contract"
+    }
+   ],
+   "closed_case_count": 1,
+   "notes": [],
+   "contact": {
+    "contact_name": "Luis Fischer",
+    "title": "CTO",
+    "email": "luis.fischer@example.com",
+    "phone": "+1 408 555 0121",
+    "status": ""
+   },
+   "score": 9,
+   "points_from_numbers": 6,
+   "points_from_notes": 0,
+   "multiplier": 1.5,
+   "tier": "low",
+   "reasons": [
+    {
+     "points": 6,
+     "text": "middling CSAT: 3 of 5",
+     "source": "data",
+     "signal": "csat",
+     "meaning": "Their last satisfaction survey was not good."
+    },
+    {
+     "points": 3,
+     "source": "renewal",
+     "signal": "renewal",
+     "meaning": "The renewal is close, so every issue matters more now.",
+     "text": "renewal in 88 days (score x1.5)"
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Ask what drove the low survey score.",
+   "days_to_renewal": 88,
+   "days_since_touch": 38,
+   "power_pct": 68,
+   "rank": 35
+  },
+  {
+   "account_id": "EQ-1005",
+   "name": "Orchid Networks",
+   "industry": "Retail",
+   "metro": "Toronto",
+   "csm": "Elena Ruiz",
+   "arr": 2026365.0,
+   "arr_display": "$2.03M",
+   "contracted_power_kva": 250.0,
+   "used_power_kva": 223.0,
+   "interconnections_now": 45.0,
+   "interconnections_6mo_ago": 39.0,
+   "fabric_customer": true,
+   "invoices_past_due": 1.0,
+   "csat": 5.0,
+   "renewal_date": null,
+   "last_csm_touch": "2026-10-29",
+   "open_cases": [
+    {
+     "case_id": "CS-5015",
+     "category": "Smart Hands",
+     "priority": "P3",
+     "status": "open",
+     "opened": "2026-09-29",
+     "closed": null,
+     "subject": "Need remote reboot of server"
+    }
+   ],
+   "closed_case_count": 2,
+   "notes": [],
+   "contact": {
+    "contact_name": "Ines Larsen",
+    "title": "IT Procurement Lead",
+    "email": "ines.larsen@example.com",
+    "phone": "+1 416 555 0104",
+    "status": ""
+   },
+   "score": 8,
+   "points_from_numbers": 8,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "low",
+   "reasons": [
+    {
+     "points": 8,
+     "text": "1 past due invoice",
+     "source": "data",
+     "signal": "past_due",
+     "meaning": "Late payment can mean budget cuts or a dispute."
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Bring in finance before the call.",
+   "days_to_renewal": null,
+   "days_since_touch": 15,
+   "power_pct": 89,
+   "rank": 36
+  },
+  {
+   "account_id": "EQ-1021",
+   "name": "Pioneer Labs",
+   "industry": "Manufacturing",
+   "metro": "Ashburn",
+   "csm": "Elena Ruiz",
+   "arr": 294866.0,
+   "arr_display": "$295K",
+   "contracted_power_kva": 40.0,
+   "used_power_kva": 31.4,
+   "interconnections_now": 84.0,
+   "interconnections_6mo_ago": 82.0,
+   "fabric_customer": true,
+   "invoices_past_due": 0.0,
+   "csat": 3.0,
+   "renewal_date": "2027-08-29",
+   "last_csm_touch": "2026-11-08",
+   "open_cases": [],
+   "closed_case_count": 2,
+   "notes": [],
+   "contact": {
+    "contact_name": "Dana Ortiz",
+    "title": "Head of Data Center Strategy",
+    "email": "dana.ortiz@example.com",
+    "phone": "+1 703 555 0120",
+    "status": ""
+   },
+   "score": 6,
+   "points_from_numbers": 6,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "low",
+   "reasons": [
+    {
+     "points": 6,
+     "text": "middling CSAT: 3 of 5",
+     "source": "data",
+     "signal": "csat",
+     "meaning": "Their last satisfaction survey was not good."
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Ask what drove the low survey score.",
+   "days_to_renewal": 289,
+   "days_since_touch": 5,
+   "power_pct": 78,
+   "rank": 37
+  },
+  {
+   "account_id": "EQ-1041",
+   "name": "Summit Systems",
+   "industry": "Media",
+   "metro": "Denver",
+   "csm": "Tom Becker",
+   "arr": 270272.0,
+   "arr_display": "$270K",
+   "contracted_power_kva": 40.0,
+   "used_power_kva": 25.8,
+   "interconnections_now": 90.0,
+   "interconnections_6mo_ago": 71.0,
+   "fabric_customer": true,
+   "invoices_past_due": 0.0,
+   "csat": 3.0,
+   "renewal_date": "2027-12-24",
+   "last_csm_touch": "2026-10-09",
+   "open_cases": [],
+   "closed_case_count": 0,
+   "notes": [],
+   "contact": {
+    "contact_name": "Dana Ortiz",
+    "title": "IT Procurement Lead",
+    "email": "dana.ortiz@example.com",
+    "phone": "+1 303 555 0140",
+    "status": ""
+   },
+   "score": 6,
+   "points_from_numbers": 6,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "low",
+   "reasons": [
+    {
+     "points": 6,
+     "text": "middling CSAT: 3 of 5",
+     "source": "data",
+     "signal": "csat",
+     "meaning": "Their last satisfaction survey was not good."
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Ask what drove the low survey score.",
+   "days_to_renewal": 406,
+   "days_since_touch": 35,
+   "power_pct": 64,
+   "rank": 38
+  },
+  {
+   "account_id": "EQ-1046",
+   "name": "Keystone Labs",
+   "industry": "AI and ML",
+   "metro": "New York",
+   "csm": "Elena Ruiz",
+   "arr": 1045037.0,
+   "arr_display": "$1.05M",
+   "contracted_power_kva": 150.0,
+   "used_power_kva": 131.3,
+   "interconnections_now": 141.0,
+   "interconnections_6mo_ago": 122.0,
+   "fabric_customer": true,
+   "invoices_past_due": 0.0,
+   "csat": 4.0,
+   "renewal_date": "2028-04-09",
+   "last_csm_touch": "2026-11-03",
+   "open_cases": [
+    {
+     "case_id": "CS-5104",
+     "category": "Power",
+     "priority": "P2",
+     "status": "open",
+     "opened": "2026-09-21",
+     "closed": null,
+     "subject": "Breaker trip on cabinet"
+    }
+   ],
+   "closed_case_count": 0,
+   "notes": [],
+   "contact": {
+    "contact_name": "Felix Castillo",
+    "title": "CTO",
+    "email": "felix.castillo@example.com",
+    "phone": "+1 212 555 0145",
+    "status": ""
+   },
+   "score": 5,
+   "points_from_numbers": 5,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "low",
+   "reasons": [
+    {
+     "points": 5,
+     "text": "1 open P2 case",
+     "source": "data",
+     "signal": "cases",
+     "meaning": "Urgent problems that are still open hurt trust before a renewal."
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Get a status update from support on the open cases first.",
+   "days_to_renewal": 513,
+   "days_since_touch": 10,
+   "power_pct": 88,
+   "rank": 39
+  },
+  {
+   "account_id": "EQ-1034",
+   "name": "Crescent Networks",
+   "industry": "AI and ML",
+   "metro": "New York",
+   "csm": "Marcus Lee",
+   "arr": 644271.0,
+   "arr_display": "$644K",
+   "contracted_power_kva": 100.0,
+   "used_power_kva": 92.6,
+   "interconnections_now": 151.0,
+   "interconnections_6mo_ago": 150.0,
+   "fabric_customer": true,
+   "invoices_past_due": 0.0,
+   "csat": 5.0,
+   "renewal_date": "2027-12-29",
+   "last_csm_touch": "2026-11-02",
+   "open_cases": [
+    {
+     "case_id": "CS-5084",
+     "category": "Cooling",
+     "priority": "P3",
+     "status": "open",
+     "opened": "2026-09-18",
+     "closed": null,
+     "subject": "High inlet temps in cage"
+    },
+    {
+     "case_id": "CS-5086",
+     "category": "Shipping and receiving",
+     "priority": "P2",
+     "status": "open",
+     "opened": "2026-10-22",
+     "closed": null,
+     "subject": "Inbound shipment not logged"
+    }
+   ],
+   "closed_case_count": 1,
+   "notes": [],
+   "contact": {
+    "contact_name": "Raj Haddad",
+    "title": "CTO",
+    "email": "raj.haddad@example.com",
+    "phone": "+1 212 555 0133",
+    "status": ""
+   },
+   "score": 5,
+   "points_from_numbers": 5,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "low",
+   "reasons": [
+    {
+     "points": 5,
+     "text": "1 open P2 case",
+     "source": "data",
+     "signal": "cases",
+     "meaning": "Urgent problems that are still open hurt trust before a renewal."
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Get a status update from support on the open cases first.",
+   "days_to_renewal": 411,
+   "days_since_touch": 11,
+   "power_pct": 93,
+   "rank": 40
+  },
+  {
+   "account_id": "EQ-1032",
+   "name": "Granite Labs",
+   "industry": "AI and ML",
+   "metro": "New York",
+   "csm": "Tom Becker",
+   "arr": 321075.0,
+   "arr_display": "$321K",
+   "contracted_power_kva": 40.0,
+   "used_power_kva": 25.2,
+   "interconnections_now": 152.0,
+   "interconnections_6mo_ago": 138.0,
+   "fabric_customer": false,
+   "invoices_past_due": 0.0,
+   "csat": 5.0,
+   "renewal_date": "2027-10-26",
+   "last_csm_touch": "2026-10-29",
+   "open_cases": [
+    {
+     "case_id": "CS-5075",
+     "category": "Power",
+     "priority": "P3",
+     "status": "open",
+     "opened": "2026-09-07",
+     "closed": null,
+     "subject": "Breaker trip on cabinet"
+    },
+    {
+     "case_id": "CS-5076",
+     "category": "Power",
+     "priority": "P4",
+     "status": "open",
+     "opened": "2026-09-13",
+     "closed": null,
+     "subject": "Breaker trip on cabinet"
+    },
+    {
+     "case_id": "CS-5077",
+     "category": "Cooling",
+     "priority": "P4",
+     "status": "escalated",
+     "opened": "2026-09-20",
+     "closed": null,
+     "subject": "High inlet temps in cage"
+    },
+    {
+     "case_id": "CS-5078",
+     "category": "Cooling",
+     "priority": "P3",
+     "status": "open",
+     "opened": "2026-09-15",
+     "closed": null,
+     "subject": "High inlet temps in cage"
+    },
+    {
+     "case_id": "CS-5079",
+     "category": "Cooling",
+     "priority": "P2",
+     "status": "open",
+     "opened": "2026-08-25",
+     "closed": null,
+     "subject": "High inlet temps in cage"
+    }
+   ],
+   "closed_case_count": 2,
+   "notes": [],
+   "contact": {
+    "contact_name": "Ben Mensah",
+    "title": "Director of IT Operations",
+    "email": "ben.mensah@example.com",
+    "phone": "+1 212 555 0131",
+    "status": ""
+   },
+   "score": 5,
+   "points_from_numbers": 5,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "low",
+   "reasons": [
+    {
+     "points": 5,
+     "text": "1 open P2 case",
+     "source": "data",
+     "signal": "cases",
+     "meaning": "Urgent problems that are still open hurt trust before a renewal."
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Get a status update from support on the open cases first.",
+   "days_to_renewal": 347,
+   "days_since_touch": 15,
+   "power_pct": 63,
+   "rank": 41
+  },
+  {
+   "account_id": "EQ-1055",
+   "name": "Juniper Health",
+   "industry": "Healthcare",
+   "metro": "Ashburn",
+   "csm": "Marcus Lee",
+   "arr": 3062390.0,
+   "arr_display": "$3.06M",
+   "contracted_power_kva": 400.0,
+   "used_power_kva": 194.0,
+   "interconnections_now": 58.0,
+   "interconnections_6mo_ago": 55.0,
+   "fabric_customer": true,
+   "invoices_past_due": 0.0,
+   "csat": 4.0,
+   "renewal_date": "2027-02-22",
+   "last_csm_touch": "2026-11-08",
+   "open_cases": [],
+   "closed_case_count": 0,
+   "notes": [],
+   "contact": {
+    "contact_name": "Claire Quinn",
+    "title": "VP Infrastructure",
+    "email": "claire.quinn@example.com",
+    "phone": "+1 703 555 0154",
+    "status": ""
+   },
+   "score": 2,
+   "points_from_numbers": 2,
+   "points_from_notes": 0,
+   "multiplier": 1.25,
+   "tier": "low",
+   "reasons": [
+    {
+     "points": 2,
+     "text": "power use at 48% of contract",
+     "source": "data",
+     "signal": "low_power",
+     "meaning": "They pay for capacity they do not use. That often comes before downsizing."
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Review their capacity plan with them.",
+   "days_to_renewal": 101,
+   "days_since_touch": 5,
+   "power_pct": 48,
+   "rank": 42
+  },
+  {
+   "account_id": "EQ-1031",
+   "name": "Cobalt Systems",
+   "industry": "Manufacturing",
+   "metro": "Toronto",
+   "csm": "Tom Becker",
+   "arr": 803195.0,
+   "arr_display": "$803K",
+   "contracted_power_kva": 100.0,
+   "used_power_kva": 80.3,
+   "interconnections_now": 145.0,
+   "interconnections_6mo_ago": 146.0,
+   "fabric_customer": true,
+   "invoices_past_due": 0.0,
+   "csat": null,
+   "renewal_date": "2027-06-15",
+   "last_csm_touch": "2026-10-03",
+   "open_cases": [],
+   "closed_case_count": 0,
+   "notes": [],
+   "contact": {
+    "contact_name": "Nadia Moreau",
+    "title": "VP Infrastructure",
+    "email": "nadia.moreau@example.com",
+    "phone": "+1 416 555 0130",
+    "status": ""
+   },
+   "score": 1,
+   "points_from_numbers": 1,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "low",
+   "reasons": [
+    {
+     "points": 1,
+     "text": "interconnections down 1% in 6 months (146 to 145)",
+     "source": "data",
+     "signal": "interconnection_decline",
+     "meaning": "Fewer connections usually means traffic is moving somewhere else."
+    }
+   ],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "Ask where their traffic is moving.",
+   "days_to_renewal": 214,
+   "days_since_touch": 41,
+   "power_pct": 80,
+   "rank": 43
+  },
+  {
+   "account_id": "EQ-1027",
+   "name": "Pioneer Retail",
+   "industry": "Cloud and SaaS",
+   "metro": "New York",
+   "csm": "Priya Shah",
+   "arr": 3430311.0,
+   "arr_display": "$3.43M",
+   "contracted_power_kva": 400.0,
+   "used_power_kva": 314.2,
+   "interconnections_now": 67.0,
+   "interconnections_6mo_ago": 64.0,
+   "fabric_customer": true,
+   "invoices_past_due": 0.0,
+   "csat": 5.0,
+   "renewal_date": "2027-05-13",
+   "last_csm_touch": "2026-10-27",
+   "open_cases": [],
+   "closed_case_count": 1,
+   "notes": [],
+   "contact": {
+    "contact_name": "Grace Patel",
+    "title": "Head of Data Center Strategy",
+    "email": "grace.patel@example.com",
+    "phone": "+1 212 555 0126",
+    "status": ""
+   },
+   "score": 0,
+   "points_from_numbers": 0,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "low",
+   "reasons": [],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "No action needed. A light check-in is enough.",
+   "days_to_renewal": 181,
+   "days_since_touch": 17,
+   "power_pct": 79,
+   "rank": 44
+  },
+  {
+   "account_id": "EQ-1043",
+   "name": "Redstone Labs",
+   "industry": "Healthcare",
+   "metro": "Silicon Valley",
+   "csm": "Priya Shah",
+   "arr": 3094421.0,
+   "arr_display": "$3.09M",
+   "contracted_power_kva": 400.0,
+   "used_power_kva": 235.9,
+   "interconnections_now": 159.0,
+   "interconnections_6mo_ago": 145.0,
+   "fabric_customer": false,
+   "invoices_past_due": 0.0,
+   "csat": 4.0,
+   "renewal_date": "2027-03-28",
+   "last_csm_touch": "2026-10-03",
+   "open_cases": [],
+   "closed_case_count": 1,
+   "notes": [],
+   "contact": {
+    "contact_name": "Ana Novak",
+    "title": "VP Infrastructure",
+    "email": "ana.novak@example.com",
+    "phone": "+1 408 555 0142",
+    "status": ""
+   },
+   "score": 0,
+   "points_from_numbers": 0,
+   "points_from_notes": 0,
+   "multiplier": 1.25,
+   "tier": "low",
+   "reasons": [],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "No action needed. A light check-in is enough.",
+   "days_to_renewal": 135,
+   "days_since_touch": 41,
+   "power_pct": 59,
+   "rank": 45
+  },
+  {
+   "account_id": "EQ-1015",
+   "name": "Meridian Media",
+   "industry": "Retail",
+   "metro": "Denver",
+   "csm": "Tom Becker",
+   "arr": 2105622.0,
+   "arr_display": "$2.11M",
+   "contracted_power_kva": 250.0,
+   "used_power_kva": 239.5,
+   "interconnections_now": 150.0,
+   "interconnections_6mo_ago": 137.0,
+   "fabric_customer": true,
+   "invoices_past_due": 0.0,
+   "csat": 4.0,
+   "renewal_date": "2028-03-29",
+   "last_csm_touch": "2026-11-02",
+   "open_cases": [
+    {
+     "case_id": "CS-5035",
+     "category": "Billing",
+     "priority": "P4",
+     "status": "open",
+     "opened": "2026-09-27",
+     "closed": null,
+     "subject": "Invoice does not match contract"
+    },
+    {
+     "case_id": "CS-5036",
+     "category": "Billing",
+     "priority": "P3",
+     "status": "open",
+     "opened": "2026-09-17",
+     "closed": null,
+     "subject": "Invoice does not match contract"
+    }
+   ],
+   "closed_case_count": 1,
+   "notes": [],
+   "contact": {
+    "contact_name": "Claire Quinn",
+    "title": "Head of Data Center Strategy",
+    "email": "claire.quinn@example.com",
+    "phone": "+1 303 555 0114",
+    "status": ""
+   },
+   "score": 0,
+   "points_from_numbers": 0,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "low",
+   "reasons": [],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "No action needed. A light check-in is enough.",
+   "days_to_renewal": 502,
+   "days_since_touch": 11,
+   "power_pct": 96,
+   "rank": 46
+  },
+  {
+   "account_id": "EQ-1052",
+   "name": "Meridian Labs",
+   "industry": "Cloud and SaaS",
+   "metro": "Denver",
+   "csm": "Priya Shah",
+   "arr": 1930548.0,
+   "arr_display": "$1.93M",
+   "contracted_power_kva": 250.0,
+   "used_power_kva": 240.9,
+   "interconnections_now": 167.0,
+   "interconnections_6mo_ago": 148.0,
+   "fabric_customer": false,
+   "invoices_past_due": 0.0,
+   "csat": 5.0,
+   "renewal_date": "2028-04-16",
+   "last_csm_touch": "2026-10-09",
+   "open_cases": [],
+   "closed_case_count": 1,
+   "notes": [],
+   "contact": {
+    "contact_name": "Ben Mensah",
+    "title": "CTO",
+    "email": "ben.mensah@example.com",
+    "phone": "+1 303 555 0151",
+    "status": ""
+   },
+   "score": 0,
+   "points_from_numbers": 0,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "low",
+   "reasons": [],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "No action needed. A light check-in is enough.",
+   "days_to_renewal": 520,
+   "days_since_touch": 35,
+   "power_pct": 96,
+   "rank": 47
+  },
+  {
+   "account_id": "EQ-1037",
+   "name": "Redstone Health",
+   "industry": "Cloud and SaaS",
+   "metro": "Ashburn",
+   "csm": "Marcus Lee",
+   "arr": 1673446.0,
+   "arr_display": "$1.67M",
+   "contracted_power_kva": 250.0,
+   "used_power_kva": 133.9,
+   "interconnections_now": 73.0,
+   "interconnections_6mo_ago": 68.0,
+   "fabric_customer": true,
+   "invoices_past_due": 0.0,
+   "csat": 4.0,
+   "renewal_date": "2027-10-24",
+   "last_csm_touch": "2026-10-26",
+   "open_cases": [],
+   "closed_case_count": 0,
+   "notes": [],
+   "contact": {
+    "contact_name": "Mei Brennan",
+    "title": "VP Infrastructure",
+    "email": "mei.brennan@example.com",
+    "phone": "+1 703 555 0136",
+    "status": ""
+   },
+   "score": 0,
+   "points_from_numbers": 0,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "low",
+   "reasons": [],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "No action needed. A light check-in is enough.",
+   "days_to_renewal": 345,
+   "days_since_touch": 18,
+   "power_pct": 54,
+   "rank": 48
+  },
+  {
+   "account_id": "EQ-1045",
+   "name": "Tidewater Health",
+   "industry": "Cloud and SaaS",
+   "metro": "New York",
+   "csm": "Elena Ruiz",
+   "arr": 1186013.0,
+   "arr_display": "$1.19M",
+   "contracted_power_kva": 150.0,
+   "used_power_kva": 115.6,
+   "interconnections_now": 7.0,
+   "interconnections_6mo_ago": 0.0,
+   "fabric_customer": false,
+   "invoices_past_due": 0.0,
+   "csat": 5.0,
+   "renewal_date": "2028-04-15",
+   "last_csm_touch": "2026-10-30",
+   "open_cases": [],
+   "closed_case_count": 0,
+   "notes": [],
+   "contact": {
+    "contact_name": "Ines Larsen",
+    "title": "Head of Data Center Strategy",
+    "email": "ines.larsen@example.com",
+    "phone": "+1 212 555 0144",
+    "status": ""
+   },
+   "score": 0,
+   "points_from_numbers": 0,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "low",
+   "reasons": [],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "No action needed. A light check-in is enough.",
+   "days_to_renewal": 519,
+   "days_since_touch": 14,
+   "power_pct": 77,
+   "rank": 49
+  },
+  {
+   "account_id": "EQ-1047",
+   "name": "Sable Networks",
+   "industry": "AI and ML",
+   "metro": "Denver",
+   "csm": "Elena Ruiz",
+   "arr": 981827.0,
+   "arr_display": "$982K",
+   "contracted_power_kva": 150.0,
+   "used_power_kva": 112.0,
+   "interconnections_now": 101.0,
+   "interconnections_6mo_ago": 96.0,
+   "fabric_customer": true,
+   "invoices_past_due": 0.0,
+   "csat": 5.0,
+   "renewal_date": "2026-12-30",
+   "last_csm_touch": "2026-10-17",
+   "open_cases": [],
+   "closed_case_count": 1,
+   "notes": [],
+   "contact": {
+    "contact_name": "Grace Patel",
+    "title": "IT Procurement Lead",
+    "email": "grace.patel@example.com",
+    "phone": "+1 303 555 0146",
+    "status": ""
+   },
+   "score": 0,
+   "points_from_numbers": 0,
+   "points_from_notes": 0,
+   "multiplier": 1.5,
+   "tier": "low",
+   "reasons": [],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "No action needed. A light check-in is enough.",
+   "days_to_renewal": 47,
+   "days_since_touch": 27,
+   "power_pct": 75,
+   "rank": 50
+  },
+  {
+   "account_id": "EQ-1059",
+   "name": "Bluepeak Media",
+   "industry": "Manufacturing",
+   "metro": "Toronto",
+   "csm": "Tom Becker",
+   "arr": 890716.0,
+   "arr_display": "$891K",
+   "contracted_power_kva": 100.0,
+   "used_power_kva": 68.7,
+   "interconnections_now": 117.0,
+   "interconnections_6mo_ago": 114.0,
+   "fabric_customer": false,
+   "invoices_past_due": 0.0,
+   "csat": 5.0,
+   "renewal_date": "2027-06-04",
+   "last_csm_touch": "2026-10-17",
+   "open_cases": [],
+   "closed_case_count": 1,
+   "notes": [],
+   "contact": {
+    "contact_name": "Leah Okafor",
+    "title": "IT Procurement Lead",
+    "email": "leah.okafor@example.com",
+    "phone": "+1 416 555 0158",
+    "status": ""
+   },
+   "score": 0,
+   "points_from_numbers": 0,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "low",
+   "reasons": [],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "No action needed. A light check-in is enough.",
+   "days_to_renewal": 203,
+   "days_since_touch": 27,
+   "power_pct": 69,
+   "rank": 51
+  },
+  {
+   "account_id": "EQ-1016",
+   "name": "Tidewater Retail",
+   "industry": "Financial Services",
+   "metro": "New York",
+   "csm": "Elena Ruiz",
+   "arr": 840177.0,
+   "arr_display": "$840K",
+   "contracted_power_kva": 100.0,
+   "used_power_kva": 65.4,
+   "interconnections_now": 17.0,
+   "interconnections_6mo_ago": 1.0,
+   "fabric_customer": true,
+   "invoices_past_due": 0.0,
+   "csat": 5.0,
+   "renewal_date": "2027-03-11",
+   "last_csm_touch": "2026-10-24",
+   "open_cases": [
+    {
+     "case_id": "CS-5038",
+     "category": "Access and badging",
+     "priority": "P4",
+     "status": "open",
+     "opened": "2026-09-23",
+     "closed": null,
+     "subject": "New engineer badge request"
+    }
+   ],
+   "closed_case_count": 0,
+   "notes": [],
+   "contact": {
+    "contact_name": "Diego Walsh",
+    "title": "CTO",
+    "email": "diego.walsh@example.com",
+    "phone": "+1 212 555 0115",
+    "status": ""
+   },
+   "score": 0,
+   "points_from_numbers": 0,
+   "points_from_notes": 0,
+   "multiplier": 1.25,
+   "tier": "low",
+   "reasons": [],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "No action needed. A light check-in is enough.",
+   "days_to_renewal": 118,
+   "days_since_touch": 20,
+   "power_pct": 65,
+   "rank": 52
+  },
+  {
+   "account_id": "EQ-1039",
+   "name": "Meridian Capital",
+   "industry": "Financial Services",
+   "metro": "New York",
+   "csm": "Elena Ruiz",
+   "arr": 320264.0,
+   "arr_display": "$320K",
+   "contracted_power_kva": 40.0,
+   "used_power_kva": 26.7,
+   "interconnections_now": 73.0,
+   "interconnections_6mo_ago": 65.0,
+   "fabric_customer": false,
+   "invoices_past_due": 0.0,
+   "csat": 5.0,
+   "renewal_date": "2028-04-11",
+   "last_csm_touch": "2026-10-29",
+   "open_cases": [
+    {
+     "case_id": "CS-5094",
+     "category": "Billing",
+     "priority": "P3",
+     "status": "open",
+     "opened": "2026-10-07",
+     "closed": null,
+     "subject": "Invoice does not match contract"
+    }
+   ],
+   "closed_case_count": 0,
+   "notes": [],
+   "contact": {
+    "contact_name": "Leah Okafor",
+    "title": "Head of Data Center Strategy",
+    "email": "leah.okafor@example.com",
+    "phone": "+1 212 555 0138",
+    "status": ""
+   },
+   "score": 0,
+   "points_from_numbers": 0,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "low",
+   "reasons": [],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "No action needed. A light check-in is enough.",
+   "days_to_renewal": 515,
+   "days_since_touch": 15,
+   "power_pct": 67,
+   "rank": 53
+  },
+  {
+   "account_id": "EQ-1007",
+   "name": "Orchid Health",
+   "industry": "Retail",
+   "metro": "Toronto",
+   "csm": "Tom Becker",
+   "arr": 287475.0,
+   "arr_display": "$287K",
+   "contracted_power_kva": 40.0,
+   "used_power_kva": 37.7,
+   "interconnections_now": 149.0,
+   "interconnections_6mo_ago": 132.0,
+   "fabric_customer": false,
+   "invoices_past_due": 0.0,
+   "csat": 5.0,
+   "renewal_date": "2027-10-19",
+   "last_csm_touch": "2026-10-30",
+   "open_cases": [],
+   "closed_case_count": 0,
+   "notes": [],
+   "contact": {
+    "contact_name": "Grace Patel",
+    "title": "VP Infrastructure",
+    "email": "grace.patel@example.com",
+    "phone": "+1 416 555 0106",
+    "status": ""
+   },
+   "score": 0,
+   "points_from_numbers": 0,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "low",
+   "reasons": [],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "No action needed. A light check-in is enough.",
+   "days_to_renewal": 340,
+   "days_since_touch": 14,
+   "power_pct": 94,
+   "rank": 54
+  },
+  {
+   "account_id": "EQ-1017",
+   "name": "Meridian Networks",
+   "industry": "Cloud and SaaS",
+   "metro": "New York",
+   "csm": "Priya Shah",
+   "arr": 246070.0,
+   "arr_display": "$246K",
+   "contracted_power_kva": 40.0,
+   "used_power_kva": 25.0,
+   "interconnections_now": 75.0,
+   "interconnections_6mo_ago": 66.0,
+   "fabric_customer": true,
+   "invoices_past_due": 0.0,
+   "csat": 5.0,
+   "renewal_date": "2027-08-13",
+   "last_csm_touch": "2026-11-03",
+   "open_cases": [
+    {
+     "case_id": "CS-5040",
+     "category": "Power",
+     "priority": "P4",
+     "status": "open",
+     "opened": "2026-11-09",
+     "closed": null,
+     "subject": "Breaker trip on cabinet"
+    }
+   ],
+   "closed_case_count": 1,
+   "notes": [],
+   "contact": {
+    "contact_name": "Mei Brennan",
+    "title": "IT Procurement Lead",
+    "email": "mei.brennan@example.com",
+    "phone": "+1 212 555 0116",
+    "status": ""
+   },
+   "score": 0,
+   "points_from_numbers": 0,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "low",
+   "reasons": [],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "No action needed. A light check-in is enough.",
+   "days_to_renewal": 273,
+   "days_since_touch": 10,
+   "power_pct": 62,
+   "rank": 55
+  },
+  {
+   "account_id": "EQ-1051",
+   "name": "Juniper Labs",
+   "industry": "Healthcare",
+   "metro": "Silicon Valley",
+   "csm": "Priya Shah",
+   "arr": 162481.0,
+   "arr_display": "$162K",
+   "contracted_power_kva": 20.0,
+   "used_power_kva": 17.8,
+   "interconnections_now": 79.0,
+   "interconnections_6mo_ago": 77.0,
+   "fabric_customer": true,
+   "invoices_past_due": 0.0,
+   "csat": 4.0,
+   "renewal_date": "2027-12-05",
+   "last_csm_touch": "2026-10-22",
+   "open_cases": [
+    {
+     "case_id": "CS-5117",
+     "category": "Cooling",
+     "priority": "P4",
+     "status": "open",
+     "opened": "2026-09-06",
+     "closed": null,
+     "subject": "High inlet temps in cage"
+    }
+   ],
+   "closed_case_count": 1,
+   "notes": [],
+   "contact": {
+    "contact_name": "Nadia Moreau",
+    "title": "Head of Data Center Strategy",
+    "email": "nadia.moreau@example.com",
+    "phone": "+1 408 555 0150",
+    "status": ""
+   },
+   "score": 0,
+   "points_from_numbers": 0,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "low",
+   "reasons": [],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "No action needed. A light check-in is enough.",
+   "days_to_renewal": 387,
+   "days_since_touch": 22,
+   "power_pct": 89,
+   "rank": 56
+  },
+  {
+   "account_id": "EQ-1040",
+   "name": "Juniper AI",
+   "industry": "Cloud and SaaS",
+   "metro": "Toronto",
+   "csm": "Tom Becker",
+   "arr": 128141.0,
+   "arr_display": "$128K",
+   "contracted_power_kva": 20.0,
+   "used_power_kva": 18.8,
+   "interconnections_now": 155.0,
+   "interconnections_6mo_ago": 142.0,
+   "fabric_customer": false,
+   "invoices_past_due": 0.0,
+   "csat": 5.0,
+   "renewal_date": "2026-12-28",
+   "last_csm_touch": "2026-10-28",
+   "open_cases": [],
+   "closed_case_count": 2,
+   "notes": [],
+   "contact": {
+    "contact_name": "Kofi Ito",
+    "title": "CTO",
+    "email": "kofi.ito@example.com",
+    "phone": "+1 416 555 0139",
+    "status": ""
+   },
+   "score": 0,
+   "points_from_numbers": 0,
+   "points_from_notes": 0,
+   "multiplier": 1.5,
+   "tier": "low",
+   "reasons": [],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "No action needed. A light check-in is enough.",
+   "days_to_renewal": 45,
+   "days_since_touch": 16,
+   "power_pct": 94,
+   "rank": 57
+  },
+  {
+   "account_id": "EQ-1004",
+   "name": "Ironwood Retail",
+   "industry": "Retail",
+   "metro": "Toronto",
+   "csm": "Priya Shah",
+   "arr": 122749.0,
+   "arr_display": "$123K",
+   "contracted_power_kva": 20.0,
+   "used_power_kva": 14.2,
+   "interconnections_now": 164.0,
+   "interconnections_6mo_ago": 150.0,
+   "fabric_customer": true,
+   "invoices_past_due": 0.0,
+   "csat": 5.0,
+   "renewal_date": "2027-12-06",
+   "last_csm_touch": "2026-10-21",
+   "open_cases": [
+    {
+     "case_id": "CS-5013",
+     "category": "Billing",
+     "priority": "P4",
+     "status": "open",
+     "opened": "2026-10-05",
+     "closed": null,
+     "subject": "Invoice does not match contract"
+    }
+   ],
+   "closed_case_count": 0,
+   "notes": [],
+   "contact": {
+    "contact_name": "Jonah Nguyen",
+    "title": "CTO",
+    "email": "jonah.nguyen@example.com",
+    "phone": "+1 416 555 0103",
+    "status": ""
+   },
+   "score": 0,
+   "points_from_numbers": 0,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "low",
+   "reasons": [],
+   "growth_reasons": [],
+   "list": "risk",
+   "next_step": "No action needed. A light check-in is enough.",
+   "days_to_renewal": 388,
+   "days_since_touch": 23,
+   "power_pct": 71,
+   "rank": 58
+  }
+ ],
+ "expansion": [
+  {
+   "account_id": "EQ-1010",
+   "name": "Ironwood Labs",
+   "industry": "Healthcare",
+   "metro": "Chicago",
+   "csm": "Priya Shah",
+   "arr": 861155.0,
+   "arr_display": "$861K",
+   "contracted_power_kva": 100.0,
+   "used_power_kva": 118.0,
+   "interconnections_now": 4.0,
+   "interconnections_6mo_ago": 0.0,
+   "fabric_customer": false,
+   "invoices_past_due": 1.0,
+   "csat": 5.0,
+   "renewal_date": "2027-08-27",
+   "last_csm_touch": "2026-10-07",
+   "open_cases": [],
+   "closed_case_count": 0,
+   "notes": [
+    {
+     "date": "2026-09-29",
+     "csm": "Priya Shah",
+     "text": "They are out of power headroom and asked about adding cabinets in DA11. Good expansion opportunity."
+    }
+   ],
+   "contact": {
+    "contact_name": "Victor Reyes",
+    "title": "CTO",
+    "email": "victor.reyes@example.com",
+    "phone": "+1 312 555 0109",
+    "status": ""
+   },
+   "score": 8,
+   "points_from_numbers": 8,
+   "points_from_notes": 0,
+   "multiplier": 1.0,
+   "tier": "low",
+   "reasons": [
+    {
+     "points": 8,
+     "text": "1 past due invoice",
+     "source": "data",
+     "signal": "past_due",
+     "meaning": "Late payment can mean budget cuts or a dispute."
+    }
+   ],
+   "growth_reasons": [
+    "power use at 118% of contract, over the contracted amount",
+    "CSM note: 'expansion opportunity'. The CSM sees room to grow.",
+    "CSM note: 'adding cabinets'. They asked about more cabinets."
+   ],
+   "list": "expansion",
+   "next_step": "Scope the expansion: capacity, timing and price.",
+   "days_to_renewal": 287,
+   "days_since_touch": 37,
+   "power_pct": 118
+  },
+  {
+   "account_id": "EQ-1003",
+   "name": "Orchid Media",
+   "industry": "Manufacturing",
+   "metro": "Dallas",
+   "csm": "Elena Ruiz",
+   "arr": 341699.0,
+   "arr_display": "$342K",
+   "contracted_power_kva": 40.0,
+   "used_power_kva": 38.9,
+   "interconnections_now": 90.0,
+   "interconnections_6mo_ago": 92.0,
+   "fabric_customer": false,
+   "invoices_past_due": 0.0,
+   "csat": 3.0,
+   "renewal_date": "2027-03-05",
+   "last_csm_touch": "2026-11-06",
+   "open_cases": [
+    {
+     "case_id": "CS-5011",
+     "category": "Cross connect order",
+     "priority": "P2",
+     "status": "open",
+     "opened": "2026-08-26",
+     "closed": null,
+     "subject": "Cross connect still not provisioned"
+    }
+   ],
+   "closed_case_count": 0,
+   "notes": [
+    {
+     "date": "2026-10-25",
+     "csm": "Elena Ruiz",
+     "text": "Happy. Planning to add two Fabric connections to Azure next quarter."
+    }
+   ],
+   "contact": {
+    "contact_name": "Ana Novak",
+    "title": "Head of Data Center Strategy",
+    "email": "ana.novak@example.com",
+    "phone": "+1 214 555 0102",
+    "status": ""
+   },
+   "score": 16,
+   "points_from_numbers": 13,
+   "points_from_notes": 0,
+   "multiplier": 1.25,
+   "tier": "low",
+   "reasons": [
+    {
+     "points": 2,
+     "text": "interconnections down 2% in 6 months (92 to 90)",
+     "source": "data",
+     "signal": "interconnection_decline",
+     "meaning": "Fewer connections usually means traffic is moving somewhere else."
+    },
+    {
+     "points": 5,
+     "text": "1 open P2 case",
+     "source": "data",
+     "signal": "cases",
+     "meaning": "Urgent problems that are still open hurt trust before a renewal."
+    },
+    {
+     "points": 6,
+     "text": "middling CSAT: 3 of 5",
+     "source": "data",
+     "signal": "csat",
+     "meaning": "Their last satisfaction survey was not good."
+    },
+    {
+     "points": 3,
+     "source": "renewal",
+     "signal": "renewal",
+     "meaning": "The renewal is close, so every issue matters more now.",
+     "text": "renewal in 112 days (score x1.25)"
+    }
+   ],
+   "growth_reasons": [
+    "CSM note: 'planning to add'. They plan to buy more."
+   ],
+   "list": "expansion",
+   "next_step": "Scope the expansion: capacity, timing and price.",
+   "days_to_renewal": 112,
+   "days_since_touch": 7,
+   "power_pct": 97
+  }
+ ],
+ "issues": [
+  {
+   "kind": "Duplicate account row",
+   "record": "EQ-1013",
+   "detail": "Listed more than once. Kept the row with the latest CSM touch."
+  },
+  {
+   "kind": "Missing renewal date",
+   "record": "EQ-1005",
+   "detail": "No renewal date. Shown as 'renewal unknown', account kept."
+  },
+  {
+   "kind": "Missing value",
+   "record": "EQ-1006",
+   "detail": "CSAT score is blank. Left out of the score."
+  },
+  {
+   "kind": "Missing value",
+   "record": "EQ-1018",
+   "detail": "CSAT score is blank. Left out of the score."
+  },
+  {
+   "kind": "Missing renewal date",
+   "record": "EQ-1018",
+   "detail": "No renewal date. Shown as 'renewal unknown', account kept."
+  },
+  {
+   "kind": "Bad number treated as missing",
+   "record": "EQ-1023",
+   "detail": "Interconnections 6 months ago was '-3'. Left out of the score."
+  },
+  {
+   "kind": "Missing value",
+   "record": "EQ-1024",
+   "detail": "CSAT score is blank. Left out of the score."
+  },
+  {
+   "kind": "Bad number treated as missing",
+   "record": "EQ-1031",
+   "detail": "CSAT score was 'n/a'. Left out of the score."
+  },
+  {
+   "kind": "Missing value",
+   "record": "EQ-1048",
+   "detail": "CSAT score is blank. Left out of the score."
+  },
+  {
+   "kind": "Blank case category",
+   "record": "CS-5004",
+   "detail": "Shown as 'Uncategorized'."
+  },
+  {
+   "kind": "Case for unknown account",
+   "record": "CS-5012",
+   "detail": "Linked to EQ-9999, which is not in the account list. Left out."
+  },
+  {
+   "kind": "Close date in the future",
+   "record": "CS-5071",
+   "detail": "Closed 2026-11-17, after the data date 2026-11-13."
+  },
+  {
+   "kind": "Close date in the future",
+   "record": "CS-5095",
+   "detail": "Closed 2026-11-19, after the data date 2026-11-13."
+  },
+  {
+   "kind": "Last CSM touch older than a CSM note",
+   "record": "EQ-1006",
+   "detail": "Touch date was 2026-07-28, but there is a note from 2026-10-29. Used the note date."
+  },
+  {
+   "kind": "Last CSM touch older than a CSM note",
+   "record": "EQ-1012",
+   "detail": "Touch date was 2026-10-12, but there is a note from 2026-11-07. Used the note date."
+  },
+  {
+   "kind": "Last CSM touch older than a CSM note",
+   "record": "EQ-1018",
+   "detail": "Touch date was 2026-10-03, but there is a note from 2026-10-12. Used the note date."
+  },
+  {
+   "kind": "Last CSM touch older than a CSM note",
+   "record": "EQ-1024",
+   "detail": "Touch date was 2026-08-30, but there is a note from 2026-10-12. Used the note date."
+  },
+  {
+   "kind": "Last CSM touch older than a CSM note",
+   "record": "EQ-1030",
+   "detail": "Touch date was 2026-08-08, but there is a note from 2026-10-07. Used the note date."
+  },
+  {
+   "kind": "Last CSM touch older than a CSM note",
+   "record": "EQ-1036",
+   "detail": "Touch date was 2026-08-20, but there is a note from 2026-10-07. Used the note date."
+  },
+  {
+   "kind": "Last CSM touch older than a CSM note",
+   "record": "EQ-1048",
+   "detail": "Touch date was 2026-08-12, but there is a note from 2026-10-30. Used the note date."
+  },
+  {
+   "kind": "Last CSM touch older than a CSM note",
+   "record": "EQ-1054",
+   "detail": "Touch date was 2026-09-30, but there is a note from 2026-10-17. Used the note date."
+  }
+ ]
+}

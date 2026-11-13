@@ -1,0 +1,93 @@
+{
+  "as_of_date": "2026-11-13",
+  "weights": {
+    "low_power_use": 20,
+    "interconnection_decline": 15,
+    "open_p1_case": 10,
+    "open_p2_case": 5,
+    "escalated_case_extra": 5,
+    "cases_cap": 30,
+    "past_due_invoice": 8,
+    "past_due_cap": 16,
+    "csat_low": 15,
+    "csat_mid": 6,
+    "stale_touch": 15,
+    "note_churn_intent": 40,
+    "note_unhappy": 15
+  },
+  "thresholds": {
+    "low_power_use_below_pct": 50,
+    "low_power_use_full_pct": 25,
+    "interconnection_decline_full_pct": 20,
+    "stale_touch_starts_days": 45,
+    "stale_touch_full_days": 90,
+    "csat_low_max": 2,
+    "csat_mid_max": 3
+  },
+  "renewal_urgency": [
+    {"within_days": 90, "multiplier": 1.5},
+    {"within_days": 180, "multiplier": 1.25}
+  ],
+  "tiers": {"high": 40, "medium": 20},
+  "note_phrases": {
+    "churn_intent": [
+      "evaluating options",
+      "champion left",
+      "moving workloads",
+      "moving some workloads",
+      "shrinking footprint"
+    ],
+    "unhappy": [
+      "unhappy",
+      "frustrated",
+      "billing dispute",
+      "never sent"
+    ],
+    "expansion": [
+      "expansion opportunity",
+      "adding cabinets",
+      "planning to add"
+    ]
+  },
+  "meanings": {
+    "low_power": "They pay for capacity they do not use. That often comes before downsizing.",
+    "interconnection_decline": "Fewer connections usually means traffic is moving somewhere else.",
+    "cases": "Urgent problems that are still open hurt trust before a renewal.",
+    "past_due": "Late payment can mean budget cuts or a dispute.",
+    "csat": "Their last satisfaction survey was not good.",
+    "stale_touch": "No one from our side has talked to them in a while.",
+    "renewal": "The renewal is close, so every issue matters more now.",
+    "evaluating options": "They are comparing us with other providers.",
+    "champion left": "Our main supporter at the customer is gone.",
+    "moving workloads": "They are moving some work to another provider.",
+    "moving some workloads": "They are moving some work to another provider.",
+    "shrinking footprint": "They want less space or power from us.",
+    "unhappy": "The customer said they are unhappy.",
+    "frustrated": "A contact there is frustrated with us.",
+    "billing dispute": "There is an open disagreement about a bill.",
+    "never sent": "We promised something and did not deliver it.",
+    "expansion opportunity": "The CSM sees room to grow.",
+    "adding cabinets": "They asked about more cabinets.",
+    "planning to add": "They plan to buy more."
+  },
+  "next_steps": {
+    "champion left": "Find and meet the new decision maker.",
+    "evaluating options": "Book the leadership call before renewal talks start.",
+    "moving workloads": "Ask what is moving and why, and bring a plan to keep it.",
+    "moving some workloads": "Ask what is moving and why, and bring a plan to keep it.",
+    "shrinking footprint": "Ask what is moving and why, and bring a plan to keep it.",
+    "billing dispute": "Close the billing dispute with finance before the call.",
+    "never sent": "Send what we promised before the next call.",
+    "unhappy": "Acknowledge the problem and bring a fix date.",
+    "frustrated": "Acknowledge the problem and bring a fix date.",
+    "cases": "Get a status update from support on the open cases first.",
+    "past_due": "Bring in finance before the call.",
+    "stale_touch": "Schedule a check-in this week.",
+    "csat": "Ask what drove the low survey score.",
+    "low_power": "Review their capacity plan with them.",
+    "interconnection_decline": "Ask where their traffic is moving.",
+    "renewal": "Start the renewal conversation.",
+    "expansion": "Scope the expansion: capacity, timing and price.",
+    "none": "No action needed. A light check-in is enough."
+  }
+}

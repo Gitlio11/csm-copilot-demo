@@ -1,0 +1,130 @@
+case_id,account_id,category,priority,status,opened,closed,subject
+CS-5001,EQ-1001,Access and badging,P4,closed,2026-09-19,2026-09-21,New engineer badge request
+CS-5002,EQ-1001,Shipping and receiving,P2,open,2026-09-08,,Inbound shipment not logged
+CS-5003,EQ-1001,Cross connect order,P3,closed,2026-10-15,2026-10-20,Cross connect still not provisioned
+CS-5004,EQ-1002,,P1,escalated,2026-08-13,,High inlet temps in cage
+CS-5005,EQ-1002,Cross connect order,P3,open,2026-08-22,,Cross connect still not provisioned
+CS-5006,EQ-1002,Smart Hands,P1,open,2026-09-01,,Need remote reboot of server
+CS-5007,EQ-1002,Shipping and receiving,P1,open,2026-10-13,,Inbound shipment not logged
+CS-5008,EQ-1002,Shipping and receiving,P3,open,2026-08-20,,Inbound shipment not logged
+CS-5009,EQ-1002,Shipping and receiving,P4,closed,2026-09-06,2026-09-10,Inbound shipment not logged
+CS-5010,EQ-1002,Cross connect order,P4,escalated,2026-10-10,,Cross connect still not provisioned
+CS-5011,EQ-1003,Cross connect order,P2,open,2026-08-26,,Cross connect still not provisioned
+CS-5012,EQ-9999,Billing,P2,closed,2026-09-18,2026-09-26,Invoice does not match contract
+CS-5013,EQ-1004,Billing,P4,open,2026-10-05,,Invoice does not match contract
+CS-5014,EQ-1005,Shipping and receiving,P3,closed,2026-10-22,2026-10-27,Inbound shipment not logged
+CS-5015,EQ-1005,Smart Hands,P3,open,2026-09-29,,Need remote reboot of server
+CS-5016,EQ-1005,Fabric connectivity,P4,closed,2026-09-30,2026-10-07,Fabric port flapping
+CS-5017,EQ-1006,Access and badging,P4,closed,2026-10-12,2026-10-12,New engineer badge request
+CS-5018,EQ-1006,Smart Hands,P3,open,2026-09-11,,Need remote reboot of server
+CS-5019,EQ-1006,Cross connect order,P3,open,2026-08-18,,Cross connect still not provisioned
+CS-5020,EQ-1008,Cooling,P4,closed,2026-09-07,2026-09-16,High inlet temps in cage
+CS-5021,EQ-1008,Power,P2,escalated,2026-10-29,,Breaker trip on cabinet
+CS-5022,EQ-1008,Cooling,P4,open,2026-09-19,,High inlet temps in cage
+CS-5023,EQ-1008,Smart Hands,P1,closed,2026-10-08,2026-10-14,Need remote reboot of server
+CS-5024,EQ-1008,Access and badging,P4,escalated,2026-09-29,,New engineer badge request
+CS-5025,EQ-1011,Billing,P2,open,2026-08-22,,Invoice does not match contract
+CS-5026,EQ-1013,Cooling,P3,open,2026-10-29,,High inlet temps in cage
+CS-5027,EQ-1013,Billing,P2,open,2026-10-20,,Invoice does not match contract
+CS-5028,EQ-1013,Power,P3,closed,2026-11-05,2026-11-13,Breaker trip on cabinet
+CS-5029,EQ-1014,Cross connect order,P2,escalated,2026-09-24,,Cross connect still not provisioned
+CS-5030,EQ-1014,Cross connect order,P2,escalated,2026-09-04,,Cross connect still not provisioned
+CS-5031,EQ-1014,Smart Hands,P2,open,2026-10-19,,Need remote reboot of server
+CS-5032,EQ-1014,Fabric connectivity,P4,open,2026-09-08,,Fabric port flapping
+CS-5033,EQ-1014,Billing,P1,closed,2026-08-21,2026-08-25,Invoice does not match contract
+CS-5034,EQ-1014,Cross connect order,P1,closed,2026-09-12,2026-09-19,Cross connect still not provisioned
+CS-5035,EQ-1015,Billing,P4,open,2026-09-27,,Invoice does not match contract
+CS-5036,EQ-1015,Billing,P3,open,2026-09-17,,Invoice does not match contract
+CS-5037,EQ-1015,Shipping and receiving,P2,closed,2026-10-03,2026-10-07,Inbound shipment not logged
+CS-5038,EQ-1016,Access and badging,P4,open,2026-09-23,,New engineer badge request
+CS-5039,EQ-1017,Smart Hands,P3,closed,2026-08-13,2026-08-13,Need remote reboot of server
+CS-5040,EQ-1017,Power,P4,open,2026-11-09,,Breaker trip on cabinet
+CS-5041,EQ-1018,Access and badging,P2,closed,2026-10-05,2026-10-11,New engineer badge request
+CS-5042,EQ-1018,Billing,P4,closed,2026-08-21,2026-08-27,Invoice does not match contract
+CS-5043,EQ-1018,Cross connect order,P4,open,2026-08-18,,Cross connect still not provisioned
+CS-5044,EQ-1020,Power,P3,escalated,2026-10-02,,Breaker trip on cabinet
+CS-5045,EQ-1020,Billing,P3,open,2026-10-25,,Invoice does not match contract
+CS-5046,EQ-1020,Fabric connectivity,P2,open,2026-09-18,,Fabric port flapping
+CS-5047,EQ-1020,Billing,P2,closed,2026-09-02,2026-09-07,Invoice does not match contract
+CS-5048,EQ-1021,Access and badging,P2,closed,2026-09-10,2026-09-18,New engineer badge request
+CS-5049,EQ-1021,Fabric connectivity,P4,closed,2026-09-12,2026-09-13,Fabric port flapping
+CS-5050,EQ-1022,Smart Hands,P2,closed,2026-08-31,2026-09-01,Need remote reboot of server
+CS-5051,EQ-1022,Cooling,P3,open,2026-10-08,,High inlet temps in cage
+CS-5052,EQ-1022,Billing,P4,open,2026-09-24,,Invoice does not match contract
+CS-5053,EQ-1023,Fabric connectivity,P3,closed,2026-08-21,2026-08-22,Fabric port flapping
+CS-5054,EQ-1023,Access and badging,P4,open,2026-11-07,,New engineer badge request
+CS-5055,EQ-1023,Cooling,P4,open,2026-10-13,,High inlet temps in cage
+CS-5056,EQ-1024,Smart Hands,P2,closed,2026-08-13,2026-08-20,Need remote reboot of server
+CS-5057,EQ-1024,Billing,P3,closed,2026-10-24,2026-10-24,Invoice does not match contract
+CS-5058,EQ-1024,Cross connect order,P3,closed,2026-10-27,2026-10-29,Cross connect still not provisioned
+CS-5059,EQ-1025,Smart Hands,P4,open,2026-09-24,,Need remote reboot of server
+CS-5060,EQ-1025,Cooling,P3,closed,2026-10-22,2026-10-29,High inlet temps in cage
+CS-5061,EQ-1025,Power,P4,closed,2026-08-24,2026-08-27,Breaker trip on cabinet
+CS-5062,EQ-1026,Shipping and receiving,P2,escalated,2026-10-14,,Inbound shipment not logged
+CS-5063,EQ-1026,Access and badging,P3,open,2026-09-25,,New engineer badge request
+CS-5064,EQ-1026,Billing,P2,escalated,2026-11-03,,Invoice does not match contract
+CS-5065,EQ-1026,Cooling,P2,escalated,2026-10-26,,High inlet temps in cage
+CS-5066,EQ-1026,Power,P3,open,2026-08-20,,Breaker trip on cabinet
+CS-5067,EQ-1026,Fabric connectivity,P1,open,2026-10-10,,Fabric port flapping
+CS-5068,EQ-1027,Fabric connectivity,P3,closed,2026-08-27,2026-09-04,Fabric port flapping
+CS-5069,EQ-1028,Cross connect order,P2,closed,2026-08-26,2026-08-29,Cross connect still not provisioned
+CS-5070,EQ-1029,Power,P2,closed,2026-10-19,2026-10-26,Breaker trip on cabinet
+CS-5071,EQ-1029,Fabric connectivity,P4,closed,2026-11-09,2026-11-17,Fabric port flapping
+CS-5072,EQ-1030,Power,P2,closed,2026-11-08,2026-11-10,Breaker trip on cabinet
+CS-5073,EQ-1030,Cooling,P4,open,2026-09-18,,High inlet temps in cage
+CS-5074,EQ-1032,Cooling,P4,closed,2026-09-14,2026-09-19,High inlet temps in cage
+CS-5075,EQ-1032,Power,P3,open,2026-09-07,,Breaker trip on cabinet
+CS-5076,EQ-1032,Power,P4,open,2026-09-13,,Breaker trip on cabinet
+CS-5077,EQ-1032,Cooling,P4,escalated,2026-09-20,,High inlet temps in cage
+CS-5078,EQ-1032,Cooling,P3,open,2026-09-15,,High inlet temps in cage
+CS-5079,EQ-1032,Cooling,P2,open,2026-08-25,,High inlet temps in cage
+CS-5080,EQ-1032,Billing,P4,closed,2026-10-06,2026-10-10,Invoice does not match contract
+CS-5081,EQ-1033,Cooling,P4,open,2026-10-29,,High inlet temps in cage
+CS-5082,EQ-1033,Fabric connectivity,P3,open,2026-08-19,,Fabric port flapping
+CS-5083,EQ-1033,Access and badging,P3,closed,2026-09-14,2026-09-18,New engineer badge request
+CS-5084,EQ-1034,Cooling,P3,open,2026-09-18,,High inlet temps in cage
+CS-5085,EQ-1034,Billing,P3,closed,2026-09-17,2026-09-24,Invoice does not match contract
+CS-5086,EQ-1034,Shipping and receiving,P2,open,2026-10-22,,Inbound shipment not logged
+CS-5087,EQ-1038,Cross connect order,P1,closed,2026-10-29,2026-11-06,Cross connect still not provisioned
+CS-5088,EQ-1038,Cooling,P4,closed,2026-08-27,2026-09-03,High inlet temps in cage
+CS-5089,EQ-1038,Power,P3,escalated,2026-09-26,,Breaker trip on cabinet
+CS-5090,EQ-1038,Cooling,P2,closed,2026-08-26,2026-08-29,High inlet temps in cage
+CS-5091,EQ-1038,Fabric connectivity,P1,escalated,2026-10-22,,Fabric port flapping
+CS-5092,EQ-1038,Billing,P2,closed,2026-09-27,2026-09-28,Invoice does not match contract
+CS-5093,EQ-1038,Billing,P1,open,2026-09-17,,Invoice does not match contract
+CS-5094,EQ-1039,Billing,P3,open,2026-10-07,,Invoice does not match contract
+CS-5095,EQ-1040,Cross connect order,P4,closed,2026-11-10,2026-11-19,Cross connect still not provisioned
+CS-5096,EQ-1040,Cross connect order,P4,closed,2026-08-18,2026-08-18,Cross connect still not provisioned
+CS-5097,EQ-1043,Access and badging,P2,closed,2026-09-23,2026-09-27,New engineer badge request
+CS-5098,EQ-1044,Cooling,P1,closed,2026-10-02,2026-10-10,High inlet temps in cage
+CS-5099,EQ-1044,Power,P1,open,2026-10-22,,Breaker trip on cabinet
+CS-5100,EQ-1044,Smart Hands,P4,escalated,2026-10-07,,Need remote reboot of server
+CS-5101,EQ-1044,Smart Hands,P3,escalated,2026-08-25,,Need remote reboot of server
+CS-5102,EQ-1044,Access and badging,P4,open,2026-10-14,,New engineer badge request
+CS-5103,EQ-1044,Shipping and receiving,P3,closed,2026-10-27,2026-11-03,Inbound shipment not logged
+CS-5104,EQ-1046,Power,P2,open,2026-09-21,,Breaker trip on cabinet
+CS-5105,EQ-1047,Cross connect order,P3,closed,2026-10-03,2026-10-11,Cross connect still not provisioned
+CS-5106,EQ-1048,Shipping and receiving,P4,closed,2026-09-30,2026-09-30,Inbound shipment not logged
+CS-5107,EQ-1048,Smart Hands,P4,closed,2026-09-16,2026-09-17,Need remote reboot of server
+CS-5108,EQ-1049,Access and badging,P2,open,2026-09-07,,New engineer badge request
+CS-5109,EQ-1050,Power,P4,escalated,2026-11-05,,Breaker trip on cabinet
+CS-5110,EQ-1050,Smart Hands,P4,closed,2026-11-01,2026-11-07,Need remote reboot of server
+CS-5111,EQ-1050,Billing,P1,escalated,2026-08-21,,Invoice does not match contract
+CS-5112,EQ-1050,Access and badging,P2,open,2026-09-20,,New engineer badge request
+CS-5113,EQ-1050,Access and badging,P1,escalated,2026-08-23,,New engineer badge request
+CS-5114,EQ-1050,Fabric connectivity,P4,open,2026-09-16,,Fabric port flapping
+CS-5115,EQ-1050,Cooling,P4,escalated,2026-08-27,,High inlet temps in cage
+CS-5116,EQ-1051,Cross connect order,P2,closed,2026-09-28,2026-10-01,Cross connect still not provisioned
+CS-5117,EQ-1051,Cooling,P4,open,2026-09-06,,High inlet temps in cage
+CS-5118,EQ-1052,Cross connect order,P2,closed,2026-09-27,2026-10-04,Cross connect still not provisioned
+CS-5119,EQ-1054,Cross connect order,P4,closed,2026-10-09,2026-10-10,Cross connect still not provisioned
+CS-5120,EQ-1056,Shipping and receiving,P4,escalated,2026-08-22,,Inbound shipment not logged
+CS-5121,EQ-1056,Access and badging,P2,closed,2026-08-15,2026-08-24,New engineer badge request
+CS-5122,EQ-1056,Shipping and receiving,P4,open,2026-09-15,,Inbound shipment not logged
+CS-5123,EQ-1056,Billing,P1,closed,2026-08-22,2026-08-30,Invoice does not match contract
+CS-5124,EQ-1056,Billing,P4,open,2026-09-26,,Invoice does not match contract
+CS-5125,EQ-1057,Billing,P2,closed,2026-11-06,2026-11-10,Invoice does not match contract
+CS-5126,EQ-1057,Smart Hands,P3,closed,2026-08-20,2026-08-26,Need remote reboot of server
+CS-5127,EQ-1057,Power,P3,open,2026-08-28,,Breaker trip on cabinet
+CS-5128,EQ-1058,Shipping and receiving,P4,open,2026-09-30,,Inbound shipment not logged
+CS-5129,EQ-1059,Access and badging,P4,closed,2026-11-03,2026-11-04,New engineer badge request

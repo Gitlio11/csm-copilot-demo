@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CSM Copilot</title>
+  <meta name="description" content="Risk Radar and call prep briefs for Customer Success Managers. Sample data.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='6' y='3' width='8' height='26' rx='1' fill='%23e4002b'/%3E%3Crect x='18' y='3' width='8' height='26' rx='1' fill='%23000'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <p class="product">CSM Copilot</p>
+    <p class="sample-label">Sample data. Built on Equinix-style data for demonstration.</p>
+  </header>
+
+  <section class="hall-band" aria-labelledby="hall-title">
+    <div class="hall-copy">
+      <h1 id="hall-title"></h1>
+      <p class="hall-sub">Each cabinet is one account, sorted by churn risk. Click one to prep the call.</p>
+      <ul class="legend" aria-label="Legend">
+        <li><span class="sw t-high"></span>Act now</li>
+        <li><span class="sw t-medium"></span>Watch</li>
+        <li><span class="sw t-low"></span>Healthy</li>
+        <li><span class="sw t-expansion"></span>Growing</li>
+      </ul>
+    </div>
+    <div class="hall" id="hall" role="group" aria-label="All accounts as cabinets, highest risk first"></div>
+  </section>
+
+  <main class="layout">
+    <aside class="radar" aria-labelledby="radar-title">
+      <div class="radar-head">
+        <h2 id="radar-title">Risk Radar</h2>
+        <label class="filter">
+          <span class="sr-only">Filter by CSM</span>
+          <select id="csm-filter"><option value="">All CSMs</option></select>
+        </label>
+      </div>
+
+      <div class="tabs" role="tablist" aria-label="Account lists">
+        <button type="button" role="tab" id="tab-risk" aria-controls="panel-risk" aria-selected="true">Ranked <span class="count" id="count-risk"></span></button>
+        <button type="button" role="tab" id="tab-expansion" aria-controls="panel-expansion" aria-selected="false" tabindex="-1">Expansion <span class="count" id="count-expansion"></span></button>
+      </div>
+
+      <div class="panel" id="panel-risk" role="tabpanel" aria-labelledby="tab-risk">
+        <ol class="account-list" id="risk-list"></ol>
+      </div>
+      <div class="panel" id="panel-expansion" role="tabpanel" aria-labelledby="tab-expansion" hidden>
+        <p class="hint">Growing accounts. Not counted as risk.</p>
+        <ol class="account-list" id="expansion-list"></ol>
+      </div>
+      <p class="as-of" id="as-of"></p>
+    </aside>
+
+    <section class="brief" id="brief" aria-live="polite" tabindex="-1">
+      <p class="hint">Loading accounts...</p>
+    </section>
+  </main>
+
+  <section class="about" aria-labelledby="about-title">
+    <h2 id="about-title">About this data</h2>
+    <p class="hint">For whoever owns the data, not for the CSM. The brief already says when a value is missing for that account.</p>
+    <details class="issues">
+      <summary>Data issues found <span class="count" id="count-issues"></span></summary>
+      <p class="hint">Fixed before scoring. No account was dropped.</p>
+      <ul class="issue-list" id="issue-list"></ul>
+    </details>
+  </section>
+
+  <footer class="foot">
+    <p>Sample data. Built on Equinix-style data for demonstration. Not an official tool. Scores come from plain rules. AI text is written ahead of time and labeled.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

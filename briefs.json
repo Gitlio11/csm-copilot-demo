@@ -1,0 +1,911 @@
+{
+ "model": "claude-haiku-5-5",
+ "generated_on": "2026-11-13",
+ "briefs": {
+  "EQ-1001": {
+   "summary": "Ironwood Bank is a steady account with $1.52M in annual revenue, no past due invoices, and power use at 53% of contract. Its risk score of 15 is driven by one open P2 case, a middling CSAT of 3 of 5, a small drop in interconnections from 62 to 61 over 6 months, and a renewal in 122 days. There are no growth signals on file.",
+   "risks": [
+    "Open P2 case CS-5002 about an inbound shipment not logged, opened 2026-09-08, could sour the relationship if it is not moving.",
+    "CSAT of 3 of 5 on the last survey suggests the customer is not fully satisfied with service.",
+    "Interconnections dropped from 62 to 61 over 6 months, so expansion is not showing up yet.",
+    "Renewal is on 2027-03-15, 122 days away, and there are no growth signals to support a strong renewal case."
+   ],
+   "talking_points": [
+    "Can you walk me through how the shipment receiving issue from the open case is affecting your team day to day?",
+    "What would make your experience with us a 5 out of 5 over the next few months?",
+    "Could we set a short call before renewal to review your plans for interconnections and power needs?"
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1002": {
+   "summary": "Juniper Bank is a high-value retail account in New York with $1.26M in annual revenue, no past-due invoices, and a 5 out of 5 CSAT score. Its risk score of 32 is driven mainly by three open P1 cases, one of them escalated, while power use sits at 48% of contract. Interconnections grew from 153 to 170 over the past six months, which is a sign of healthy expansion.",
+   "risks": [
+    "Three open P1 cases, including CS-5004 (high inlet temps in cage, escalated), CS-5006 (remote reboot needed), and CS-5007 (inbound shipment not logged), could drive churn or escalation if not resolved.",
+    "Cross connect orders are stuck: CS-5005 is still not provisioned and CS-5010 is escalated, which could slow the interconnection growth the account has shown.",
+    "Several cases are older than 30 days, and CS-5004 has no category assigned, so it is unclear who owns the fix.",
+    "Power use is at 48% of contract, so there is room to grow, but this is a low-use signal the CSM should be ready to explain. There are no CSM notes on file, so prior commitments are unknown."
+   ],
+   "talking_points": [
+    "Can you walk me through the high inlet temperature issue in your cage on CS-5004, and what impact it is having on your team today?",
+    "I want to confirm the status of the cross connect requests on CS-5005 and CS-5010 and set a time for a short update call with you this week.",
+    "Are there any plans for new interconnections or added power over the next few months that we should start planning for together?"
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1003": {
+   "summary": "Orchid Media is a growing Dallas manufacturing account with no past-due invoices, and the customer says it plans to add more connections. Its health is held back by power use at 38.9 of 40 kVA (97% of contract) and an open P2 cross connect case, CS-5011, that is not yet provisioned. Satisfaction is middling at 3 of 5, and the renewal is 112 days away.",
+   "risks": [
+    "Power is nearly at the contract limit (38.9 of 40 kVA), which could block the planned additions.",
+    "Open P2 cross connect case CS-5011 is still not provisioned, which could hurt trust before renewal.",
+    "Interconnections dropped from 92 to 90 over six months, so the account is not growing on that measure yet.",
+    "CSAT is 3 of 5, so satisfaction may not hold through the renewal on 2027-03-05."
+   ],
+   "talking_points": [
+    "Before you add more connections, can we review how much of the 40 kVA you expect to use next quarter?",
+    "Can we walk through where cross connect case CS-5011 stands today, and I will send you an update after the call?",
+    "What would make your next survey a 5 for you, and what should we focus on before the renewal?"
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1004": {
+   "summary": "Ironwood Retail is in good health with no warning signs and a risk score of 0. The account is growing its interconnections from 150 to 164 over six months, and its last survey score was 5 out of 5. The main open item is a P4 billing case about an invoice that does not match the contract.",
+   "risks": [
+    "An open billing case (CS-5013) says the invoice does not match the contract, and it has been open since 2026-10-05.",
+    "Power use is at 71% of the contract, with 14.2 kVA used against 20 kVA contracted, so future growth may need more capacity to be checked.",
+    "Last CSM touch was 23 days ago and there are no CSM notes on file, so recent account context is thin.",
+    "Renewal is on 2027-12-06, which is 388 days away, so there is time but no near-term renewal plan is on file."
+   ],
+   "talking_points": [
+    "Can you walk me through the invoice question in case CS-5013 so I can confirm it is being worked on and follow up with you?",
+    "As your interconnections have grown from 150 to 164, are there plans to add more connections in the next few months?",
+    "Would a short check-in call in the coming weeks work for you to review your power needs and how Fabric is working for your team?"
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1005": {
+   "summary": "Orchid Networks is a Toronto retail account with $2.03M annual revenue and a high CSAT of 5 on a 5-point scale, so the relationship looks solid. The main concern is risk score 8, driven by one past due invoice, and power use at 89% of contract (223 of 250 kVA), which leaves little room to grow.",
+   "risks": [
+    "One invoice is past due, which is the only listed risk reason, so payment timing should come up on the call.",
+    "Power use is 89% of contract (223 kVA used of 250 kVA contracted), so growth could be blocked without more capacity.",
+    "Interconnections rose from 39 to 45 over the last six months, so more cross connects or virtual connections may push demand higher quickly.",
+    "There is one open P3 Smart Hands case (CS-5015) asking for a remote reboot of a server, opened 2026-09-29, and it is still open.",
+    "Renewal date is unknown, so the timing of any renewal conversation cannot be planned yet."
+   ],
+   "talking_points": [
+    "Ask whether the past due invoice is a billing question or a payment timing issue we can help clear up.",
+    "Ask how the team expects power needs to change over the next few months, since current use is at 89% of the contract.",
+    "Offer a short call to check on open case CS-5015 and confirm the remote reboot request is on track."
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1006": {
+   "summary": "Halcyon Networks is at elevated risk, with a risk score of 54 and rank 4 on the Risk Radar list. The main reason is that their champion left the company in September, and the new contact has not replied. Interconnections fell from 190 to 180 over six months, and one invoice is past due.",
+   "risks": [
+    "The champion left in September and the new contact has not replied, so there is no clear internal sponsor.",
+    "Interconnections dropped from 190 to 180 in six months, which may signal reduced use of the Fabric service.",
+    "One invoice is past due, which could slow the relationship or lead to payment questions.",
+    "Cross connect CS-5019, opened 2026-08-18, is still not provisioned, and the customer may be frustrated by the delay.",
+    "Power use is at 48% of the 100 kVA contract, so there may be room to discuss whether the current contract fits their needs."
+   ],
+   "talking_points": [
+    "Ask the new contact who now owns the Halcyon infrastructure decisions and how best to work with them going forward.",
+    "Let them know we are looking into the still-open cross connect order CS-5019 and will send an update on its status.",
+    "Ask whether any changes in their network plans over the past six months affected the interconnections count, and offer a call to review their current needs."
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1007": {
+   "summary": "Orchid Health is in good shape with no warning signs, a risk score of 0, and no past due invoices. Its last satisfaction survey was a 5 out of 5, and interconnections grew from 132 to 149 over six months. The main thing to watch is power use, which is 94% of the contracted amount (37.7 kVA of 40 kVA).",
+   "risks": [
+    "Power use is at 94% of contract (37.7 kVA of 40 kVA), leaving little room for growth before a capacity limit is reached.",
+    "Growth in interconnections could push the account past its contracted power if the CSM does not plan an expansion early.",
+    "The account has no growth signals on file, so there is no confirmed plan for more capacity.",
+    "No CSM notes are on file, and the last CSM touch was 14 days ago, so recent account context may be missing."
+   ],
+   "talking_points": [
+    "Power use is at 94% of your contract, so I would like to talk through what your load looks like over the next few months.",
+    "Your connections have grown from 132 to 149 over six months, and I want to understand what is driving that and what you expect next.",
+    "Could we set up a short call before your renewal in October 2027 to review your capacity needs and options?"
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1008": {
+   "summary": "Sable AI is at high risk, ranked 1 of the risk list with a risk score of 65. The CTO said they are evaluating options in Dallas before renewal and were very unhappy with how long the last cross connect took. Usage and growth are steady, with power used at 52 percent of contract and interconnections rising from 145 to 153 over six months, and invoices are current.",
+   "risks": [
+    "The CTO said they are evaluating options in Dallas before renewal, so a competitor move is a real possibility even though the renewal date is 2028-01-13.",
+    "A P2 power case (CS-5021, breaker trip on cabinet) is escalated and could shape how the customer sees the relationship.",
+    "Slow cross connect delivery was the main complaint, and the facts do not show a fix or timeline for it.",
+    "The customer asked for a call with leadership, and the facts do not show that call has been scheduled."
+   ],
+   "talking_points": [
+    "Can we set up the leadership call the CTO asked for, and who on your side should be in it?",
+    "What would make the cross connect process feel fast enough for your team, and what would a good outcome look like for you?",
+    "I will follow up on the open power and cooling cases this week and send you a status update after that."
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1009": {
+   "summary": "Halcyon Retail is a healthy account with a CSAT of 5 out of 5, no past-due invoices, and interconnections up from 87 to 101 over the last 6 months. The main concern is low power use: 39% of the 150 kVA contract, or 58.7 kVA used, which puts the account on the Risk Radar list at risk score 9 (rank 34 of the risk list). The renewal date is 2028-03-24, which is 497 days away.",
+   "risks": [
+    "Power use is only 39% of the contracted 150 kVA, so the customer may be paying for capacity they do not need, which could lead to a downsizing request at renewal.",
+    "It has been 39 days since the last CSM touch, so the relationship may be drifting even though the account looks stable.",
+    "No growth signals are on file, so there is no visible plan that would raise power use toward the contracted level.",
+    "No CSM notes are on file, so the CSM may not know the customer's plans for power or expansion."
+   ],
+   "talking_points": [
+    "Ask Halcyon Retail how their power needs have changed over the past few months and whether the current 150 kVA contract still fits their plans.",
+    "Share that their interconnection count has grown from 87 to 101 over the last 6 months and ask which new connections are planned next.",
+    "Offer a short check-in call to review their Fabric setup and capacity plans ahead of the 2028 renewal."
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1010": {
+   "summary": "Ironwood Labs is a healthy growing account in Chicago with a CSAT of 5 out of 5 and annual revenue of $861K. Power use is at 118% of contract (118 kVA used against 100 kVA contracted), and interconnections went from 0 to 4 in six months, so the account is pushing for more space and capacity. The main drag is one past due invoice, and the account has no open support cases.",
+   "risks": [
+    "Power is already over contract at 118 kVA used against 100 kVA contracted, so the expansion may stall without more power headroom in DA11.",
+    "One invoice is past due, which could slow the expansion approval if it stays unpaid.",
+    "Last CSM touch was 37 days ago, so the account may not feel supported while they plan growth.",
+    "Renewal is 287 days away on 2027-08-27, so the expansion terms should be settled well before then."
+   ],
+   "talking_points": [
+    "Ask what cabinet count they need in DA11 and when they need the space.",
+    "Ask whether the past due invoice is on track to be cleared, and offer to walk through it with their finance contact.",
+    "Offer a follow-up call to review power needs and the options for adding capacity."
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1011": {
+   "summary": "Lumen Ridge Systems is an AI and ML account in Dallas with a risk score of 11, ranked 30 on the risk list. The account is paying on time and rated satisfaction 5 out of 5 on the last survey, but power use is 46% of contract and interconnections fell from 144 to 139 over 6 months. The main concern right now is an open P2 billing case about an invoice that does not match the contract.",
+   "risks": [
+    "An open P2 billing case, CS-5025, says the invoice does not match the contract, opened on 2026-08-22, and it is still open.",
+    "Power use is 46% of contract (182 kVA used of 400 kVA contracted), so there may be room to grow but also a sign of under-use.",
+    "Interconnections dropped from 144 to 139 over 6 months, which could signal the customer is reducing its footprint.",
+    "No growth signals are on file, so there is no clear expansion plan to build on before the renewal on 2027-10-28."
+   ],
+   "talking_points": [
+    "Can you walk me through the invoice question in case CS-5025 so we can confirm it matches what you signed?",
+    "Your last survey score was 5 out of 5, so what is working well for your team here?",
+    "Can we set up a short call in the next few weeks to review your capacity plans and how the interconnection changes fit your roadmap?"
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1012": {
+   "summary": "Silverline Health is a higher-risk account, ranked 2 on the risk list with a score of 64. The main drivers are two past due invoices, a low CSAT of 2 out of 5, and an open billing dispute from August that the finance contact is frustrated about. Power use is at 44% of contract, and interconnections grew from 123 to 140 over the last 6 months, which is a positive sign.",
+   "risks": [
+    "Open billing dispute from August with a frustrated finance contact could push the account toward non-renewal.",
+    "Two past due invoices could strain the relationship and slow payment.",
+    "Low CSAT score of 2 out of 5 suggests unhappiness with the service that is not yet explained in the facts.",
+    "Renewal is 149 days away on 2027-04-11, so the dispute and low satisfaction need to be resolved well before then."
+   ],
+   "talking_points": [
+    "Can you walk me through where the billing dispute from August stands and what would help you feel it is being handled?",
+    "I want to make sure the two past due invoices are not blocking anything on your side, so can we set up a short call with finance this week?",
+    "What would make your experience with us better over the next few months, given the 2 out of 5 rating from your last survey?"
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1013": {
+   "summary": "Granite Retail is a steady account with a high satisfaction score of 5 and a growing network, now at 116 interconnections up from 105 six months ago. The account sits on the Risk Radar list at a risk score of 13, mainly because of one open P2 billing case and one past due invoice. Power use is at 77 percent of the 250 kVA contract, and the renewal date is 2028-03-07.",
+   "risks": [
+    "Open P2 billing case CS-5027 says the invoice does not match the contract, and an unresolved dispute could strain the relationship.",
+    "One past due invoice may slow payment or cause friction if the billing case is not cleared first.",
+    "Open P3 cooling case CS-5026 about high inlet temperatures in the cage could become a bigger issue if it is not addressed.",
+    "Last CSM touch was 42 days ago, and there are no CSM notes on file, so the account team has limited recent context."
+   ],
+   "talking_points": [
+    "Can you walk me through what looks wrong on the latest invoice compared with your contract so we can get CS-5027 resolved?",
+    "Is the high inlet temperature in your cage, from case CS-5026, still affecting your equipment today?",
+    "Would a short call next week work so I can give you an update on both open cases and talk about your growth plans?"
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1014": {
+   "summary": "Silverline Logistics is at moderate risk, with a risk score of 35 and rank 12 on the Risk Radar list. The main driver is support load: three open P2 cases, two of them escalated, mostly tied to cross connect orders that are still not provisioned. Payments are current, the last survey score was 5 out of 5, and power use is at 40% of the 20 kVA contract.",
+   "risks": [
+    "Two escalated cross connect orders (CS-5029 and CS-5030) are still not provisioned, which could sour the relationship if not resolved quickly.",
+    "A P2 Smart Hands request for a remote server reboot (CS-5031) is open and needs a response.",
+    "Interconnections fell from 169 to 165 over six months, which may point to reduced use or churn of connections.",
+    "It has been 22 days since the last CSM contact, and there are no CSM notes on file, so the account may be drifting from regular check-ins.",
+    "Power use is at 7.9 kVA of 20 kVA contracted, so there may be room to grow but also a sign of underuse, and no growth signals are on file."
+   ],
+   "talking_points": [
+    "Can you walk me through the status of the two escalated cross connect orders, CS-5029 and CS-5030, and what you need from us to close them?",
+    "I will follow up on the open Smart Hands reboot request CS-5031 and the Fabric port flapping issue CS-5032 and send you an update by the next business day.",
+    "Are there any changes planned for your Dallas footprint or connections over the next few months that we should plan for ahead of your renewal on 2027-07-23?"
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1015": {
+   "summary": "Meridian Media is a healthy account with no warning signs and no past due invoices. Power use is at 96% of contract (239.5 of 250 kVA), and interconnections grew from 137 to 150 over the last 6 months. Two open billing cases about invoices not matching the contract are the main item to address.",
+   "risks": [
+    "Two open billing cases (CS-5035 and CS-5036) say invoices do not match the contract, and both are still open.",
+    "Power use is at 96% of the contracted 250 kVA, so there is little room left for growth before the contract limit.",
+    "Interconnections rose from 137 to 150 over 6 months, so more demand may come soon; the growth path beyond the current contract is not on file.",
+    "No CSM notes are on file, so the account's goals and plans for expansion are not documented."
+   ],
+   "talking_points": [
+    "I want to check in on the two open invoice questions and make sure you get a clear update on where they stand.",
+    "With power use near the 250 kVA contract limit, what are your plans for capacity over the next few months?",
+    "Would a short call next week work so we can review your interconnection needs and any upcoming changes?"
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1016": {
+   "summary": "Tidewater Retail is in good health with no warning signs, no past-due invoices, and a perfect CSAT score of 5 on the last survey. The account is growing fast, with interconnections rising from 1 to 17 over the last 6 months, and it uses 65 kVA of its 100 kVA contract, which is 65 percent. Renewal is on 2027-03-11, which is 118 days away.",
+   "risks": [
+    "Power use is at 65 percent of the 100 kVA contract, so further growth could push the account toward its limit; the facts do not show how fast that is happening.",
+    "The account has grown from 1 to 17 interconnections in 6 months, so the team should confirm that capacity and support can keep up with more connections.",
+    "Renewal is 118 days away, and the facts show no CSM notes or planned renewal steps on file.",
+    "One open P4 access case (CS-5038) for a new engineer badge request is still open, and the facts show no closed cases to compare against."
+   ],
+   "talking_points": [
+    "Ask Tidewater how many more interconnections they expect over the next 6 months and whether that changes their power needs.",
+    "Ask whether the open badge request for the new engineer (CS-5038) is still on track for them.",
+    "Offer a call before the renewal date of 2027-03-11 to review their growth plans and contract needs."
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1017": {
+   "summary": "Meridian Networks is in good health with no warning signs, no past-due invoices, and a perfect 5 out of 5 CSAT score. Interconnections grew from 66 to 75 over the last 6 months, and the account uses 62% of its contracted power (25 of 40 kVA). Renewal is 273 days away on 2027-08-13.",
+   "risks": [
+    "One open P4 power case (CS-5040, breaker trip on a cabinet, opened 2026-11-09) could come up on the call and needs a status check.",
+    "Power use is 25 kVA of 40 kVA contracted, so future growth may need more capacity; the facts do not show any expansion request or plan.",
+    "No CSM notes are on file, so there is no record of the customer's goals, contacts, or stated concerns to build on.",
+    "Renewal is 273 days out, which is a reasonable window to start planning but not yet urgent."
+   ],
+   "talking_points": [
+    "Can you give me an update on how the breaker trip on cabinet CS-5040 has been affecting your operations since it was opened?",
+    "Your interconnections have grown from 66 to 75 over the past six months, so what are your plans for connectivity over the next year?",
+    "Would you like to set up a short call in the coming weeks to review your power needs ahead of your August 2027 renewal?"
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1018": {
+   "summary": "Cobalt Networks is a Financial Services account in New York with $878K in annual revenue, and it ranks 18 on the risk list with a score of 22. Power use is low at 32 kVA of 100 kVA contracted, and one invoice is past due. Interconnections grew from 4 to 19 over the last 6 months, which is a strong sign of engagement, but there are no growth signals recorded yet.",
+   "risks": [
+    "Power use is only 32% of the contracted 100 kVA, which leaves room for the account to cut back at renewal.",
+    "One invoice is past due, so the billing relationship needs attention before the call goes deep.",
+    "Cross connect order CS-5043 is still not provisioned after being opened on 2026-08-18, which could hurt trust in the account.",
+    "The renewal date is unknown and the paperwork is still in legal, so timing and terms are not yet clear.",
+    "No satisfaction score is on file, so the CSM does not know how the customer feels about the service.",
+    "It has been 32 days since the last CSM touch."
+   ],
+   "talking_points": [
+    "Ask Cobalt whether they have plans to grow their power use beyond the current 32 kVA this year.",
+    "Ask for an update on the open cross connect order CS-5043 and tell them you will follow up on its status.",
+    "Ask whether the team can confirm the renewal date and walk through any open questions from the legal review."
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1019": {
+   "summary": "Lumen Ridge Logistics is a Dallas telecom account with $465K in annual revenue and a risk score of 14, ranked 24 on the risk list. Interconnections grew from 5 to 18 over the last 6 months, and the account is a Fabric customer, which is a sign of real engagement. The main concerns are one past due invoice and a renewal in 80 days, while power use sits at 49% of contract.",
+   "risks": [
+    "One invoice is past due, so payment status should be confirmed before or during the renewal conversation.",
+    "Renewal is in 80 days (2027-02-01), so the account needs a clear renewal path soon.",
+    "Power use is 29.5 kVA of 60 kVA contracted, so the customer may not be using what they pay for, which could raise questions at renewal.",
+    "No growth signals are on file, so it is unclear whether the recent interconnection growth will continue."
+   ],
+   "talking_points": [
+    "Can you walk me through the past due invoice so we can make sure nothing is blocking payment?",
+    "With 18 interconnections now, up from 5 six months ago, what does your network plan look like over the next few months?",
+    "Would you be open to a call before the renewal date to review your power needs and how the contract fits your plans?"
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1020": {
+   "summary": "Halcyon Health is a Chicago retail account with a risk score of 35, ranked 11 on the risk list, and annual revenue of $1.18M. Power use is at 39% of the 150 kVA contract, and the account has 64 interconnections, up from 57 six months ago. The main concerns are one open P2 case, three open cases in total, one past due invoice, and a CSAT of 3 of 5, with renewal in 140 days.",
+   "risks": [
+    "Open P2 case CS-5046 on fabric connectivity with a flapping port, opened 2026-09-18, needs a clear status before the renewal conversation.",
+    "Breaker trip case CS-5044 on a cabinet is escalated and could raise concern about power reliability.",
+    "Invoice case CS-5045 says the invoice does not match the contract, which could delay payment and the one past due invoice.",
+    "CSAT is 3 of 5 and there are no CSM notes on file, and the last CSM touch was 42 days ago, so the relationship may need attention before the renewal on 2027-04-02."
+   ],
+   "talking_points": [
+    "Can you walk me through how the breaker trip on the cabinet has been affecting your team, and what you need from us to feel confident about it?",
+    "I want to check on the invoice that does not match your contract, so can we review it together and I will follow up with a clear answer?",
+    "Your interconnections have grown from 57 to 64 over six months, so what plans do you have for the next phase, and how can I help you prepare for your renewal in 140 days?"
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1021": {
+   "summary": "Pioneer Labs is a steady account with no past-due invoices and no open support cases. Its main concern is a middling satisfaction score of 3 of 5, and it sits at risk score 6 on the Risk Radar list. Power use is 78% of contract and interconnections grew from 82 to 84 over six months, so there is room to grow.",
+   "risks": [
+    "Satisfaction is only 3 of 5 on the last survey, so the customer may be lukewarm on service and could drift if nothing changes.",
+    "Power use is at 31.4 kVA of 40 kVA contracted, so growth may need more capacity than is currently contracted.",
+    "No growth signals are on file, so expansion may stall without a clear plan from the customer.",
+    "Renewal is 289 days away on 2027-08-29, and the reason behind the middling score is not documented yet."
+   ],
+   "talking_points": [
+    "Ask what would have made your last experience a 5 out of 5 and what we could do about it.",
+    "Ask whether your power needs are likely to grow past the 40 kVA you have contracted over the next year.",
+    "Offer a short call next month to review your interconnections and any upcoming projects."
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1022": {
+   "summary": "Crescent AI is a mid-size retail account in Silicon Valley with $259K in annual revenue and no past-due invoices. The account is at risk mainly because its satisfaction score is middling at 3 of 5, the renewal is 88 days away, and two support cases are still open.",
+   "risks": [
+    "Satisfaction is middling at 3 of 5, so the customer may not feel well supported before renewal.",
+    "Renewal is on 2027-02-09, which is 88 days away.",
+    "Open cooling case CS-5051 for high inlet temps in the cage is still unresolved and could affect how the customer sees the account.",
+    "Open billing case CS-5052 says the invoice does not match the contract, which could cause friction even though no invoices are past due.",
+    "It has been 38 days since the last CSM touch, and no CSM notes are on file."
+   ],
+   "talking_points": [
+    "Ask Crescent AI how they feel about the current status of the high inlet temperature issue in their cage on case CS-5051.",
+    "Ask them to walk you through the invoice concern on case CS-5052 so you can confirm what they expected versus what they were billed.",
+    "Offer a short call before renewal to review their goals, their current usage of 27.2 kVA out of 40 kVA contracted, and any questions they have about the next term."
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1023": {
+   "summary": "Granite Health is a moderate-risk account with a risk score of 10, ranked 33 on the risk list. It has 1 past due invoice, a renewal in 177 days, and 52% of its contracted power in use, with 31 interconnections now. Two open P4 cases, one on cooling and one on badging, and an unknown interconnection trend from six months ago are the main items to watch.",
+   "risks": [
+    "One past due invoice needs to be cleared before the renewal conversation.",
+    "Open cooling case CS-5055 about high inlet temps in the cage could hurt satisfaction if it stays unresolved.",
+    "Open badging case CS-5054 for a new engineer's badge request is still waiting, which could affect the team's onboarding.",
+    "Renewal is 177 days away on 2027-05-09, and the account has not had a CSM touch in 21 days."
+   ],
+   "talking_points": [
+    "Can you walk me through the high inlet temperature issue in the cage so I can make sure CS-5055 gets the attention it needs?",
+    "Could we get the past due invoice sorted out so it does not get in the way of our renewal planning?",
+    "Would a short call next week work so I can give you an update on both open cases and talk about how things are going with your Fabric setup?"
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1024": {
+   "summary": "Orchid Bank is a healthcare account in Toronto with a risk score of 20 and rank 20 on the risk list. Two invoices are past due, and power use is at 45% of the 20 kVA contract, which pulls the risk score up. The account has grown from 0 to 15 interconnections over the last 6 months and the customer has asked about Inference Exchange for AI workloads, so the main issue is getting payments current while supporting that growth.",
+   "risks": [
+    "Two invoices are past due, which is the largest driver of the risk score.",
+    "Power use is 9 kVA of a 20 kVA contract, so there may be room to grow but also a chance of low use if the AI plans slow.",
+    "The customer wants to test AI workloads near their data, and the facts do not show a set timeline or budget for that work.",
+    "No satisfaction score is on file, so the CSM does not know how the customer feels about the service."
+   ],
+   "talking_points": [
+    "Ask Orchid Bank when they expect to clear the two past due invoices and whether anything is blocking payment.",
+    "Ask what timing and scope they have in mind for the Inference Exchange AI workload test.",
+    "Offer to send a short update on the interconnection growth and next steps after the call."
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1025": {
+   "summary": "Meridian Bank is a steady account with a low risk score of 12 and no past-due invoices. The main concern is that power use sits at 40% of contract, with 8 kVA used of 20 kVA contracted, and the renewal is 54 days away on 2027-01-06. Interconnections dipped slightly from 181 to 180 over six months, and the last CSAT was 4 out of 5.",
+   "risks": [
+    "Power use is only 8 kVA of 20 kVA contracted, so the account may be seen as overbuilt at renewal.",
+    "Renewal is 54 days away, so the window to discuss scope and plans is short.",
+    "Interconnections went from 181 to 180 over six months, a small decline that could signal reduced use.",
+    "No CSM notes are on file and the last CSM touch was 24 days ago, so the account context may be thin."
+   ],
+   "talking_points": [
+    "Ask Meridian Bank how their power needs are expected to change over the next year and whether the current 20 kVA contract still fits.",
+    "Ask whether the open remote reboot request for server CS-5059 has been handled to their satisfaction.",
+    "Offer a short call before the January 6, 2027 renewal to review usage, interconnections, and renewal options."
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1026": {
+   "summary": "Tidewater Logistics is healthy on usage, billing, and satisfaction, with a 5 out of 5 CSAT, no past-due invoices, and 30 interconnections up from 24 six months ago. The account is on the Risk Radar list at risk score 30 because of support pressure: 1 open P1 case and 3 open P2 cases, with 3 of those escalated. Power use is 51% of the 250 kVA contract, and renewal is 434 days away on 2028-01-21.",
+   "risks": [
+    "The open P1 Fabric port flapping case (CS-5067) affects connectivity and could hurt confidence if it stays unresolved.",
+    "Three escalated P2 cases (CS-5062 shipment logging, CS-5064 invoice mismatch, CS-5065 high cage inlet temps) could slow growth or strain the relationship.",
+    "The billing case about an invoice that does not match the contract could cause payment or trust issues, even though no invoices are past due.",
+    "No CSM notes are on file and the last CSM touch was 31 days ago, so the account team's context on these issues is unclear."
+   ],
+   "talking_points": [
+    "Ask Tidewater's team which of the open escalations matters most to them right now, and confirm the P1 Fabric port issue is getting the attention they need.",
+    "Offer a call this week to walk through the open cases and set a next update date with them.",
+    "Ask how their planned growth in cross connects and virtual connections looks over the next six months so we can plan capacity with them."
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1027": {
+   "summary": "Pioneer Retail is in good health with a risk score of 0 and no warning signs on file. The account has no past due invoices, a CSAT of 5 out of 5, and interconnections grew from 64 to 67 over the last 6 months. Power use is at 79% of the 400 kVA contract, with renewal in 181 days on 2027-05-13.",
+   "risks": [
+    "Power use is at 79% of contract, with 314.2 kVA used against 400 kVA contracted, so headroom could limit further growth.",
+    "Renewal is 181 days away on 2027-05-13, so the CSM should start renewal planning early.",
+    "No CSM notes are on file and the last CSM touch was 17 days ago, so context on the customer's plans is limited.",
+    "No growth signals are on file, so the expansion outlook is unknown."
+   ],
+   "talking_points": [
+    "Ask Pioneer Retail how their plans for the next 6 months look, especially any new cross connects or virtual connections they expect to need.",
+    "Ask whether they expect their power needs to change before the 2027-05-13 renewal date.",
+    "Offer a short follow-up call or update to review their usage and capacity options."
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1028": {
+   "summary": "Granite Logistics is a Denver media account with a risk score of 19, ranked 21 on the risk list. Power use is 36% of contract, with 14.6 kVA used out of 40 kVA contracted, and one invoice is past due. The account is still growing its interconnections, which went from 46 to 53 over the last 6 months, and the last customer satisfaction survey score was 4 out of 5.",
+   "risks": [
+    "Power use is only 36% of the 40 kVA contract, so the customer may be paying for capacity it does not need, which could lead to a downsizing conversation.",
+    "One invoice is past due, so the CSM should be ready to ask about payment status before the call goes deeper.",
+    "No growth signals are on file, so expansion could stall if the customer's plans are unclear.",
+    "The last CSM touch was 27 days ago, and no notes are on file, so the CSM may not know the customer's current priorities."
+   ],
+   "talking_points": [
+    "Ask Granite Logistics how their power needs look for the next year compared with the 40 kVA they have under contract.",
+    "Ask whether anything is holding up the past due invoice and whether they need help with billing questions.",
+    "Offer a call to review their interconnection growth from 46 to 53 over the last 6 months and what they expect next."
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1029": {
+   "summary": "Meridian Systems is a Dallas financial services customer with an annual revenue of $141K and a risk score of 20, ranking 19 on the risk list. The account is using 42% of its contracted power, with 8.5 kVA used out of 20 kVA contracted, and its interconnections have stayed flat at 70 over the last 6 months. Health is middling, driven by low power use, one past due invoice, and a CSAT of 3 out of 5.",
+   "risks": [
+    "Power use is at 42% of contract, so the customer may be paying for capacity it does not need, which could lead to a downsizing conversation before renewal.",
+    "One invoice is past due, and the CSM should confirm the status and reason before raising anything else.",
+    "CSAT of 3 out of 5 suggests the customer may not be fully satisfied, and the reason is not on file.",
+    "No growth signals are on file and interconnections have not changed in 6 months, so expansion could stall. The renewal date is 2027-08-29, which is 289 days away."
+   ],
+   "talking_points": [
+    "Can you walk me through how your team is using the power and space you have today, and what you expect over the next year?",
+    "I see one invoice is past due, so I want to check whether anything is blocking payment on your side and how I can help.",
+    "I would like to hear what would make your experience better, so could we set up a call in the next few weeks to review priorities ahead of renewal?"
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1030": {
+   "summary": "Cobalt Bank is a Dallas manufacturing account with an annual revenue of $1.18M and a risk score of 40, ranked 9 of the risk list. Power use is at 36% of the contracted 150 kVA, and interconnections grew from 162 to 175 over 6 months, which is a good sign. The main drag is a root cause report the customer asked for after a cooling issue that we never sent, and the account has had no CSM touch in 37 days.",
+   "risks": [
+    "The root cause report for the cooling issue was requested and never sent, which could hurt trust.",
+    "Open cooling case CS-5073 (high inlet temps in cage, P4) is still open and the customer may raise it again.",
+    "One invoice is past due, so payment timing could come up on the call.",
+    "Power use is at 36% of contract, so the customer may question whether they need the full 150 kVA reserved.",
+    "Satisfaction is middling at 3 of 5, and there has been no CSM contact in 37 days."
+   ],
+   "talking_points": [
+    "I want to apologize that the root cause report you asked for last month never reached you, and ask when you would like to receive it.",
+    "Can you walk me through how the cage is running today and whether the high inlet temperatures have come back since the fix?",
+    "Would it help to set up a regular check-in so you hear from us before issues build up?"
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1031": {
+   "summary": "Cobalt Systems is a low-risk account with a risk score of 1, ranked 43 on the risk list. Its only risk reason is a small drop in interconnections, from 146 to 145 over 6 months. Power use is at 80% of contract, invoices are fully paid, and there are no open cases.",
+   "risks": [
+    "Interconnections dropped from 146 to 145 over 6 months, the only risk reason on file.",
+    "Customer satisfaction is missing, so there is no recent read on how the customer feels about the service.",
+    "No CSM contact in 41 days, which leaves a gap before the renewal on 2027-06-15, 214 days away.",
+    "Power use is at 80.3 kVA of 100 kVA contracted, so headroom may become a topic if usage grows."
+   ],
+   "talking_points": [
+    "Ask whether the drop from 146 to 145 interconnections reflects a change in their network plans or a planned clean-up.",
+    "Ask the customer how satisfied they are with the service today, since we have no recent survey score on file.",
+    "Offer a short check-in call before the renewal on 2027-06-15 to review their growth plans and power needs."
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1032": {
+   "summary": "Granite Labs is a healthy account on paper, with a 5 out of 5 satisfaction score, no past-due invoices, and interconnections up from 138 to 152 over six months. The main concern is support load: five open cases, including one P2 and an escalated cooling case tied to high inlet temperatures in the cage. Power use is at 63% of the 40 kVA contract, with 25.2 kVA in use.",
+   "risks": [
+    "Five open cases, with cooling and power issues repeating, could drive churn or a negative renewal conversation if they stay unresolved.",
+    "Case CS-5077 is escalated and CS-5079 is a P2 case, both about high inlet temperatures in the cage, so the customer may be looking for a clear fix plan.",
+    "Two breaker trip cases on the same cabinet suggest a possible power reliability problem that the customer may question.",
+    "No growth signals are on file, and the customer has no CSM notes, so there is little context on their expansion plans before the renewal date of 2027-10-26."
+   ],
+   "talking_points": [
+    "Can you walk me through how the high inlet temperature issue in your cage is affecting your team day to day, so I can make sure the right people are working on it?",
+    "I want to confirm the status of the breaker trip cases on your cabinet and set a time for a short update call this week.",
+    "Are you planning any changes to your AI workloads or power needs over the next few months, so we can plan capacity ahead of your renewal?"
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1033": {
+   "summary": "Keystone Capital is a Denver retail account with $387K in annual revenue and a risk score of 13, ranked 26 on the risk list. Its main concerns are low power use at 41% of contract and a middling CSAT of 3 of 5, while interconnections have grown from 48 to 64 over the last 6 months and invoices are all paid with none past due.",
+   "risks": [
+    "Power use is at 41% of contract, with 24.6 kVA used against 60 kVA contracted, so the customer may be paying for capacity it does not need.",
+    "CSAT is 3 of 5 on the last survey, so satisfaction may be soft even though the account is paying on time.",
+    "Two support cases are open: CS-5081 (P4, high inlet temps in cage, opened 2026-10-29) and CS-5082 (P3, Fabric port flapping, opened 2026-08-19), and the Fabric port issue may affect a Fabric customer's connectivity.",
+    "It has been 20 days since the last CSM touch, and no CSM notes are on file, so the account relationship may be thin."
+   ],
+   "talking_points": [
+    "How is the Keystone team doing with the cage temperatures, and would a quick update on case CS-5081 help you right now?",
+    "Can you walk me through the port flapping issue on CS-5082 so I can make sure it gets the attention it needs?",
+    "Would you be open to a short call to review your power plans for the next year and how your interconnections have grown?"
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1034": {
+   "summary": "Crescent Networks is a steady AI and ML customer in New York with $644K in annual revenue, no past-due invoices, and a 5 out of 5 satisfaction score. Power use is at 93% of contract (92.6 of 100 kVA), and the account has added one interconnection in six months, from 150 to 151. The main concern is an open P2 case about an inbound shipment not being logged, plus an open P3 cooling case about high inlet temperatures.",
+   "risks": [
+    "Power use is at 93% of the 100 kVA contract, so room for growth is limited unless more capacity is discussed.",
+    "Open P2 case CS-5086 on an inbound shipment not logged could affect trust if it stays unresolved.",
+    "Open P3 cooling case CS-5084 about high inlet temperatures in the cage may need follow-up.",
+    "Growth signals are none on file, so expansion plans are unknown and should be confirmed."
+   ],
+   "talking_points": [
+    "Can you walk me through where case CS-5086 stands and what would help you most right now?",
+    "Your power use is at 93% of contract, so how are you thinking about your capacity needs over the next year?",
+    "Would a call next week to check on the cooling issue in your cage and give you an update work for you?"
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1035": {
+   "summary": "Halcyon AI is a Healthcare account in Denver with a risk score of 26, ranked 15 on the risk list. The account is using 38% of its contracted power (38.3 of 100 kVA), and the main concerns are low power use, one past due invoice, and a middling satisfaction score of 3 of 5. Interconnections dropped from 69 to 67 over six months, and there is no growth signal on file.",
+   "risks": [
+    "Low power use, at 38% of the 100 kVA contract, could lead to a push to reduce or rethink the contract before renewal.",
+    "One past due invoice needs to be cleared or resolved before it grows into a bigger billing issue.",
+    "Interconnections fell from 69 to 67 over six months, so the account may be shrinking its footprint.",
+    "A middling CSAT score of 3 of 5 suggests the customer may not feel fully supported, and no CSM contact has happened in 33 days."
+   ],
+   "talking_points": [
+    "Can you walk me through how your team is using the power capacity today and what your plans look like over the next year?",
+    "I wanted to check on the past due invoice and see if anything is blocking payment on your side.",
+    "Would a short call in the next couple of weeks help us review the interconnections and where your setup is heading?"
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1036": {
+   "summary": "Cobalt AI is a $830K retail account in Denver with a risk score of 54, ranked 3 on the risk list. The main concern is that the customer is moving some workloads to a hyperscaler and has asked about shrinking its footprint. Power use is at 42% of contract, interconnections dipped from 128 to 125 over 6 months, and CSAT is middling at 3 of 5, though invoices are current and no support cases are open.",
+   "risks": [
+    "Workloads are moving to a hyperscaler, which could lead to a smaller footprint and lower revenue before the renewal on 2027-08-23.",
+    "Power use is only 42.3 kVA of the 100 kVA contracted, so there is unused capacity that the customer may want to give back.",
+    "Interconnections fell from 128 to 125 in 6 months, which may signal reduced connectivity needs.",
+    "CSAT is 3 of 5, and the account has not had a CSM touch in 37 days, so the relationship may be weakening."
+   ],
+   "talking_points": [
+    "Elena, can you walk me through which workloads are moving to the hyperscaler and what timeline you are working toward?",
+    "Would it help to review your current power and interconnection needs against the contract so we can see where you have room to grow or adjust?",
+    "Could we set up a call in the next few weeks to talk through your plans ahead of the August 2027 renewal and what would make the service work better for you?"
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1037": {
+   "summary": "Redstone Health is in good shape. It has a risk score of 0, no warning signs, and no past due invoices. Interconnections grew from 68 to 73 over the last 6 months, and the account uses Fabric.",
+   "risks": [
+    "Power use is 54 percent of the 250 kVA contract, so there is room to grow, but the account should be watched if demand rises faster than expected.",
+    "No CSM notes are on file and the last CSM touch was 18 days ago, so current plans and needs are not recorded.",
+    "The renewal date is 2027-10-24, which is 345 days away, so early planning will help avoid surprises later."
+   ],
+   "talking_points": [
+    "Ask how the 5 extra interconnections added over the last 6 months have worked out for their team.",
+    "Ask whether they expect power demand to grow past the current 133.9 kVA in the next year.",
+    "Offer a short follow-up call next month to review their growth plans and any upcoming needs."
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1038": {
+   "summary": "Vertex Retail is at risk, with a risk score of 46 and a renewal in 38 days. The main drivers are two open P1 cases, one of which is escalated, and a middling CSAT of 3 of 5. Power use is 94% of contract, and interconnections grew from 136 to 153 over six months, so the account is active but needs attention before renewal.",
+   "risks": [
+    "Two P1 cases are open: CS-5091 is escalated (fabric connectivity, port flapping) and CS-5093 is open (billing, invoice does not match contract).",
+    "Renewal is on 2026-12-21, 38 days away, and the account has an escalated P3 power case (CS-5089, breaker trip on cabinet).",
+    "Power use is 93.8 kVA of 100 kVA contracted, so there is little room left for growth without more capacity."
+   ],
+   "talking_points": [
+    "Can you walk me through what is still unresolved on the escalated port flapping case CS-5091 and what would make it feel closed for your team?",
+    "Can we set up a short call this week to review the invoice mismatch in CS-5093 and confirm the billing details match your contract?",
+    "Would it help to review your power needs ahead of renewal, since you are using 94% of your contracted capacity?"
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1039": {
+   "summary": "Meridian Capital is a healthy account with no warning signs, a perfect 5 out of 5 satisfaction score, and no past due invoices. Interconnections grew from 65 to 73 over the last 6 months, and the account uses 67% of its 40 kVA contract. The main open item is one P3 billing case about an invoice that does not match the contract.",
+   "risks": [
+    "Open billing case CS-5094 (P3, opened 2026-10-07) says an invoice does not match the contract, and it is still open.",
+    "Power use is 26.7 kVA of 40 kVA contracted, so there is limited room for growth before the contract limit is reached.",
+    "It has been 15 days since the last CSM touch, and there are no CSM notes on file to show recent context.",
+    "Renewal is 515 days away on 2028-04-11, so there is time, but no renewal plan is on file yet."
+   ],
+   "talking_points": [
+    "Ask Meridian whether the invoice concern in case CS-5094 is still the main billing question and offer to walk through the contract terms with them.",
+    "Ask what new cross connects or virtual connections they expect to need over the next six months, since interconnections have grown from 65 to 73.",
+    "Offer a short update call to confirm their power plans, since they are using 26.7 kVA of their 40 kVA contract."
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1040": {
+   "summary": "Juniper AI is healthy, with a risk score of 0 and no warning signs on the Risk Radar list. Interconnections grew from 142 to 155 over the last 6 months, and the last CSAT survey was a 5 out of 5. The main watch item is power: the account uses 18.8 kVA of its 20 kVA contract, which is 94% used, and renewal is in 45 days on 2026-12-28.",
+   "risks": [
+    "Power is at 94% of contract (18.8 of 20 kVA), so further growth may need more capacity before renewal.",
+    "Renewal is 45 days away on 2026-12-28, so the timing for any expansion or contract change is tight.",
+    "No CSM notes are on file, so the account's plans and history are unclear and need confirming on the call.",
+    "The account has no growth signals on file, so it is unknown whether the interconnection growth will continue."
+   ],
+   "talking_points": [
+    "Ask how much more power the team expects to need over the next few months, since current use is at 94% of the contract.",
+    "Ask whether the recent growth in interconnections is expected to continue, and what the team plans next.",
+    "Offer a follow-up call before the 2026-12-28 renewal to review capacity and contract options."
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1041": {
+   "summary": "Summit Systems is a Denver media customer with $270K in annual revenue and no past-due invoices, so payment is not a concern. Its health is middling, mainly because its last satisfaction survey scored 3 out of 5, and the account is on the Risk Radar list with a risk score of 6.",
+   "risks": [
+    "Satisfaction is middling at 3 out of 5, so the customer may be unhappy with service in ways the file does not explain.",
+    "It has been 35 days since the last CSM touch, which is a gap the customer may notice.",
+    "Power use is 64% of the 40 kVA contract, which is 25.8 kVA used, so there is room to grow but also a need to watch the trend.",
+    "No open cases are on file and no CSM notes exist, so the reason for the low score is unknown and needs to be asked about on the call."
+   ],
+   "talking_points": [
+    "Ask what, in the last survey, kept the experience at 3 out of 5 and what would move it higher.",
+    "Say that you want to check in on how things are running and set up a regular update.",
+    "Ask how the team expects its power and interconnection needs to change before the renewal in December 2027."
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1042": {
+   "summary": "Bluepeak Systems is a retail account in Ashburn with a risk score of 44, ranked 7 on the risk list. The account is at risk mainly because of a very low satisfaction score of 1 out of 5, one past due invoice, and a renewal in 49 days. Usage is at 43% of contract, and interconnections grew from 147 to 170 over six months, which is a positive sign.",
+   "risks": [
+    "Low satisfaction score of 1 out of 5 from the last survey, with no open or closed support cases on file to explain it.",
+    "One invoice is past due, which could slow the renewal conversation.",
+    "Renewal is in 49 days on 2027-01-01, so there is little time to address concerns.",
+    "Power use is at 17.4 kVA of 40 kVA contracted, which is 43%, so the customer may not see enough value to renew at the current level."
+   ],
+   "talking_points": [
+    "Ask what drove the 1 out of 5 score, since we have no case history that explains it.",
+    "Ask whether the past due invoice is on track to be paid, and whether anything is blocking it.",
+    "Offer a call in the next few weeks to review their power needs and plans ahead of the 2027-01-01 renewal."
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1043": {
+   "summary": "Redstone Labs is in good health with no warning signs, a risk score of 0, and no past-due invoices. Interconnections grew from 145 to 159 over the last 6 months, and the account uses 59% of its 400 kVA contract, with 235.9 kVA in use. The renewal is on 2027-03-28, 135 days away, and the last CSAT score was 4 out of 5.",
+   "risks": [
+    "It has been 41 days since the last CSM touch, so the relationship may need attention before renewal.",
+    "Power use is 59% of the 400 kVA contract, so growth room exists but the customer may not be planning to expand power yet.",
+    "No CSM notes are on file, so the account history and stated plans are unknown and should be confirmed on the call.",
+    "The renewal is 135 days out, and no growth signals are on file to show how the customer plans to renew."
+   ],
+   "talking_points": [
+    "Ask how the team is doing with the 159 interconnections and whether they expect to add more in the next six months.",
+    "Ask whether anything about the current power setup or capacity is on their mind as they plan for the 2027-03-28 renewal.",
+    "Offer a short call or update in the coming weeks to review service, next steps, and any questions before renewal."
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1044": {
+   "summary": "Vertex Health is a Denver media account with a risk score of 22, ranked 17 on the risk list. The main drivers are an open P1 power case on a breaker trip, one past due invoice, and a renewal in 122 days. Power use is at 80% of contract (119.8 of 150 kVA), and interconnections grew from 162 to 164 over six months, but no growth signals are on file.",
+   "risks": [
+    "Open P1 power case CS-5099 (breaker trip on cabinet, opened 2026-10-22) is still open and could affect confidence in the account.",
+    "Two escalated Smart Hands cases (CS-5100 and CS-5101) are unresolved, and CS-5101 has been open since 2026-08-25.",
+    "One invoice is past due, which may come up on the call.",
+    "Power use is at 80% of contract, so growth could be limited by available capacity, and the renewal is 122 days away."
+   ],
+   "talking_points": [
+    "Can you walk me through how the breaker trip on the cabinet is affecting your team, and what you need from us to close CS-5099?",
+    "I want to check on the two escalated remote reboot requests, CS-5100 and CS-5101, and confirm they are still what you need.",
+    "Would you be open to a short follow-up next week to review the past due invoice and plan for your renewal on 2027-03-15?"
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1045": {
+   "summary": "Tidewater Health is in good shape with a risk score of 0 and no warning signs on file. Its customer satisfaction is 5 out of 5, invoices show none past due, and there are no open cases. Power use is at 77% of the 150 kVA contract, and interconnections grew from 0 to 7 over the last 6 months, which is a strong sign of growth.",
+   "risks": [
+    "Power use is at 77% of the 150 kVA contract, so the account may need more capacity as it keeps adding equipment.",
+    "Interconnection growth from 0 to 7 in 6 months may raise demand for capacity or cross connect changes that the facts do not show plans for.",
+    "It has been 14 days since the last CSM touch, and there are no notes on file, so current plans and needs are unclear.",
+    "The renewal date is 2028-04-15, which is 519 days away, so there is no near-term renewal pressure on file."
+   ],
+   "talking_points": [
+    "Ask how the seven new interconnections are working and whether any other connections are planned in the next few months.",
+    "Ask whether the team expects power needs to grow soon, since current use is 115.6 kVA of the 150 kVA contracted.",
+    "Offer a follow-up call or written update to confirm current plans, since it has been 14 days since the last check-in."
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1046": {
+   "summary": "Keystone Labs is an AI and ML customer in New York with $1.05M in annual revenue, no past-due invoices, and a CSAT of 4 out of 5. The account is on the Risk Radar list with a risk score of 5, mainly because of one open P2 power case about a breaker trip on a cabinet, CS-5104. Power use is at 88% of the 150 kVA contract, and interconnections grew from 122 to 141 over six months.",
+   "risks": [
+    "Open P2 power case CS-5104 (breaker trip on a cabinet) opened 2026-09-21 is unresolved and could hurt trust if it stays open.",
+    "Power use is 131.3 kVA of 150 kVA contracted (88%), so limited headroom could block further growth.",
+    "Interconnection count rose from 122 to 141 in six months, so the customer may need more capacity soon.",
+    "No CSM notes are on file, and the last CSM touch was 10 days ago, so the account context may be thin."
+   ],
+   "talking_points": [
+    "Can you walk me through how the breaker trip on the cabinet has affected your team, and what we can do to close out case CS-5104 faster?",
+    "With power use at 131.3 kVA of your 150 kVA contract, what does your capacity plan look like for the next few months?",
+    "Would a short call next week work so we can review the open case, your interconnection growth, and any changes you expect?"
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1047": {
+   "summary": "Sable Networks is in good health with no warning signs and a risk score of 0. They use 112 kVA of their 150 kVA contract, which is 75 percent, and their interconnections grew from 96 to 101 over six months. Invoices are fully paid, their last CSAT was 5 out of 5, and the renewal date of 2026-12-30 is 47 days away.",
+   "risks": [
+    "Renewal is 47 days away, so the CSM should confirm renewal intent early and not wait for the last weeks.",
+    "It has been 27 days since the last CSM touch, which is the longest gap on the account and should be closed before renewal talks.",
+    "Power use is at 75 percent of contract, so future growth may need more capacity; the facts do not say whether more capacity is planned or available.",
+    "Account notes are empty, so there is no record of the customer's plans, pain points, or contacts to rely on."
+   ],
+   "talking_points": [
+    "Ask how the team's AI and ML workloads are shaping up for the next year and whether their power needs will change before renewal.",
+    "Ask whether they plan to add more interconnections, since they grew from 96 to 101 over the last six months.",
+    "Offer a short call before the 2026-12-30 renewal to review their setup and answer any questions about renewal terms."
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1048": {
+   "summary": "Orchid Capital is a Toronto retail account with a risk score of 22, ranked 16 on the risk list. The main drivers are low power use at 37% of contract, one past due invoice, and a renewal in 105 days. Interconnections grew from 123 to 136 over the last 6 months, and Orchid is a Fabric customer, which is a positive sign.",
+   "risks": [
+    "Only 37% of the 250 kVA contract is in use (91.7 kVA), so the customer may feel it is paying for capacity it does not need at renewal.",
+    "One invoice is past due, which needs to be resolved before the renewal conversation.",
+    "The customer previously asked why the first cross connects took 3 weeks, so onboarding delays may come up again.",
+    "The renewal is 105 days away on 2027-02-26, and the customer's satisfaction score is missing, so there is no recent read on how they feel."
+   ],
+   "talking_points": [
+    "Can you walk me through how your team plans to grow power use over the next year, so we can make sure capacity matches your plans?",
+    "Would it help if I set up a quick call with our billing team to get the past due invoice sorted out?",
+    "I know the first cross connects took longer than expected, and I would like to hear what you think about how onboarding went and how we can make the next one smoother."
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1049": {
+   "summary": "Redstone Bank is in reasonable shape, with a risk score of 13 and a 5 out of 5 satisfaction rating from the last survey. The account is using 54% of its contracted power and its interconnections grew from 90 to 107 over the last 6 months. The main concerns are one open P2 access case for a new engineer badge and one past due invoice.",
+   "risks": [
+    "One past due invoice, which is the main driver of the current risk score.",
+    "Open P2 case CS-5108 for a new engineer badge request, opened 2026-09-07, still unresolved.",
+    "No growth signals on file, so expansion plans are unknown and should be asked about.",
+    "No CSM notes on file, and it has been 32 days since the last CSM touch."
+   ],
+   "talking_points": [
+    "Ask whether the past due invoice is on their radar and whether there is anything blocking payment on their side.",
+    "Ask for an update on the new engineer badge request and confirm whether the team still needs access by a certain date.",
+    "Offer a short call to review how their interconnection growth and power use look over the next few months."
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1050": {
+   "summary": "Tidewater Networks is at elevated risk with a risk score of 46, ranked 6 of the risk list. Two P1 cases are open and both are escalated, and a P2 case is also open. Interconnections fell from 65 to 63 over six months, and CSAT is a middling 3 of 5.",
+   "risks": [
+    "Two escalated P1 cases are open: CS-5111 is a billing issue where the invoice does not match the contract, and CS-5113 is an access and badging request for a new engineer.",
+    "One invoice is past due, so a billing dispute could slow payment or add friction.",
+    "Interconnections dropped from 65 to 63 over six months, which points to some customer loss on the network.",
+    "The account is 215 days from renewal on 2027-06-16, and the open escalations and middling CSAT could weigh on that decision. Last CSM contact was 22 days ago."
+   ],
+   "talking_points": [
+    "Can we walk through CS-5111 together so we can confirm where the invoice and contract differ?",
+    "What is still blocking the new engineer badge requests in CS-5113 and CS-5109, and how can I help clear them?",
+    "Would a short call next week work so I can send you a clear update on all open cases and the interconnection count?"
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1051": {
+   "summary": "Juniper Labs is in good health with no warning signs, no past-due invoices, and a CSAT score of 4 out of 5. The account is using 89% of its contracted power (17.8 kVA of 20 kVA), and interconnections grew from 77 to 79 over the last 6 months. The main thing to watch is one open cooling case about high inlet temperatures in the cage.",
+   "risks": [
+    "Power use is at 89% of the contracted 20 kVA, so any further growth could hit the contract limit.",
+    "Open cooling case CS-5117 (P4, high inlet temps in cage, opened 2026-09-06) is still unresolved and could affect the customer's view of service.",
+    "No CSM notes are on file, so there is no record of the customer's plans or concerns beyond the data above.",
+    "The renewal date is 2027-12-05, which is 387 days away, so early planning is needed to keep the account steady."
+   ],
+   "talking_points": [
+    "Ask Juniper Labs how the cage temperatures have been since case CS-5117 was opened and whether anything still feels off.",
+    "Ask whether they expect their power needs to change over the next several months, given they are using 17.8 kVA of their 20 kVA contract.",
+    "Offer to set up a short follow-up call to review their interconnection needs and any upcoming plans before the renewal."
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1052": {
+   "summary": "Meridian Labs is in good health with no warning signs, a perfect 5 out of 5 satisfaction score, no past-due invoices, and no open support cases. Interconnections grew from 148 to 167 over the last 6 months, but power use is at 96% of the 250 kVA contract, which is the main thing to watch. The renewal is not until 2028-04-16.",
+   "risks": [
+    "Power use is at 96% of the contracted 250 kVA, with 240.9 kVA in use, so the account may run out of headroom if interconnection growth continues.",
+    "Growth in interconnections could be blocked if the power contract cannot be increased in time, and no growth plans are on file.",
+    "The last CSM touch was 35 days ago, so the account has had little recent contact even though it looks healthy.",
+    "No CSM notes are on file, so the current needs, plans, and contacts are unclear."
+   ],
+   "talking_points": [
+    "Ask how Meridian Labs expects its power needs to change over the next few quarters, given the 96% use of the current contract.",
+    "Ask whether any new interconnections or deployments are planned in the coming months so we can plan capacity together.",
+    "Offer a short call to review usage, the current power contract, and any upcoming needs."
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1053": {
+   "summary": "Halcyon Bank is a manufacturing customer in New York with $464K in annual revenue and no past-due invoices. The account sits on the Risk Radar list at risk score 10, driven by a slight drop in interconnections, a middling satisfaction score of 3 of 5, and a renewal in 84 days.",
+   "risks": [
+    "Power use is at 96% of the contracted amount (57.7 kVA used of 60 kVA), so the customer may run out of headroom before growing further.",
+    "Interconnections fell from 128 to 126 over the last 6 months, which could signal the customer is scaling back or moving connections elsewhere.",
+    "Satisfaction is middling at 3 of 5, and the renewal is 84 days away (2027-02-05), so unresolved concerns could affect the renewal.",
+    "No CSM notes are on file and there have been no growth signals, so the reasons behind the recent trend are unknown."
+   ],
+   "talking_points": [
+    "Could you walk me through how your power needs look over the next year, since you are currently at 96% of your contracted amount?",
+    "What did you think of your service experience over the past few months, and is there anything we could do better before your renewal in February 2027?",
+    "I would like to set up a short call in the next few weeks to review your interconnections and make sure they match where your business is heading."
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1054": {
+   "summary": "Sable Health has a risk score of 41 and ranks 8 on the risk list. The main drivers are low power use at 38% of the 150 kVA contract, 2 past due invoices, and a CSAT score of 1 out of 5 on the last survey. Interconnections grew from 151 to 162 over the last 6 months, and the CSM notes describe a strong relationship.",
+   "risks": [
+    "Power use is only 38% of the 150 kVA contract, so the account may be paying for capacity it does not use.",
+    "2 invoices are past due, which needs to be resolved before the renewal conversation.",
+    "The last CSAT score was 1 out of 5, so the customer may be unhappy even though the relationship notes are positive.",
+    "It has been 27 days since the last CSM touch, and no open support cases are on file to explain the low score."
+   ],
+   "talking_points": [
+    "Could you walk me through how your team is using power today and where you expect that to go over the next few months?",
+    "I want to check on the 2 open invoices and see if anything is blocking payment on your side.",
+    "The last survey score was low, so what is one thing we could do better for your team, and can I set up a short follow-up call next week?"
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1055": {
+   "summary": "Juniper Health is in healthy shape, with no past-due invoices, no open support cases, and a CSAT of 4 out of 5. Interconnections grew from 55 to 58 over the last 6 months, and the account uses Fabric. Power use is at 48% of the 400 kVA contract, which is the main reason for its low risk score of 2.",
+   "risks": [
+    "Renewal is in 101 days, on 2027-02-22, so the CSM should start renewal planning soon.",
+    "Power use is 194 kVA of 400 kVA contracted, so the account may not need the full contract, which could come up at renewal.",
+    "No CSM notes are on file, so there may be unrecorded context on the customer's plans or concerns.",
+    "Support case history covers only the last 90 days and shows no cases, so there is little detail on how the customer feels about support."
+   ],
+   "talking_points": [
+    "Ask Juniper Health how their power needs are expected to change over the next year as they plan for renewal.",
+    "Ask whether they plan to add more interconnections or Fabric services, since their connections grew from 55 to 58 over the last 6 months.",
+    "Offer a short call before the renewal date to review their setup and answer any questions."
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1056": {
+   "summary": "Juniper Networks in Dallas is a $526K AI and ML account that sits on the risk list at rank 22 with a score of 16. Power use is 37% of contract, and CSAT is middling at 3 of 5. Interconnections grew from 60 to 77 over the last 6 months, which is a good sign, but three open P4 cases and 32 days since the last CSM touch need attention before the renewal on 2027-09-16.",
+   "risks": [
+    "Power use is only 37% of the contract, with 22.3 kVA used out of 60 kVA, so the account may be paying for capacity it does not use.",
+    "Three open P4 cases are on file, two about inbound shipments not being logged (one escalated) and one about an invoice that does not match the contract.",
+    "CSAT is 3 of 5, so the customer may not feel well supported.",
+    "No CSM notes are on file and it has been 32 days since the last CSM touch, so the account may drift before renewal."
+   ],
+   "talking_points": [
+    "Could you walk me through how the two shipment logging cases are affecting your team day to day, and what would make them feel resolved?",
+    "Can we review the invoice question on CS-5124 together so we can confirm it matches what you signed?",
+    "Would it help to set up a short call in the next few weeks to talk about your power plans and how the growing interconnection footprint fits your AI workloads?"
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1057": {
+   "summary": "Sable Media is a steady Chicago media account with no past-due invoices and a top satisfaction score of 5 out of 5. The main concern is that interconnections fell from 26 to 22 over the last 6 months, which drives its risk score of 12. Power use is at 89% of the contracted 60 kVA, so headroom is limited.",
+   "risks": [
+    "Interconnections dropped from 26 to 22 in 6 months, so the account may be shrinking its network footprint.",
+    "Power use is at 89% of contract (53.2 of 60 kVA), which could limit future growth or cause pressure on capacity.",
+    "Open P3 power case CS-5127 (breaker trip on cabinet, opened 2026-08-28) is still unresolved and could affect trust.",
+    "Renewal is 187 days away on 2027-05-19, and the account has had no CSM touch in 24 days."
+   ],
+   "talking_points": [
+    "Can you walk me through what has changed in your cross connect and virtual connection setup over the past six months?",
+    "Our team is looking into the breaker trip on your cabinet under case CS-5127, and I would like to set up a call to share an update.",
+    "As you plan for the next year, how do you expect your power needs to change against your current 60 kVA contract?"
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1058": {
+   "summary": "Keystone AI is a telecom account in Chicago with annual revenue of $608K and a risk score of 10, ranked 31 on the risk list. The account is on the Risk Radar list mainly because interconnections dropped from 161 to 157 over six months and there is one past due invoice. Power use is 64% of contract (63.5 kVA of 100 kVA), and the last satisfaction survey score was 4 out of 5.",
+   "risks": [
+    "Interconnection count fell from 161 to 157 over six months, which may point to reduced use of the platform.",
+    "One invoice is past due, so payment follow-up may come up on the call.",
+    "Open case CS-5128 (inbound shipment not logged, priority P4) is still open and may frustrate the customer.",
+    "It has been 41 days since the last CSM touch, and there are no CSM notes on file, so the relationship may be cooling."
+   ],
+   "talking_points": [
+    "Ask Keystone AI how the team is using its interconnections today and whether any links were removed on purpose.",
+    "Confirm the status of the past due invoice and ask whether any billing questions need an answer before the next billing cycle.",
+    "Share an update on open case CS-5128 about the inbound shipment that was not logged and offer to set a follow-up call."
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1059": {
+   "summary": "Bluepeak Media is in good health with no warning signs and a risk score of 0. The account uses 69% of its 100 kVA contract, has 117 interconnections, up from 114 six months ago, and has no past-due invoices. Its last satisfaction survey score was 5 out of 5, and the renewal is 203 days away on 2027-06-04.",
+   "risks": [
+    "Power use is at 68.7 kVA of 100 kVA contracted, so growth beyond the contract could need a conversation about more capacity.",
+    "Renewal is 203 days away, so the CSM should plan early to keep the account on track.",
+    "It has been 27 days since the last CSM touch, so the relationship could drift if no contact is made soon.",
+    "No growth signals or CSM notes are on file, so the CSM has limited context on the customer's plans."
+   ],
+   "talking_points": [
+    "Ask how the team's plans for the next year could change their power needs compared with today's use.",
+    "Ask whether there are any new interconnection projects planned, since the count has grown from 114 to 117 over six months.",
+    "Offer a short check-in call before the renewal to review service, usage, and any questions ahead of the 2027-06-04 date."
+   ],
+   "unverified_numbers": []
+  },
+  "EQ-1060": {
+   "summary": "Pioneer Health is at moderate risk with a score of 37, ranked 10 on the risk list. Power use is 32% of the 400 kVA contract, and the last CSAT survey came back at 1 of 5. Interconnections grew from 123 to 130 over the last 6 months, which is a positive sign, but there is one past due invoice and no open support cases.",
+   "risks": [
+    "Power use is 32% of the 400 kVA contract, so the account may be underusing what it pays for.",
+    "The last CSAT survey scored 1 of 5, and the file has no notes explaining why.",
+    "One invoice is past due, which needs to be checked before the call.",
+    "No growth signals are on file, so the next expansion step is unclear."
+   ],
+   "talking_points": [
+    "Ask Pioneer Health what drove the 1 of 5 survey score and what would make the service better for them.",
+    "Ask whether the past due invoice is a billing question or a payment timing issue, and offer to follow up on it.",
+    "Ask how their plans look for the next 6 months, and offer a call or update on power capacity options that fit their current use."
+   ],
+   "unverified_numbers": []
+  }
+ }
+}
